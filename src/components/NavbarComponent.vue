@@ -1,7 +1,20 @@
 <script setup>
 import LogoComponent from "./LogoComponent.vue";
 import { navLinks } from "../lib/links";
+import axios from 'axios';
+
+const getProducts = async () => {
+  try {
+    const response = await axios.get('https://457e7b1d-ed87-491b-bee1-c6cb65e74211.mock.pstmn.io');
+    console.log(response.data);
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+getProducts();
 </script>
+
 
 <template>
   <nav class="flex justify-between items-center p-5 md:py-[29px] md:px-[54px] bg-white shadow-md ">
