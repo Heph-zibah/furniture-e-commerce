@@ -21,7 +21,5 @@ defineProps({
 </script>
 
 <style scoped>
-.logo{
-    font-family: "Montserrat", sans-serif;
-  }
+
 </style>
