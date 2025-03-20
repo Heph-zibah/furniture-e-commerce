@@ -19,7 +19,7 @@ import { navLinks } from "../lib/links";
       </li>
     </ul>
     
-    <div class="hidden md:flex gap-[45px] items-center">
+    <div class="hidden lg:flex gap-[45px] items-center">
       <router-link to="/cart" aria-label="Go to account page">
         <img src="/images/account-alert.svg" alt="account icon"/>
       </router-link>
