@@ -1,7 +1,10 @@
 <script setup>
-import NavbarComponent from '../components/NavbarComponent.vue';
+import PageLayout from '../layouts/PageLayout.vue';
 </script>
 
 <template>
-    <navbar-component />
+    <page-layout>
+        <h1>Home View</h1>
+        <p>Welcome to the Home View</p>
+    </page-layout>
 </template>

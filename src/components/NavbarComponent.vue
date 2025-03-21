@@ -1,8 +1,12 @@
 <script setup>
 import { ref } from "vue";
 import LogoComponent from "./LogoComponent.vue";
+import { useRoute } from "vue-router";
 import { navLinks } from "../lib/links";
 import axios from "axios";
+import MobileNavbarComponent from "./MobileNavbarComponent.vue";
+
+const route = useRoute(); 
 
 const getProducts = async () => {
   try {
@@ -24,8 +28,10 @@ const toggleMobileMenu = () => {
 </script>
 
 <template>
-  <nav
-    class="flex justify-between items-center p-5 md:py-[29px] md:px-[54px] bg-white shadow-md"
+  <header class="sticky top-0 z-50 w-full">
+    <div class="continer">
+      <nav
+    class="flex justify-between items-center p-5 md:py-[29px] md:px-[54px] bg-white shadow-md "
   >
     <logo-component
       logoSrc="/images/logo.svg"
@@ -34,9 +40,14 @@ const toggleMobileMenu = () => {
     />
 
     <!-- Desktop Navigation -->
-    <ul class="hidden lg:flex gap-[75px] font-medium" role="navigation">
+     <ul class="hidden lg:flex gap-[75px] font-medium" role="navigation">
       <li v-for="link in navLinks" :key="link.id">
-        <router-link :to="link.path" :aria-label="`Go to ${link.name}`">
+        <router-link 
+          :to="link.path" 
+          :class="{ 'text-primary-500 font-semibold border-b-2 border-b-primary-400': route.path === link.path }"
+          class="hover:text-primary-400 transition"
+          :aria-label="`Go to ${link.name}`"
+        >
           {{ link.name }}
         </router-link>
       </li>
@@ -45,27 +56,27 @@ const toggleMobileMenu = () => {
     <!-- Desktop Icons -->
     <div class="flex gap-[45px] items-center">
       <router-link
-        to="/cart"
+        :to="{name:'Cart'}"
         aria-label="Go to account page"
-        class="hidden md:block"
+        class="hidden md:block "
       >
         <img src="/images/account-alert.svg" alt="Account" />
       </router-link>
       <router-link
-        to="/cart"
+        :to="{name:'Cart'}"
         aria-label="Search for products"
         class="hidden md:block"
       >
         <img src="/images/search.svg" alt="Search" />
       </router-link>
       <router-link
-        to="/cart"
+        :to="{name:'Cart'}"
         aria-label="View liked products"
         class="hidden md:block"
       >
         <img src="/images/like.svg" alt="Liked products" />
       </router-link>
-      <router-link to="/cart" aria-label="Go to shopping cart">
+      <router-link :to="{name:'Cart'}" aria-label="Go to shopping cart">
         <img src="/images/cart.svg" alt="Shopping cart" />
       </router-link>
     </div>
@@ -82,80 +93,11 @@ const toggleMobileMenu = () => {
       </button>
     </div>
 
-    <!-- Mobile Navigation -->
-    <transition name="slide-fade">
-      <div
-      v-if="openMobileMenu"
-      class="lg:hidden bg-black bg-opacity-90 fixed inset-0 z-50"
-    >
-      <div class="bg-primary-400 fixed inset-0 z-50 sm:w-1/2" id="mobile-nav-menu">
-        <div class="flex items-center justify-between p-5 shadow-md">
-          <div class="flex items-center gap-[5px]">
-            <img
-              src="/images/logo-white.png"
-              alt="Furniro Logo"
-              class="w-[30px]"
-            />
-            <p class="logo font-bold text-[24px] md:text-[34px] text-white">
-              Furniro
-            </p>
-          </div>
-          <!-- Close Button with Proper Labeling -->
-          <button
-            aria-label="Close navigation menu"
-            @click="toggleMobileMenu"
-          >
-            <img
-              src="/images/close-white.svg"
-              alt="Close menu"
-              class="w-[35px]"
-            />
-          </button>
-        </div>
-
-        <ul class="flex flex-col font-medium text-white text-xl my-5" role="navigation">
-          <li
-            v-for="link in navLinks"
-            :key="link.id"
-            class="hover:bg-primary-200 py-4 rounded-lg pl-5"
-          >
-            <router-link :to="link.path" :aria-label="`Go to ${link.name}`">
-              {{ link.name }}
-            </router-link>
-          </li>
-        </ul>
-
-        <!-- Mobile Icons -->
-        <div class="md:hidden flex gap-[45px] items-center justify-center my-5">
-          <router-link to="/cart" aria-label="Go to account page">
-            <img src="/images/account-alert-white.png" alt="Account" />
-          </router-link>
-          <router-link to="/cart" aria-label="Search for products">
-            <img src="/images/search-white.png" alt="Search" />
-          </router-link>
-          <router-link to="/cart" aria-label="View liked products">
-            <img src="/images/like-white.svg" alt="Liked products" class="w-6" />
-          </router-link>
-        </div>
-      </div>
-    </div>
-    </transition>
+    <!-- Mobile Navigation -->  
+     <mobile-navbar-component :open-mobile-menu="openMobileMenu" :toggle-mobile-menu="toggleMobileMenu"/>
+  
   </nav>
+    </div>
+  </header>
 </template>
 
-<style scoped>
-
-.slide-fade-enter-active {
-  transition: all 0.3s ease-out;
-}
-
-.slide-fade-leave-active {
-  transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
-}
-
-.slide-fade-enter-from,
-.slide-fade-leave-to {
-  transform: translateX(20px);
-  opacity: 0;
-}
-</style>
