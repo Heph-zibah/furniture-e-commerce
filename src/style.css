@@ -11,8 +11,8 @@
   .logo{
     font-family: "Montserrat", sans-serif;
   }
-  .container{
-    max-width: 1200px;
-    margin: 0 auto;
+
+  .container {
+    @apply px-5 md:px-10 max-w-[1200px] mx-auto;
   }
 }

@@ -272,3 +272,30 @@ export const produucts = [
     rating: 4.8,
   },
 ];
+
+export const features = [
+  {
+    image: "/images/high-quality.svg",
+    alt: "High Quality Icon",
+    title: "High Quality",
+    description: "Crafted from top materials",
+  },
+  {
+    image: "/images/warranty.svg",
+    alt: "Warranty Protection Icon",
+    title: "Warranty Protection",
+    description: "Over 2 years",
+  },
+  {
+    image: "/images/free-shipping.svg",
+    alt: "Free Shipping Icon",
+    title: "Free Shipping",
+    description: "Crafted from top materials",
+  },
+  {
+    image: "/images/support.svg",
+    alt: "24/7 Support Icon",
+    title: "24 / 7 Support",
+    description: "Dedicated support",
+  },
+];
