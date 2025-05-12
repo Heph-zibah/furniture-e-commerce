@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      backgroundImage: {
+        "hero-bg": "url('/public/images/landing-page-hero-bg.png')",
+      },
       colors: {
         // Primary Colors
         primary: {

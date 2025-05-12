@@ -1,10 +1,10 @@
 <script setup>
 import PageLayout from '../layouts/PageLayout.vue';
+import HeroComponent from '../components/HeroComponent.vue';
 </script>
 
 <template>
     <page-layout>
-        <h1>Home View</h1>
-        <p>Welcome to the Home View</p>
+        <hero-component/>
     </page-layout>
 </template>

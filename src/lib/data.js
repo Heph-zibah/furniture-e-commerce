@@ -1,4 +1,4 @@
-export const produucts = [
+export const products = [
   {
     id: 1,
     name: "Synthetine",
@@ -12,9 +12,9 @@ export const produucts = [
     location: "Jakarta",
     description:
       "Elegant minimalist chair with a sleek white design. Perfect for modern interiors and office spaces. Features a comfortable ergonomic design with high-quality materials for long-lasting durability.",
-    image_url: "/images/synthetine_chair.jpg",
+    image_url: "https://i.postimg.cc/0j2myYhk/image-1.png",
     availability: "In stock",
-    rating: 4.7,
+    rating: 4.7
   },
   {
     id: 2,
@@ -29,9 +29,9 @@ export const produucts = [
     location: "Jakarta",
     description:
       "Contemporary gray chair with a unique curved design. Combines both style and comfort with premium upholstery and sturdy construction. Ideal for dining rooms or as an accent piece.",
-    image_url: "/images/leniesa_chair.jpg",
+    image_url: "https://i.postimg.cc/Kvp74WZd/image-2.png",
     availability: "In stock",
-    rating: 4.5,
+    rating: 4.5
   },
   {
     id: 3,
@@ -46,9 +46,9 @@ export const produucts = [
     location: "Jakarta",
     description:
       "Luxurious white tufted sofa with elegant design. Features plush cushioning and premium fabric for ultimate comfort. Perfect centerpiece for any living room with its timeless appeal and sophisticated style.",
-    image_url: "/images/lolita_sofa.jpg",
+    image_url: "https://i.postimg.cc/76N04sst/image-3.png",
     availability: "In stock",
-    rating: 4.9,
+    rating: 4.9
   },
   {
     id: 4,
@@ -63,9 +63,9 @@ export const produucts = [
     location: "Jakarta",
     description:
       "Modern living room furniture set with natural materials and earth tones. Creates a cozy and inviting atmosphere with its balanced design. Includes comfortable seating and complementary pieces for a cohesive look.",
-    image_url: "/images/respira_livingset.jpg",
+    image_url: "https://i.postimg.cc/j2gfwWrz/image-4.png",
     availability: "In stock",
-    rating: 4.8,
+    rating: 4.8
   },
   {
     id: 5,
@@ -80,9 +80,9 @@ export const produucts = [
     location: "Bandung",
     description:
       "Elegant minimalist chair with a sleek white design. Perfect for modern interiors and office spaces. Features a comfortable ergonomic design with high-quality materials for long-lasting durability.",
-    image_url: "/images/synthetine_chair.jpg",
+    image_url: "https://i.postimg.cc/0y6YSCjr/image-6.png",
     availability: "In stock",
-    rating: 4.7,
+    rating: 4.7
   },
   {
     id: 6,
@@ -97,9 +97,9 @@ export const produucts = [
     location: "Bandung",
     description:
       "Contemporary gray chair with a unique curved design. Combines both style and comfort with premium upholstery and sturdy construction. Ideal for dining rooms or as an accent piece.",
-    image_url: "/images/leniesa_chair.jpg",
+    image_url: "https://i.postimg.cc/KYBtqvn2/image-7.png",
     availability: "In stock",
-    rating: 4.5,
+    rating: 4.5
   },
   {
     id: 7,
@@ -114,9 +114,9 @@ export const produucts = [
     location: "Bandung",
     description:
       "Luxurious white tufted sofa with elegant design. Features plush cushioning and premium fabric for ultimate comfort. Perfect centerpiece for any living room with its timeless appeal and sophisticated style.",
-    image_url: "/images/lolita_sofa.jpg",
+    image_url: "https://i.postimg.cc/XYTwkyBL/image-8.png",
     availability: "In stock",
-    rating: 4.9,
+    rating: 4.9
   },
   {
     id: 8,
@@ -131,9 +131,9 @@ export const produucts = [
     location: "Bandung",
     description:
       "Modern living room furniture set with natural materials and earth tones. Creates a cozy and inviting atmosphere with its balanced design. Includes comfortable seating and complementary pieces for a cohesive look.",
-    image_url: "/images/respira_livingset.jpg",
+    image_url: "https://i.postimg.cc/xCQMWDRb/image-9.png",
     availability: "In stock",
-    rating: 4.8,
+    rating: 4.8
   },
   {
     id: 9,
@@ -148,9 +148,9 @@ export const produucts = [
     location: "Surabaya",
     description:
       "Elegant minimalist chair with a sleek white design. Perfect for modern interiors and office spaces. Features a comfortable ergonomic design with high-quality materials for long-lasting durability.",
-    image_url: "/images/synthetine_chair.jpg",
+    image_url: "https://i.postimg.cc/Kvp74WZd/image-2.png",
     availability: "In stock",
-    rating: 4.7,
+    rating: 4.7
   },
   {
     id: 10,
@@ -165,9 +165,9 @@ export const produucts = [
     location: "Surabaya",
     description:
       "Contemporary gray chair with a unique curved design. Combines both style and comfort with premium upholstery and sturdy construction. Ideal for dining rooms or as an accent piece.",
-    image_url: "/images/leniesa_chair.jpg",
+    image_url: "https://i.postimg.cc/0j2myYhk/image-1.png",
     availability: "In stock",
-    rating: 4.5,
+    rating: 4.5
   },
   {
     id: 11,
@@ -182,9 +182,9 @@ export const produucts = [
     location: "Surabaya",
     description:
       "Luxurious white tufted sofa with elegant design. Features plush cushioning and premium fabric for ultimate comfort. Perfect centerpiece for any living room with its timeless appeal and sophisticated style.",
-    image_url: "/images/lolita_sofa.jpg",
+    image_url: "https://i.postimg.cc/76N04sst/image-3.png",
     availability: "In stock",
-    rating: 4.9,
+    rating: 4.9
   },
   {
     id: 12,
@@ -199,9 +199,9 @@ export const produucts = [
     location: "Surabaya",
     description:
       "Modern living room furniture set with natural materials and earth tones. Creates a cozy and inviting atmosphere with its balanced design. Includes comfortable seating and complementary pieces for a cohesive look.",
-    image_url: "/images/respira_livingset.jpg",
+    image_url: "https://i.postimg.cc/j2gfwWrz/image-4.png",
     availability: "In stock",
-    rating: 4.8,
+    rating: 4.8
   },
   {
     id: 13,
@@ -216,9 +216,9 @@ export const produucts = [
     location: "Bali",
     description:
       "Elegant minimalist chair with a sleek white design. Perfect for modern interiors and office spaces. Features a comfortable ergonomic design with high-quality materials for long-lasting durability.",
-    image_url: "/images/synthetine_chair.jpg",
+    image_url: "https://i.postimg.cc/0y6YSCjr/image-6.png",
     availability: "In stock",
-    rating: 4.7,
+    rating: 4.7
   },
   {
     id: 14,
@@ -233,9 +233,9 @@ export const produucts = [
     location: "Bali",
     description:
       "Contemporary gray chair with a unique curved design. Combines both style and comfort with premium upholstery and sturdy construction. Ideal for dining rooms or as an accent piece.",
-    image_url: "/images/leniesa_chair.jpg",
+    image_url: "https://i.postimg.cc/KYBtqvn2/image-7.png",
     availability: "In stock",
-    rating: 4.5,
+    rating: 4.5
   },
   {
     id: 15,
@@ -250,9 +250,9 @@ export const produucts = [
     location: "Bali",
     description:
       "Luxurious white tufted sofa with elegant design. Features plush cushioning and premium fabric for ultimate comfort. Perfect centerpiece for any living room with its timeless appeal and sophisticated style.",
-    image_url: "/images/lolita_sofa.jpg",
+    image_url: "https://i.postimg.cc/XYTwkyBL/image-8.png",
     availability: "In stock",
-    rating: 4.9,
+    rating: 4.9
   },
   {
     id: 16,
@@ -267,9 +267,9 @@ export const produucts = [
     location: "Bali",
     description:
       "Modern living room furniture set with natural materials and earth tones. Creates a cozy and inviting atmosphere with its balanced design. Includes comfortable seating and complementary pieces for a cohesive look.",
-    image_url: "/images/respira_livingset.jpg",
+    image_url: "https://i.postimg.cc/xCQMWDRb/image-9.png",
     availability: "In stock",
-    rating: 4.8,
+    rating: 4.8
   },
 ];
 

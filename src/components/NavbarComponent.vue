@@ -8,18 +8,18 @@ import MobileNavbarComponent from "./MobileNavbarComponent.vue";
 
 const route = useRoute(); 
 
-const getProducts = async () => {
-  try {
-    const response = await axios.get(
-      "https://457e7b1d-ed87-491b-bee1-c6cb65e74211.mock.pstmn.io"
-    );
-    console.log(response.data);
-  } catch (error) {
-    console.error(error);
-  }
-};
+// const getProducts = async () => {
+//   try {
+//     const response = await axios.get(
+//       "https://79a125c4-bdad-4c27-9703-4b2e33f8e890.mock.pstmn.io"
+//     ); 
+//     console.log(response.data);
+//   } catch (error) {
+//     console.error(error);
+//   }
+// };
 
-getProducts();
+// getProducts();
 
 const openMobileMenu = ref(false);
 const toggleMobileMenu = () => {
@@ -28,7 +28,7 @@ const toggleMobileMenu = () => {
 </script>
 
 <template>
-  <header class="sticky top-0 z-50 w-full">
+  <header class="absolute top-0 z-50 w-full">
     <div class="bg-white p-5 md:px-[54px] md:py-[29px] shadow-md">
       <nav
     class="flex justify-between items-center      container"
