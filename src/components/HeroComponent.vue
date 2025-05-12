@@ -1,33 +1,3 @@
-<script setup>
-import { ref } from "vue";
-import LogoComponent from "./LogoComponent.vue";
-import { useRoute } from "vue-router";
-import { navLinks } from "../lib/links";
-import axios from "axios";
-
-const route = useRoute(); 
-// let products = ref([]);
-// const getProducts = async () => {
-//   try {
-//     const response = await axios.get(
-//       "https://966a61a1-fc75-4d06-8b55-f8eba92a5079.mock.pstmn.io"
-//     ); 
-//     products.value = response.data;
-
-    
-
-//   } catch (error) {
-//     console.error(error);
-//   }
-// };
-
-// getProducts();
-
-const openMobileMenu = ref(false);
-const toggleMobileMenu = () => {
-  openMobileMenu.value = !openMobileMenu.value;
-};
-</script>
 
 
 <template>
@@ -39,15 +9,5 @@ const toggleMobileMenu = () => {
             <button class="mt-[36px] md:mt-[46px] text-white py-[25px] px-[72px] bg-primary uppercase w-full md:w-fit font-bold">buy now</button>
         </div>
     </section>
-  <!-- <div>
-    <p>hi</p>
-    <div v-for="product in products" :key="product.sku">
-  <p>hello</p>
-  <h1>{{ product.name }}</h1>
-  <p>{{ product.description }}</p>
-  <img :src="product.images[0]" :alt="product.name" />
-</div>
-  </div> -->
-
 </template>
 

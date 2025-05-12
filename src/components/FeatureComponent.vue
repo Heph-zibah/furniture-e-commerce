@@ -1,10 +1,10 @@
 <template>
   <section class="bg-ivoryLight py-[100px]">
-    <div class="container flex flex-wrap lg:flex-nowrap items-center justify-center gap-[50px]">
+    <div class="container grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-4 items-center justify-center gap-[50px]">
       <div
         v-for="(feature, index) in features"
         :key="index"
-        class="flex items-center gap-[10px]"
+        class="flex gap-[10px]"
       >
         <div>
           <img :src="feature.image" :alt="feature.alt" aria-hidden="true" />

@@ -2,11 +2,15 @@
 import PageLayout from '../layouts/PageLayout.vue';
 import HeroComponent from '../components/HeroComponent.vue';
 import BrowseComponent from '../components/BrowseComponent.vue';
+import LandingProductsComponent from '../components/LandingProductsComponent.vue';
 </script>
 
 <template>
     <page-layout>
-        <hero-component/>
-        <browse-component/>
+        <main>
+            <hero-component />
+            <browse-component />
+            <landing-products-component />
+        </main>
     </page-layout>
 </template>
