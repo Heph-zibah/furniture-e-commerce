@@ -49,7 +49,8 @@ const currentYear = new Date().getFullYear();
                 <!-- Newsletter Subscription -->
                 <div class="flex flex-col items-center md:items-start">
                     <h3 class="mb-[50px] text-grayLight">Newsletter</h3>
-                    <div class="gap-5 flex">
+                    <div class="gap-5 flex flex-col lg::flex-row">
+                      
                         <label for="newsletter" class="sr-only">Email Address</label>
                         <input 
                             id="newsletter" 
@@ -58,6 +59,7 @@ const currentYear = new Date().getFullYear();
                             class="bg-transparent border-b-2 border-b-white text-white placeholder-grayLight outline-0 focus:ring-2 focus:ring-white"
                             aria-label="Enter your email to subscribe"
                         />
+                      
                         <button class="uppercase border-b-2 border-b-white outline-0 ml-5 focus:outline-none focus:ring-2 focus:ring-white">
                             Subscribe
                         </button>

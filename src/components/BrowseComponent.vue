@@ -19,7 +19,6 @@ const browseData = ref([
     },
 ]);
 
-// For mobile carousel
 const currentSlide = ref(0);
 const isMobile = ref(false);
 
@@ -47,7 +46,6 @@ function handleSwipe(e) {
   const startX = parseInt(touch.target.dataset.startX || 0);
   const currentX = touch.clientX;
   
-  // Detect swipe direction (50px threshold)
   if (startX - currentX > 50) nextSlide();
   else if (currentX - startX > 50) prevSlide();
 }
@@ -58,7 +56,7 @@ function handleSwipe(e) {
     <h2 class="text-2xl md:text-3xl font-bold">Browse The Range</h2>
     <p class="md:text-xl text-gray-600 mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-    <!-- Desktop Grid Layout -->
+  
     <div v-if="!isMobile" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-14">
       <div v-for="item in browseData" :key="item.id">
         <img :src="item.images" :alt="item.name" class="w-full  object-cover" />
@@ -66,7 +64,6 @@ function handleSwipe(e) {
       </div>
     </div>
 
-    <!-- Mobile Carousel -->
     <div v-else class="mt-8 relative">
       <div class="overflow-hidden">
         <div 
@@ -86,7 +83,6 @@ function handleSwipe(e) {
         </div>
       </div>
       
-      <!-- Simple Dot Indicators -->
       <div class="flex justify-center mt-4 space-x-2">
         <button 
           v-for="(_, index) in browseData" 
