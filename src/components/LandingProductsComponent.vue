@@ -67,8 +67,8 @@ getProducts();
       </div>
     </div>
     
-    <div class="text-center ">
-      <router-link :to="{ name: 'ShopView' }" class="capitalize border border-primary text-primary py-3 px-16 font-semibold hover:bg-primary hover:text-white transition-colors">
+    <div class="text-center w-full flex justify-center  ">
+      <router-link :to="{ name: 'ShopView' }" class="w-full md:w-fit capitalize border border-primary text-primary py-3 px-16 font-semibold hover:bg-primary hover:text-white transition-colors">
         show more
       </router-link>
     </div>
