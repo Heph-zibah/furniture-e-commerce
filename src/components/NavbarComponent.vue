@@ -28,7 +28,7 @@ const toggleMobileMenu = () => {
 </script>
 
 <template>
-  <header class="absolute top-0 z-50 w-full">
+  <header class="sticky top-0 z-50 w-full">
     <div class="bg-white p-5 md:px-[54px] md:py-[29px] shadow-md">
       <nav
     class="flex justify-between items-center container"

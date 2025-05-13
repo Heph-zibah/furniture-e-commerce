@@ -1,0 +1,3314 @@
+ [
+   {
+     "id": 1,
+     "name": "Synthetine Modern Chair",
+     "category": "Cafe Chair",
+     "subcategory": "Dining Chairs",
+     "short_description": "Ergonomic molded plastic chair with metal legs, perfect for modern dining spaces and cafes.",
+     "description": "The Synthetine chair combines sleek design with ergonomic comfort. Its molded plastic seat and sturdy metal legs create a minimalist aesthetic that complements any modern interior. The chair features a slightly curved backrest that provides excellent lumbar support for extended sitting periods.",
+     "price": 2500000,
+     "discounted_price": 2250000,
+     "currency": "Rp",
+     "sku": "FUR-CHR-001",
+     "stock_quantity": 45,
+     "is_available": true,
+     "dimensions": {
+       "length": 60,
+       "width": 55,
+       "height": 85,
+       "unit": "cm",
+       "depth": 50,
+       "seat_height": 45,
+       "leg_height": 65,
+       "shipping_dimensions": {
+         "length": 65,
+         "width": 58,
+         "height": 90,
+         "unit": "cm"
+       }
+     },
+     "weight": {
+       "value": 8.3,
+       "unit": "kg",
+       "shipping_weight": 10.5
+     },
+     "product_details": [
+       {
+         "id": 1,
+         "seat_material": "molded plastic",
+         "frame_material": "powder-coated steel",
+         "finish_type": "Matte",
+         "adjustable_height": "No",
+         "maximum_load_capacity": 150,
+         "unit": "kg",
+         "manufacture_origin": "Indonesia",
+         "assembly_time": "15 minutes"
+       }
+     ],
+     "general_details": [
+       {
+         "id": 1,
+         "sales_package": "1 chair, assembly hardware, instructions",
+         "model_number": "SYNT-CHR-WH-001",
+         "secondary_material": "rubber feet protectors",
+         "configuration": "Standard chair",
+         "surface_material": "High-density plastic",
+         "color": "White",
+         "stackable": "Yes, up to 4 chairs"
+       }
+     ],
+     "material": "Molded Plastic and Metal",
+     "color": "White",
+     "brand": "FurniLux",
+     "images": ["https://i.postimg.cc/0NgwhyZz/image-1.png"],
+     "videos": [],
+     "tags": [
+       "chair",
+       "modern",
+       "minimalist",
+       "white",
+       "ergonomic",
+       "dining chair",
+       "cafe chair",
+       "lightweight",
+       "stackable"
+     ],
+     "rating": 4.7,
+     "review_count": 48,
+     "size": "Standard",
+     "color_options": ["White", "Black", "Gray", "Sage Green", "Terracotta"],
+     "status": "In Stock",
+     "badge": "Bestseller",
+     "warranty": {
+       "period": "2 years",
+       "type": "Manufacturer Warranty",
+       "warranty_covered": "Frame integrity, material defects, and structural components",
+       "warranty_not_covered": "Normal wear and tear, improper assembly, misuse, or modifications to the product",
+       "domestic_warranty": "2 years",
+       "claim_process": "Email a photo of the defect and proof of purchase to claims@furnilux.com"
+     },
+     "reviews": [
+       {
+         "user": "John Doe",
+         "rating": 5,
+         "verified_purchase": true,
+         "date": "2025-03-12",
+         "comment": "Absolutely love this chair! It's so comfortable and stylish. Perfect for my home office.",
+         "helpful_votes": 12
+       },
+       {
+         "user": "Jane Smith",
+         "rating": 4,
+         "verified_purchase": true,
+         "date": "2025-02-28",
+         "comment": "Great quality, sturdy construction but a bit pricey. Worth it for the design though.",
+         "helpful_votes": 8
+       },
+       {
+         "user": "David Chen",
+         "rating": 5,
+         "verified_purchase": true,
+         "date": "2025-04-02",
+         "comment": "Easy to assemble and looks fantastic in my kitchen. Very comfortable too!",
+         "helpful_votes": 5
+       }
+     ],
+     "additional_info": [
+       {
+         "id": 1,
+         "care_instructions": "Wipe with a damp cloth and mild soap. For plastic parts, use specialized plastic cleaner. Avoid harsh chemicals and abrasive cleaners. Keep away from direct sunlight for prolonged periods to prevent color fading."
+       },
+       {
+         "id": 2,
+         "assembly_required": "Yes",
+         "assembly_instructions": "Detailed assembly instructions with diagrams included in the package. QR code links to video tutorial.",
+         "assembly_service_option": "Professional assembly service available at an additional cost of Rp 200,000",
+         "tools_required": "Phillips screwdriver (included in package)"
+       },
+       {
+         "id": 3,
+         "return_policy": "30-day return policy. Item must be in original condition and packaging. Return shipping fees covered for manufacturing defects.",
+         "exchange_policy": "Free exchanges within 30 days of purchase"
+       },
+       {
+         "id": 4,
+         "shipping_info": "Free shipping nationwide. Standard delivery within 2-5 business days. Express shipping available at additional cost. Track your order with our real-time tracking system.",
+         "shipping_restrictions": "Remote areas may require additional 2-3 days for delivery"
+       },
+       {
+         "id": 5,
+         "customer_service": "For any inquiries, please contact our customer service at support@furnilux.com or call our hotline at +62-21-5550-1234 (Mon-Fri, 9AM-5PM)",
+         "live_chat": "Available 24/7 on our website"
+       }
+     ],
+     "specifications": {
+       "design_style": "Modern Minimalist",
+       "recommended_use": "Indoor use - dining rooms, cafes, offices",
+       "certifications": ["BIFMA Certified", "Eco-Friendly Materials"],
+       "maintenance_level": "Low"
+     },
+     "sustainability": {
+       "eco_friendly": true,
+       "recyclable_components": "90% recyclable materials",
+       "sustainable_manufacturing": "Made using energy-efficient processes",
+       "packaging": "Uses recycled and biodegradable packaging materials"
+     },
+     "related_products": [
+       {
+         "id": 15,
+         "name": "Synthetine Dining Table",
+         "image": "https://example.com/synthetine-table.png",
+         "price": 5500000
+       },
+       {
+         "id": 23,
+         "name": "Lumina Side Table",
+         "image": "https://example.com/lumina-sidetable.png",
+         "price": 1800000
+       }
+     ],
+     "frequently_bought_together": [
+       {
+         "id": 8,
+         "name": "Comfort Seat Cushion",
+         "image": "https://example.com/comfort-cushion.png",
+         "price": 350000
+       }
+     ],
+     "seo": {
+       "meta_title": "Synthetine Modern Chair - Ergonomic Dining Chair | FurniLux",
+       "meta_description": "Shop the Synthetine Modern Chair - a stylish, ergonomic dining chair with molded plastic seat and sturdy metal legs. Perfect for modern homes and cafes.",
+       "keywords": [
+         "modern chair",
+         "dining chair",
+         "plastic chair",
+         "minimalist furniture",
+         "ergonomic chair",
+         "cafe chair",
+         "FurniLux"
+       ]
+     },
+     "inventory": {
+       "warehouse_location": "Jakarta Central",
+       "restock_date": "2025-06-15",
+       "minimum_order_quantity": 1,
+       "maximum_order_quantity": 20
+     },
+     "created_at": "2024-12-10T08:30:00Z",
+     "updated_at": "2025-05-01T14:45:00Z"
+   },
+   {
+     "id": 2,
+     "name": "Bevelwood Coffee Table",
+     "category": "Living Room Table",
+     "subcategory": "Coffee Tables",
+     "short_description": "Solid oak coffee table with beveled edges and minimalist design, perfect for contemporary living spaces.",
+     "description": "The Bevelwood Coffee Table combines natural beauty with contemporary design. Crafted from premium solid oak with meticulous attention to detail, this piece features elegantly beveled edges and a smooth finish that showcases the wood's natural grain. The sturdy metal hairpin legs create a floating effect, making your space feel more open while providing reliable stability.",
+     "price": 3750000,
+     "discounted_price": 3375000,
+     "currency": "Rp",
+     "sku": "FUR-TBL-002",
+     "stock_quantity": 32,
+     "is_available": true,
+     "dimensions": {
+       "length": 120,
+       "width": 60,
+       "height": 45,
+       "unit": "cm",
+       "depth": 60,
+       "clearance": 35,
+       "tabletop_thickness": 3.5,
+       "shipping_dimensions": {
+         "length": 125,
+         "width": 65,
+         "height": 20,
+         "unit": "cm"
+       }
+     },
+     "weight": {
+       "value": 25.4,
+       "unit": "kg",
+       "shipping_weight": 28.9
+     },
+     "product_details": [
+       {
+         "id": 1,
+         "surface_material": "solid oak",
+         "frame_material": "solid oak with metal legs",
+         "finish_type": "Natural matte varnish",
+         "adjustable_height": "No",
+         "maximum_load_capacity": 80,
+         "unit": "kg",
+         "manufacture_origin": "Indonesia",
+         "assembly_time": "25 minutes"
+       }
+     ],
+     "general_details": [
+       {
+         "id": 1,
+         "sales_package": "1 table top, 4 legs, assembly hardware, instructions",
+         "model_number": "BVL-CFT-OAK-001",
+         "secondary_material": "metal hairpin legs",
+         "configuration": "Standard coffee table",
+         "surface_material": "Solid oak",
+         "color": "Natural Oak",
+         "features": "Storage shelf underneath"
+       }
+     ],
+     "material": "Solid Oak and Metal",
+     "color": "Natural Oak",
+     "brand": "FurniLux",
+     "images": ["https://i.postimg.cc/1trwG1Gf/image-2.png"],
+     "videos": [],
+     "tags": [
+       "coffee table",
+       "oak",
+       "wood",
+       "natural",
+       "living room",
+       "minimalist",
+       "modern",
+       "hairpin legs"
+     ],
+     "rating": 4.8,
+     "review_count": 56,
+     "size": "Standard",
+     "color_options": ["Natural Oak", "Walnut", "Ebony"],
+     "status": "In Stock",
+     "badge": "Premium",
+     "warranty": {
+       "period": "5 years",
+       "type": "Manufacturer Warranty",
+       "warranty_covered": "Frame integrity, material defects, and structural components",
+       "warranty_not_covered": "Normal wear and tear, improper assembly, misuse, or modifications to the product",
+       "domestic_warranty": "5 years",
+       "claim_process": "Email a photo of the defect and proof of purchase to claims@furnilux.com"
+     },
+     "reviews": [
+       {
+         "user": "Sarah Johnson",
+         "rating": 5,
+         "verified_purchase": true,
+         "date": "2025-01-18",
+         "comment": "This coffee table is gorgeous! The craftsmanship is excellent and it looks much more expensive than it is.",
+         "helpful_votes": 15
+       },
+       {
+         "user": "Michael Lee",
+         "rating": 4,
+         "verified_purchase": true,
+         "date": "2025-02-03",
+         "comment": "Beautiful table but assembly took longer than stated. The wood quality is exceptional though.",
+         "helpful_votes": 7
+       },
+       {
+         "user": "Priya Sharma",
+         "rating": 5,
+         "verified_purchase": true,
+         "date": "2025-03-27",
+         "comment": "Perfect centerpiece for my living room. Sturdy, well-made, and exactly as described.",
+         "helpful_votes": 11
+       }
+     ],
+     "additional_info": [
+       {
+         "id": 1,
+         "care_instructions": "Dust regularly with a soft, dry cloth. Clean spills immediately with a slightly damp cloth. Apply furniture polish or wax every 3-6 months. Avoid placing hot items directly on the surface."
+       },
+       {
+         "id": 2,
+         "assembly_required": "Yes",
+         "assembly_instructions": "Detailed assembly instructions with diagrams included in the package. QR code links to video tutorial.",
+         "assembly_service_option": "Professional assembly service available at an additional cost of Rp 250,000",
+         "tools_required": "Phillips screwdriver and Allen key (both included in package)"
+       },
+       {
+         "id": 3,
+         "return_policy": "30-day return policy. Item must be in original condition and packaging. Return shipping fees covered for manufacturing defects.",
+         "exchange_policy": "Free exchanges within 30 days of purchase"
+       },
+       {
+         "id": 4,
+         "shipping_info": "Free shipping nationwide. Standard delivery within 3-7 business days due to product size. Express shipping available at additional cost. Track your order with our real-time tracking system.",
+         "shipping_restrictions": "Remote areas may require additional 3-5 days for delivery"
+       },
+       {
+         "id": 5,
+         "customer_service": "For any inquiries, please contact our customer service at support@furnilux.com or call our hotline at +62-21-5550-1234 (Mon-Fri, 9AM-5PM)",
+         "live_chat": "Available 24/7 on our website"
+       }
+     ],
+     "specifications": {
+       "design_style": "Contemporary Natural",
+       "recommended_use": "Indoor use - living rooms, lounges, reception areas",
+       "certifications": ["FSC Certified Wood", "SVLK Compliance"],
+       "maintenance_level": "Low to Medium"
+     },
+     "sustainability": {
+       "eco_friendly": true,
+       "recyclable_components": "95% recyclable materials",
+       "sustainable_manufacturing": "Made using responsibly harvested timber",
+       "packaging": "Uses recycled and biodegradable packaging materials"
+     },
+     "related_products": [
+       {
+         "id": 18,
+         "name": "Bevelwood Side Table",
+         "image": "https://example.com/bevelwood-sidetable.png",
+         "price": 2150000
+       },
+       {
+         "id": 25,
+         "name": "Oakline Console Table",
+         "image": "https://example.com/oakline-console.png",
+         "price": 2950000
+       }
+     ],
+     "frequently_bought_together": [
+       {
+         "id": 12,
+         "name": "Natural Wood Coasters Set",
+         "image": "https://example.com/wooden-coasters.png",
+         "price": 275000
+       }
+     ],
+     "seo": {
+       "meta_title": "Bevelwood Coffee Table - Solid Oak Living Room Table | FurniLux",
+       "meta_description": "Shop the Bevelwood Coffee Table - a premium solid oak coffee table with beveled edges and metal hairpin legs. Perfect for contemporary living spaces.",
+       "keywords": [
+         "coffee table",
+         "oak table",
+         "wooden table",
+         "living room furniture",
+         "minimalist furniture",
+         "contemporary table",
+         "FurniLux"
+       ]
+     },
+     "inventory": {
+       "warehouse_location": "Jakarta Central",
+       "restock_date": "2025-07-20",
+       "minimum_order_quantity": 1,
+       "maximum_order_quantity": 10
+     },
+     "created_at": "2024-11-15T10:15:00Z",
+     "updated_at": "2025-04-25T16:30:00Z"
+   },
+   {
+     "id": 3,
+     "name": "AeroFlex Ergonomic Office Chair",
+     "category": "Office Chair",
+     "subcategory": "Executive Chairs",
+     "short_description": "Premium mesh office chair with lumbar support, adjustable features, and breathable design for all-day comfort.",
+     "description": "The AeroFlex Ergonomic Office Chair is engineered for maximum comfort during long work hours. Its breathable mesh backrest conforms to your spine while allowing air circulation to keep you cool. The chair features a synchronized tilt mechanism, adjustable armrests, seat height, and headrest to accommodate your unique body proportions. The premium materials and construction ensure both durability and style for your workspace.",
+     "price": 4950000,
+     "discounted_price": 4455000,
+     "currency": "Rp",
+     "sku": "FUR-OFC-003",
+     "stock_quantity": 28,
+     "is_available": true,
+     "dimensions": {
+       "length": 68,
+       "width": 68,
+       "height": 118,
+       "unit": "cm",
+       "depth": 68,
+       "seat_height": "45-55",
+       "armrest_height": "68-78",
+       "backrest_height": 75,
+       "shipping_dimensions": {
+         "length": 75,
+         "width": 40,
+         "height": 65,
+         "unit": "cm"
+       }
+     },
+     "weight": {
+       "value": 18.5,
+       "unit": "kg",
+       "shipping_weight": 22.0
+     },
+     "product_details": [
+       {
+         "id": 1,
+         "seat_material": "high-density foam with mesh fabric",
+         "frame_material": "reinforced nylon and aluminum",
+         "finish_type": "Matte black",
+         "adjustable_height": "Yes, gas lift",
+         "maximum_load_capacity": 150,
+         "unit": "kg",
+         "manufacture_origin": "Malaysia",
+         "assembly_time": "20 minutes"
+       }
+     ],
+     "general_details": [
+       {
+         "id": 1,
+         "sales_package": "1 chair (partially assembled), assembly hardware, instructions",
+         "model_number": "AERO-OFC-BLK-001",
+         "secondary_material": "high-grade plastic components",
+         "configuration": "Executive office chair",
+         "surface_material": "Premium mesh and fabric",
+         "color": "Black",
+         "features": "Adjustable lumbar support, 360° swivel, 5-wheel base"
+       }
+     ],
+     "material": "Mesh, Fabric, Aluminum, Nylon",
+     "color": "Black",
+     "brand": "FurniLux",
+     "images": ["https://i.postimg.cc/VLVMBRCB/image-3.png"],
+     "videos": [],
+     "tags": [
+       "office chair",
+       "ergonomic",
+       "mesh chair",
+       "adjustable",
+       "lumbar support",
+       "executive chair",
+       "swivel chair",
+       "comfortable"
+     ],
+     "rating": 4.9,
+     "review_count": 112,
+     "size": "Standard",
+     "color_options": ["Black", "Gray", "Blue"],
+     "status": "In Stock",
+     "badge": "Bestseller",
+     "warranty": {
+       "period": "7 years",
+       "type": "Manufacturer Warranty",
+       "warranty_covered": "Frame integrity, pneumatic cylinder, castors, armrests, and structural components",
+       "warranty_not_covered": "Normal wear and tear, improper assembly, misuse, or modifications to the product",
+       "domestic_warranty": "7 years",
+       "claim_process": "Email a photo of the defect and proof of purchase to claims@furnilux.com"
+     },
+     "reviews": [
+       {
+         "user": "Robert Williams",
+         "rating": 5,
+         "verified_purchase": true,
+         "date": "2025-02-10",
+         "comment": "Best investment for my home office! As someone who works 8+ hours daily, this chair has eliminated my back pain completely.",
+         "helpful_votes": 45
+       },
+       {
+         "user": "Linda Chen",
+         "rating": 5,
+         "verified_purchase": true,
+         "date": "2025-03-15",
+         "comment": "Incredible quality and comfort. The adjustable features make it perfect for my needs. Worth every penny!",
+         "helpful_votes": 32
+       },
+       {
+         "user": "Ahmad Rahman",
+         "rating": 4,
+         "verified_purchase": true,
+         "date": "2025-04-05",
+         "comment": "Very comfortable and well-built. Assembly was easy, though instructions could be clearer. Overall excellent chair.",
+         "helpful_votes": 18
+       }
+     ],
+     "additional_info": [
+       {
+         "id": 1,
+         "care_instructions": "Vacuum fabric parts regularly. Clean mesh with damp cloth and mild soap. Lubricate moving parts annually. Tighten screws periodically to maintain stability."
+       },
+       {
+         "id": 2,
+         "assembly_required": "Yes",
+         "assembly_instructions": "Detailed assembly instructions with diagrams included in the package. QR code links to video tutorial.",
+         "assembly_service_option": "Professional assembly service available at an additional cost of Rp 300,000",
+         "tools_required": "Allen key (included in package)"
+       },
+       {
+         "id": 3,
+         "return_policy": "45-day return policy. Item must be in original condition and packaging. Return shipping fees covered for manufacturing defects.",
+         "exchange_policy": "Free exchanges within 45 days of purchase"
+       },
+       {
+         "id": 4,
+         "shipping_info": "Free shipping nationwide. Standard delivery within 2-5 business days. Express shipping available at additional cost. Track your order with our real-time tracking system.",
+         "shipping_restrictions": "Remote areas may require additional 2-3 days for delivery"
+       },
+       {
+         "id": 5,
+         "customer_service": "For any inquiries, please contact our customer service at support@furnilux.com or call our hotline at +62-21-5550-1234 (Mon-Fri, 9AM-5PM)",
+         "live_chat": "Available 24/7 on our website"
+       }
+     ],
+     "specifications": {
+       "design_style": "Modern Ergonomic",
+       "recommended_use": "Office environments, home offices, workspaces",
+       "certifications": [
+         "BIFMA Certified",
+         "Ergonomic Design Certification",
+         "GREENGUARD Gold"
+       ],
+       "maintenance_level": "Low"
+     },
+     "sustainability": {
+       "eco_friendly": true,
+       "recyclable_components": "85% recyclable materials",
+       "sustainable_manufacturing": "Low VOC materials, energy-efficient production",
+       "packaging": "Uses recycled and biodegradable packaging materials"
+     },
+     "related_products": [
+       {
+         "id": 22,
+         "name": "AeroFlex Footrest",
+         "image": "https://example.com/aeroflex-footrest.png",
+         "price": 850000
+       },
+       {
+         "id": 31,
+         "name": "ErgoDesk Adjustable Desk",
+         "image": "https://example.com/ergodesk.png",
+         "price": 6500000
+       }
+     ],
+     "frequently_bought_together": [
+       {
+         "id": 14,
+         "name": "Memory Foam Lumbar Cushion",
+         "image": "https://example.com/lumbar-cushion.png",
+         "price": 450000
+       }
+     ],
+     "seo": {
+       "meta_title": "AeroFlex Ergonomic Office Chair - Premium Mesh Executive Chair | FurniLux",
+       "meta_description": "Shop the AeroFlex Ergonomic Office Chair - a premium mesh office chair with adjustable features and lumbar support for all-day comfort. Perfect for professionals.",
+       "keywords": [
+         "ergonomic chair",
+         "office chair",
+         "mesh chair",
+         "executive chair",
+         "adjustable chair",
+         "lumbar support chair",
+         "FurniLux"
+       ]
+     },
+     "inventory": {
+       "warehouse_location": "Jakarta Central",
+       "restock_date": "2025-06-30",
+       "minimum_order_quantity": 1,
+       "maximum_order_quantity": 10
+     },
+     "created_at": "2024-10-20T09:45:00Z",
+     "updated_at": "2025-05-05T11:20:00Z"
+   },
+   {
+     "id": 4,
+     "name": "SleepHaven Memory Foam Mattress",
+     "category": "Bedroom",
+     "subcategory": "Mattresses",
+     "short_description": "Premium 10-inch memory foam mattress with cooling gel technology and optimal support for quality sleep.",
+     "description": "The SleepHaven Memory Foam Mattress combines comfort and technology for your best sleep ever. The top layer features cooling gel-infused memory foam that contours to your body while regulating temperature. The middle transition layer provides pressure relief for shoulders and hips, while the high-density base layer ensures proper spinal alignment and mattress longevity. The breathable, hypoallergenic cover can be removed for easy cleaning.",
+     "price": 8500000,
+     "discounted_price": 7650000,
+     "currency": "Rp",
+     "sku": "FUR-MAT-004",
+     "stock_quantity": 25,
+     "is_available": true,
+     "dimensions": {
+       "length": 200,
+       "width": 160,
+       "height": 25,
+       "unit": "cm",
+       "depth": null,
+       "mattress_thickness": 25,
+       "shipping_dimensions": {
+         "length": 205,
+         "width": 165,
+         "height": 40,
+         "unit": "cm"
+       }
+     },
+     "weight": {
+       "value": 32.0,
+       "unit": "kg",
+       "shipping_weight": 34.5
+     },
+     "product_details": [
+       {
+         "id": 1,
+         "top_layer": "gel-infused memory foam (3cm)",
+         "middle_layer": "comfort transition foam (5cm)",
+         "base_layer": "high-density support foam (17cm)",
+         "cover_material": "bamboo-derived rayon blend",
+         "firmness": "Medium-firm (6.5/10)",
+         "manufacture_origin": "Indonesia",
+         "break_in_period": "30 days"
+       }
+     ],
+     "general_details": [
+       {
+         "id": 1,
+         "sales_package": "1 mattress, removable cover, warranty card, care instructions",
+         "model_number": "SLPH-MEM-160-001",
+         "configuration": "Queen size mattress",
+         "cover_material": "Bamboo-derived rayon blend",
+         "color": "White/Off-white",
+         "features": "Cooling gel technology, pressure relief, motion isolation, removable cover"
+       }
+     ],
+     "material": "Memory Foam with Cooling Gel",
+     "color": "White/Off-white",
+     "brand": "FurniLux",
+     "images": ["https://i.postimg.cc/pL5j0FQN/image-4.png"],
+     "videos": [],
+     "tags": [
+       "mattress",
+       "memory foam",
+       "cooling gel",
+       "queen size",
+       "bedroom",
+       "sleep",
+       "comfort",
+       "pressure relief"
+     ],
+     "rating": 4.8,
+     "review_count": 235,
+     "size": "Queen (160x200cm)",
+     "size_options": [
+       "Single (90x200cm)",
+       "Super Single (120x200cm)",
+       "Queen (160x200cm)",
+       "King (180x200cm)"
+     ],
+     "status": "In Stock",
+     "badge": "Premium Choice",
+     "warranty": {
+       "period": "10 years",
+       "type": "Manufacturer Warranty",
+       "warranty_covered": "Material defects, sagging greater than 2.5cm, manufacturing flaws",
+       "warranty_not_covered": "Normal wear and tear, improper use, damage due to inadequate support, comfort preference",
+       "domestic_warranty": "10 years",
+       "claim_process": "Email photos of the defect and proof of purchase to claims@furnilux.com"
+     },
+     "reviews": [
+       {
+         "user": "Amanda Wilson",
+         "rating": 5,
+         "verified_purchase": true,
+         "date": "2025-01-25",
+         "comment": "This mattress changed my life! I used to wake up with back pain every day, but now I sleep through the night and wake up refreshed.",
+         "helpful_votes": 78
+       },
+       {
+         "user": "Budi Santoso",
+         "rating": 5,
+         "verified_purchase": true,
+         "date": "2025-02-18",
+         "comment": "Perfect balance of soft and supportive. The cooling technology really works - I don't overheat anymore.",
+         "helpful_votes": 52
+       },
+       {
+         "user": "Lisa Zhang",
+         "rating": 4,
+         "verified_purchase": true,
+         "date": "2025-03-30",
+         "comment": "Excellent quality and comfort. Takes about a week to get used to if you're coming from a spring mattress, but now I love it.",
+         "helpful_votes": 41
+       }
+     ],
+     "additional_info": [
+       {
+         "id": 1,
+         "care_instructions": "Spot clean with mild detergent and water. Removable cover is machine washable (gentle cycle, cold). Rotate mattress 180° every 3-6 months. Use with a proper foundation or platform bed."
+       },
+       {
+         "id": 2,
+         "assembly_required": "No",
+         "unboxing_instructions": "Unbox in the room where you'll use it. Remove packaging carefully with included cutter tool. Allow 24-48 hours for full expansion. Some odor may be present initially but will dissipate within a few days."
+       },
+       {
+         "id": 3,
+         "return_policy": "100-night sleep trial. Full refund if returned within 100 nights. We'll arrange free pickup.",
+         "exchange_policy": "Free exchanges for different size or model within 100 nights"
+       },
+       {
+         "id": 4,
+         "shipping_info": "Free shipping nationwide. Standard delivery within 5-7 business days. White glove delivery and setup available at additional cost. Track your order with our real-time tracking system.",
+         "shipping_restrictions": "Remote areas may require additional 3-5 days for delivery"
+       },
+       {
+         "id": 5,
+         "customer_service": "For any inquiries, please contact our customer service at support@furnilux.com or call our hotline at +62-21-5550-1234 (Mon-Fri, 9AM-5PM)",
+         "live_chat": "Available 24/7 on our website"
+       }
+     ],
+     "specifications": {
+       "design_style": "Contemporary Sleep Technology",
+       "recommended_use": "All sleeping positions (side, back, stomach)",
+       "certifications": [
+         "CertiPUR-US Certified",
+         "OEKO-TEX Standard 100",
+         "Hypoallergenic"
+       ],
+       "maintenance_level": "Low"
+     },
+     "sustainability": {
+       "eco_friendly": true,
+       "recyclable_components": "70% recyclable materials",
+       "sustainable_manufacturing": "Low VOC emissions, CertiPUR-US certified foams",
+       "packaging": "Compressed packaging reduces carbon footprint during shipping"
+     },
+     "related_products": [
+       {
+         "id": 35,
+         "name": "SleepHaven Memory Foam Pillow",
+         "image": "https://example.com/sleephaven-pillow.png",
+         "price": 950000
+       },
+       {
+         "id": 42,
+         "name": "BambooSoft Mattress Protector",
+         "image": "https://example.com/bamboosoft-protector.png",
+         "price": 750000
+       }
+     ],
+     "frequently_bought_together": [
+       {
+         "id": 38,
+         "name": "PlatformSleep Bed Frame",
+         "image": "https://example.com/platformsleep-frame.png",
+         "price": 4750000
+       }
+     ],
+     "seo": {
+       "meta_title": "SleepHaven Memory Foam Mattress - Cooling Gel Mattress | FurniLux",
+       "meta_description": "Shop the SleepHaven Memory Foam Mattress - a premium 10-inch mattress with cooling gel technology for optimal comfort and support. 100-night sleep trial.",
+       "keywords": [
+         "memory foam mattress",
+         "cooling gel mattress",
+         "premium mattress",
+         "queen size mattress",
+         "comfortable mattress",
+         "pressure relief mattress",
+         "FurniLux"
+       ]
+     },
+     "inventory": {
+       "warehouse_location": "Jakarta Central",
+       "restock_date": "2025-07-15",
+       "minimum_order_quantity": 1,
+       "maximum_order_quantity": 5
+     },
+     "created_at": "2024-09-05T14:20:00Z",
+     "updated_at": "2025-05-02T09:45:00Z"
+   },
+   {
+     "id": 5,
+     "name": "Scandic Wood Dining Table",
+     "category": "Dining Table",
+     "subcategory": "Kitchen & Dining Furniture",
+     "short_description": "Elegant solid oak dining table with tapered legs, combining Scandinavian simplicity with artisanal craftsmanship.",
+     "description": "The Scandic Wood Dining Table exemplifies timeless Scandinavian design with its clean lines and functional elegance. Crafted from sustainably sourced solid oak, this table features a smooth, oil-finished tabletop and distinctive tapered legs that provide both stability and style. Its versatile design makes it equally at home in modern apartments or traditional dining spaces.",
+     "price": 8500000,
+     "discounted_price": 7650000,
+     "currency": "Rp",
+     "sku": "FUR-TBL-023",
+     "stock_quantity": 18,
+     "is_available": true,
+     "dimensions": {
+       "length": 160,
+       "width": 90,
+       "height": 75,
+       "unit": "cm",
+       "shipping_dimensions": {
+         "length": 170,
+         "width": 100,
+         "height": 20,
+         "unit": "cm"
+       }
+     },
+     "weight": {
+       "value": 32.5,
+       "unit": "kg",
+       "shipping_weight": 38.0
+     },
+     "product_details": [
+       {
+         "id": 1,
+         "table_material": "solid oak",
+         "leg_material": "solid oak",
+         "finish_type": "Natural oil finish",
+         "adjustable_height": "No",
+         "maximum_load_capacity": 100,
+         "unit": "kg",
+         "manufacture_origin": "Indonesia",
+         "assembly_time": "30 minutes"
+       }
+     ],
+     "general_details": [
+       {
+         "id": 1,
+         "sales_package": "1 tabletop, 4 legs, assembly hardware, instructions",
+         "model_number": "SCND-TBL-OAK-160",
+         "secondary_material": "brass leg connectors",
+         "configuration": "Rectangle table",
+         "surface_material": "Solid oak",
+         "color": "Natural Oak",
+         "extendable": "No"
+       }
+     ],
+     "material": "Solid Oak",
+     "color": "Natural Oak",
+     "brand": "FurniLux",
+     "images": ["https://i.postimg.cc/wMxJF42F/image-6.png"],
+     "videos": [],
+     "tags": [
+       "dining table",
+       "oak",
+       "scandinavian",
+       "wood",
+       "natural",
+       "kitchen furniture",
+       "minimalist",
+       "sustainable"
+     ],
+     "rating": 4.8,
+     "review_count": 35,
+     "size": "6-seater",
+     "size_options": [
+       "4-seater (140cm)",
+       "6-seater (160cm)",
+       "8-seater (180cm)"
+     ],
+     "color_options": ["Natural Oak", "White Oak", "Walnut"],
+     "status": "In Stock",
+     "badge": "Sustainable",
+     "warranty": {
+       "period": "5 years",
+       "type": "Manufacturer Warranty",
+       "warranty_covered": "Structural integrity, wood defects, joint stability",
+       "warranty_not_covered": "Scratches, stains, water damage, or misuse",
+       "domestic_warranty": "5 years",
+       "claim_process": "Email photos of defect and proof of purchase to claims@furnilux.com"
+     },
+     "reviews": [
+       {
+         "user": "Sarah Johnson",
+         "rating": 5,
+         "verified_purchase": true,
+         "date": "2025-02-18",
+         "comment": "Beautiful table that exceeded our expectations. The wood grain is gorgeous and the construction is very solid.",
+         "helpful_votes": 14
+       },
+       {
+         "user": "Michael Wong",
+         "rating": 4,
+         "verified_purchase": true,
+         "date": "2025-03-05",
+         "comment": "Great quality table, delivered on time. Assembly was straightforward. Only issue is a slight wobble on our uneven floor.",
+         "helpful_votes": 6
+       },
+       {
+         "user": "Anita Dewi",
+         "rating": 5,
+         "verified_purchase": true,
+         "date": "2025-04-12",
+         "comment": "Perfect centerpiece for our dining room. The oak finish is exactly as pictured and the table is sturdy enough for daily use with kids.",
+         "helpful_votes": 9
+       }
+     ],
+     "additional_info": [
+       {
+         "id": 1,
+         "care_instructions": "Clean with a soft, slightly damp cloth. Apply furniture oil every 6 months to maintain the wood's luster. Avoid placing hot items directly on the surface. Use coasters for drinks to prevent water rings."
+       },
+       {
+         "id": 2,
+         "assembly_required": "Yes",
+         "assembly_instructions": "Step-by-step illustrated guide included. Two-person assembly recommended.",
+         "assembly_service_option": "Professional assembly service available at an additional cost of Rp 350,000",
+         "tools_required": "Allen key (included), Phillips screwdriver"
+       },
+       {
+         "id": 3,
+         "return_policy": "30-day return policy. Item must be in original condition and packaging. Return shipping fees covered for manufacturing defects.",
+         "exchange_policy": "Free exchanges within 30 days of purchase"
+       },
+       {
+         "id": 4,
+         "shipping_info": "Free shipping within Java. Delivery to other islands may incur additional fees. Standard delivery within 7-10 business days due to careful packaging requirements.",
+         "shipping_restrictions": "No deliveries to Maluku and Papua regions"
+       },
+       {
+         "id": 5,
+         "customer_service": "For any inquiries, please contact our customer service at support@furnilux.com or call our hotline at +62-21-5550-1234 (Mon-Fri, 9AM-5PM)",
+         "live_chat": "Available 24/7 on our website"
+       }
+     ],
+     "specifications": {
+       "design_style": "Scandinavian",
+       "recommended_use": "Indoor dining spaces, kitchens",
+       "certifications": ["FSC Certified Wood", "SVLK Compliance"],
+       "maintenance_level": "Low to medium"
+     },
+     "sustainability": {
+       "eco_friendly": true,
+       "recyclable_components": "100% recyclable materials",
+       "sustainable_manufacturing": "Wood sourced from managed forests",
+       "packaging": "Uses recycled cardboard and minimal plastic"
+     },
+     "related_products": [
+       {
+         "id": 12,
+         "name": "Scandic Wood Dining Chair",
+         "image": "https://example.com/scandic-chair.png",
+         "price": 1950000
+       },
+       {
+         "id": 18,
+         "name": "Nordic Sideboard",
+         "image": "https://example.com/nordic-sideboard.png",
+         "price": 6700000
+       }
+     ],
+     "frequently_bought_together": [
+       {
+         "id": 45,
+         "name": "Table Protector Pad",
+         "image": "https://example.com/table-protector.png",
+         "price": 450000
+       },
+       {
+         "id": 37,
+         "name": "Wood Conditioning Oil",
+         "image": "https://example.com/wood-oil.png",
+         "price": 180000
+       }
+     ],
+     "seo": {
+       "meta_title": "Scandic Wood Dining Table - Solid Oak | FurniLux",
+       "meta_description": "Shop the Scandic Wood Dining Table - a beautifully crafted solid oak dining table with Scandinavian design. Sustainably sourced wood with 5-year warranty.",
+       "keywords": [
+         "oak dining table",
+         "wooden table",
+         "scandinavian furniture",
+         "sustainable furniture",
+         "solid wood table",
+         "kitchen table",
+         "FurniLux"
+       ]
+     },
+     "inventory": {
+       "warehouse_location": "Surabaya East",
+       "restock_date": "2025-07-20",
+       "minimum_order_quantity": 1,
+       "maximum_order_quantity": 4
+     },
+     "created_at": "2024-11-15T10:45:00Z",
+     "updated_at": "2025-04-28T09:30:00Z"
+   },
+   {
+     "id": 6,
+     "name": "Plush Lounge Sofa",
+     "category": "Sofa",
+     "subcategory": "Living Room Furniture",
+     "short_description": "Premium 3-seater sofa with plush cushioning and fabric upholstery, designed for ultimate comfort and contemporary style.",
+     "description": "The Plush Lounge Sofa brings together comfort and elegant design in one luxurious package. Featuring high-density foam cushioning and premium polyester upholstery, this sofa invites you to sink in and relax. The solid wood frame ensures durability, while the sleek lines and tapered wooden legs add a touch of mid-century modern style to your living space.",
+     "price": 12000000,
+     "discounted_price": 10800000,
+     "currency": "Rp",
+     "sku": "FUR-SOF-078",
+     "stock_quantity": 12,
+     "is_available": true,
+     "dimensions": {
+       "length": 220,
+       "width": 90,
+       "height": 85,
+       "unit": "cm",
+       "depth": 90,
+       "seat_height": 45,
+       "arm_height": 65,
+       "shipping_dimensions": {
+         "length": 230,
+         "width": 95,
+         "height": 90,
+         "unit": "cm"
+       }
+     },
+     "weight": {
+       "value": 65.0,
+       "unit": "kg",
+       "shipping_weight": 75.0
+     },
+     "product_details": [
+       {
+         "id": 1,
+         "frame_material": "kiln-dried solid wood",
+         "upholstery_material": "premium polyester fabric",
+         "cushion_filling": "high-density foam with feather blend topper",
+         "suspension_type": "sinuous springs",
+         "leg_material": "solid beech wood",
+         "maximum_load_capacity": 300,
+         "unit": "kg",
+         "manufacture_origin": "Indonesia",
+         "assembly_time": "10 minutes"
+       }
+     ],
+     "general_details": [
+       {
+         "id": 1,
+         "sales_package": "1 sofa, 3 back cushions, 3 seat cushions, 4 legs, assembly instructions",
+         "model_number": "PLSH-SOF-GRY-3S",
+         "configuration": "3-seater sofa",
+         "surface_material": "Premium polyester fabric",
+         "color": "Dove Gray",
+         "removable_covers": "Yes, for cushions only"
+       }
+     ],
+     "material": "Fabric and Wood",
+     "color": "Dove Gray",
+     "brand": "FurniLux",
+     "images": ["https://i.postimg.cc/CMJbdYM2/image-7.png"],
+     "videos": [],
+     "tags": [
+       "sofa",
+       "3-seater",
+       "living room",
+       "fabric sofa",
+       "comfortable",
+       "plush",
+       "mid-century",
+       "modern"
+     ],
+     "rating": 4.9,
+     "review_count": 67,
+     "size": "3-seater",
+     "size_options": [
+       "2-seater (170cm)",
+       "3-seater (220cm)",
+       "L-shaped sectional"
+     ],
+     "color_options": [
+       "Dove Gray",
+       "Navy Blue",
+       "Forest Green",
+       "Beige",
+       "Charcoal"
+     ],
+     "status": "In Stock",
+     "badge": "Premium",
+     "warranty": {
+       "period": "3 years",
+       "type": "Manufacturer Warranty",
+       "warranty_covered": "Frame, springs, cushion quality, and upholstery stitching",
+       "warranty_not_covered": "Fabric stains, tears from misuse, color fading due to sunlight exposure",
+       "domestic_warranty": "3 years",
+       "claim_process": "Contact customer service with photos and proof of purchase to initiate claims"
+     },
+     "reviews": [
+       {
+         "user": "Rendi Sutanto",
+         "rating": 5,
+         "verified_purchase": true,
+         "date": "2025-01-22",
+         "comment": "The most comfortable sofa I've ever owned. Worth every penny for the quality and comfort it provides.",
+         "helpful_votes": 28
+       },
+       {
+         "user": "Emily Parker",
+         "rating": 5,
+         "verified_purchase": true,
+         "date": "2025-03-18",
+         "comment": "Beautiful design and incredibly comfortable. The fabric feels luxurious and the cushions maintain their shape well.",
+         "helpful_votes": 15
+       },
+       {
+         "user": "Budi Prakoso",
+         "rating": 4,
+         "verified_purchase": true,
+         "date": "2025-04-05",
+         "comment": "Great sofa overall. Delivery took longer than expected but the quality makes up for it. Easy to assemble too.",
+         "helpful_votes": 7
+       }
+     ],
+     "additional_info": [
+       {
+         "id": 1,
+         "care_instructions": "Vacuum regularly using low suction. Clean spills immediately with a clean, dry cloth. Professional cleaning recommended for stubborn stains. Fluff and rotate cushions regularly to maintain shape and even wear."
+       },
+       {
+         "id": 2,
+         "assembly_required": "Minimal",
+         "assembly_instructions": "Simply attach the legs to the sofa base using the hardware provided. No tools required.",
+         "assembly_service_option": "White glove delivery and assembly available at an additional cost of Rp 500,000",
+         "tools_required": "None"
+       },
+       {
+         "id": 3,
+         "return_policy": "14-day return policy. Item must be in original condition and packaging. Return shipping fees are customer's responsibility.",
+         "exchange_policy": "Color exchanges available within 14 days, subject to stock availability"
+       },
+       {
+         "id": 4,
+         "shipping_info": "White glove delivery service included in shipping fee. Scheduling service will contact buyers to arrange convenient delivery time.",
+         "shipping_restrictions": "Delivery available only in major cities of Java, Sumatra, and Bali"
+       },
+       {
+         "id": 5,
+         "customer_service": "For any inquiries, please contact our customer service at support@furnilux.com or call our premium support hotline at +62-21-5550-8888 (Mon-Sat, 9AM-7PM)",
+         "live_chat": "Available 24/7 on our website"
+       }
+     ],
+     "specifications": {
+       "design_style": "Contemporary with mid-century modern influence",
+       "recommended_use": "Indoor residential living spaces",
+       "certifications": ["OEKO-TEX Standard 100", "CertiPUR-US foam"],
+       "maintenance_level": "Medium"
+     },
+     "sustainability": {
+       "eco_friendly": true,
+       "recyclable_components": "70% recyclable materials",
+       "sustainable_manufacturing": "Wood from FSC-certified sources",
+       "packaging": "Minimal plastic usage, recycled cardboard"
+     },
+     "related_products": [
+       {
+         "id": 79,
+         "name": "Plush Lounge Armchair",
+         "image": "https://example.com/plushlounge-chair.png",
+         "price": 6500000
+       },
+       {
+         "id": 85,
+         "name": "Harmony Coffee Table",
+         "image": "https://example.com/harmony-table.png",
+         "price": 3800000
+       }
+     ],
+     "frequently_bought_together": [
+       {
+         "id": 112,
+         "name": "Throw Pillow Set (2 pcs)",
+         "image": "https://example.com/throw-pillows.png",
+         "price": 650000
+       },
+       {
+         "id": 98,
+         "name": "Fabric Protection Spray",
+         "image": "https://example.com/fabric-spray.png",
+         "price": 250000
+       }
+     ],
+     "seo": {
+       "meta_title": "Plush Lounge Sofa - Premium 3-Seater Fabric Sofa | FurniLux",
+       "meta_description": "Experience ultimate comfort with the Plush Lounge Sofa. Premium fabric upholstery, high-density foam cushioning, and solid wood frame for lasting style and durability.",
+       "keywords": [
+         "fabric sofa",
+         "3-seater sofa",
+         "plush sofa",
+         "comfortable couch",
+         "modern sofa",
+         "living room furniture",
+         "premium sofa",
+         "FurniLux"
+       ]
+     },
+     "inventory": {
+       "warehouse_location": "Jakarta Central",
+       "restock_date": "2025-06-30",
+       "minimum_order_quantity": 1,
+       "maximum_order_quantity": 2
+     },
+     "created_at": "2024-10-05T11:15:00Z",
+     "updated_at": "2025-05-02T16:20:00Z"
+   },
+   {
+     "id": 7,
+     "name": "Bamboo Workspace Desk",
+     "category": "Desk",
+     "subcategory": "Home Office Furniture",
+     "short_description": "Eco-friendly bamboo desk with minimalist design, integrated storage, and cable management system for modern home offices.",
+     "description": "The Bamboo Workspace Desk combines sustainability with functional design. Crafted from solid bamboo, this desk offers a generous work surface and built-in storage solutions to keep your workspace organized. The innovative cable management system keeps cords tidy, while the natural bamboo finish brings warmth and an organic element to any home office setup.",
+     "price": 4800000,
+     "discounted_price": 4320000,
+     "currency": "Rp",
+     "sku": "FUR-DSK-042",
+     "stock_quantity": 28,
+     "is_available": true,
+     "dimensions": {
+       "length": 120,
+       "width": 60,
+       "height": 75,
+       "unit": "cm",
+       "drawer_dimensions": {
+         "length": 35,
+         "width": 40,
+         "height": 8,
+         "unit": "cm"
+       },
+       "shipping_dimensions": {
+         "length": 130,
+         "width": 70,
+         "height": 20,
+         "unit": "cm"
+       }
+     },
+     "weight": {
+       "value": 22.5,
+       "unit": "kg",
+       "shipping_weight": 26.0
+     },
+     "product_details": [
+       {
+         "id": 1,
+         "desktop_material": "solid bamboo",
+         "frame_material": "solid bamboo",
+         "finish_type": "Natural bamboo oil finish",
+         "adjustable_height": "No",
+         "maximum_load_capacity": 80,
+         "unit": "kg",
+         "manufacture_origin": "Indonesia",
+         "assembly_time": "45 minutes"
+       }
+     ],
+     "general_details": [
+       {
+         "id": 1,
+         "sales_package": "1 desktop, 2 side frames, 1 back panel, 1 drawer, assembly hardware, instructions",
+         "model_number": "BAMB-DSK-120",
+         "configuration": "Standard desk with drawer",
+         "surface_material": "Solid bamboo",
+         "color": "Natural Bamboo",
+         "cable_management": "Yes, integrated cable tray"
+       }
+     ],
+     "material": "Solid Bamboo",
+     "color": "Natural Bamboo",
+     "brand": "FurniLux",
+     "images": ["https://i.postimg.cc/rsh4HGYT/image-8.png"],
+     "videos": [],
+     "tags": [
+       "desk",
+       "bamboo",
+       "home office",
+       "sustainable",
+       "workspace",
+       "eco-friendly",
+       "minimalist",
+       "cable management"
+     ],
+     "rating": 4.6,
+     "review_count": 42,
+     "size": "Standard",
+     "size_options": ["Compact (100cm)", "Standard (120cm)", "Large (150cm)"],
+     "color_options": ["Natural Bamboo", "Caramel Bamboo", "Dark Bamboo"],
+     "status": "In Stock",
+     "badge": "Eco-Friendly",
+     "warranty": {
+       "period": "2 years",
+       "type": "Manufacturer Warranty",
+       "warranty_covered": "Structural integrity, material defects, drawer sliding mechanism",
+       "warranty_not_covered": "Water damage, scratches from improper use, natural wood grain variations",
+       "domestic_warranty": "2 years",
+       "claim_process": "Submit claim form online with photos of defect and proof of purchase"
+     },
+     "reviews": [
+       {
+         "user": "Lina Wijaya",
+         "rating": 5,
+         "verified_purchase": true,
+         "date": "2025-02-08",
+         "comment": "Beautiful bamboo desk that's both stylish and functional. The cable management system is a game-changer for keeping my workspace tidy.",
+         "helpful_votes": 19
+       },
+       {
+         "user": "Robert Kim",
+         "rating": 4,
+         "verified_purchase": true,
+         "date": "2025-03-15",
+         "comment": "Love the sustainability factor and quality of the bamboo. Drawer is a bit smaller than expected, but overall very happy with the purchase.",
+         "helpful_votes": 8
+       },
+       {
+         "user": "Dewi Anggraini",
+         "rating": 5,
+         "verified_purchase": true,
+         "date": "2025-04-22",
+         "comment": "Perfect desk for my small apartment. Assembly was straightforward and the bamboo quality is excellent. Great customer service too!",
+         "helpful_votes": 12
+       }
+     ],
+     "additional_info": [
+       {
+         "id": 1,
+         "care_instructions": "Clean with a soft, slightly damp cloth. Apply bamboo oil every 3-6 months to maintain finish. Keep away from direct sunlight and heat sources. Use desk pad or mouse pad to prevent wear on surface."
+       },
+       {
+         "id": 2,
+         "assembly_required": "Yes",
+         "assembly_instructions": "Detailed illustrated guide included. Estimated assembly time: 45 minutes.",
+         "assembly_service_option": "Professional assembly service available at an additional cost of Rp 300,000",
+         "tools_required": "Phillips screwdriver, Allen key (included)"
+       },
+       {
+         "id": 3,
+         "return_policy": "30-day return policy. Item must be in original condition and packaging. Return shipping fees covered for manufacturing defects.",
+         "exchange_policy": "Free exchanges within 30 days of purchase"
+       },
+       {
+         "id": 4,
+         "shipping_info": "Free shipping nationwide. Standard delivery within 3-7 business days. Express shipping available at additional cost.",
+         "shipping_restrictions": "Remote areas may require additional 2-3 days for delivery"
+       },
+       {
+         "id": 5,
+         "customer_service": "For any inquiries, please contact our customer service at support@furnilux.com or call our hotline at +62-21-5550-1234 (Mon-Fri, 9AM-5PM)",
+         "live_chat": "Available 24/7 on our website"
+       }
+     ],
+     "specifications": {
+       "design_style": "Modern Minimalist",
+       "recommended_use": "Home office, study area",
+       "certifications": ["FSC Certified", "Formaldehyde-Free"],
+       "maintenance_level": "Low"
+     },
+     "sustainability": {
+       "eco_friendly": true,
+       "recyclable_components": "100% recyclable materials",
+       "sustainable_manufacturing": "Made from rapidly renewable bamboo",
+       "packaging": "Plastic-free packaging, recycled cardboard"
+     },
+     "related_products": [
+       {
+         "id": 56,
+         "name": "Ergonomic Office Chair",
+         "image": "https://example.com/ergo-chair.png",
+         "price": 3200000
+       },
+       {
+         "id": 63,
+         "name": "Bamboo Monitor Stand",
+         "image": "https://example.com/bamboo-stand.png",
+         "price": 850000
+       }
+     ],
+     "frequently_bought_together": [
+       {
+         "id": 72,
+         "name": "LED Desk Lamp",
+         "image": "https://example.com/led-lamp.png",
+         "price": 750000
+       },
+       {
+         "id": 89,
+         "name": "Desk Organizer Set",
+         "image": "https://example.com/desk-organizer.png",
+         "price": 380000
+       }
+     ],
+     "seo": {
+       "meta_title": "Bamboo Workspace Desk - Sustainable Home Office Furniture | FurniLux",
+       "meta_description": "Shop the eco-friendly Bamboo Workspace Desk featuring solid bamboo construction, integrated storage, and cable management. Perfect for modern home offices.",
+       "keywords": [
+         "bamboo desk",
+         "sustainable desk",
+         "home office desk",
+         "eco-friendly furniture",
+         "workspace desk",
+         "cable management desk",
+         "FurniLux"
+       ]
+     },
+     "inventory": {
+       "warehouse_location": "Bandung West",
+       "restock_date": "2025-07-10",
+       "minimum_order_quantity": 1,
+       "maximum_order_quantity": 5
+     },
+     "created_at": "2024-12-20T09:45:00Z",
+     "updated_at": "2025-04-15T13:30:00Z"
+   },
+   {
+     "id": 8,
+     "name": "Oakwood Executive Desk",
+     "category": "Office Desk",
+     "subcategory": "Executive Desks",
+     "short_description": "Premium solid oak desk with built-in cable management and storage drawers, ideal for executive offices.",
+     "description": "The Oakwood Executive Desk represents the pinnacle of professional furniture craftsmanship. Made from sustainably sourced solid oak with a rich, natural finish that highlights the wood's beautiful grain patterns. This desk features three spacious drawers, built-in cable management ports, and a generous workspace. The contemporary design with traditional woodworking details creates a powerful statement piece for any executive office.",
+     "price": 8750000,
+     "discounted_price": 7999000,
+     "currency": "Rp",
+     "sku": "FUR-DSK-002",
+     "stock_quantity": 12,
+     "is_available": true,
+     "dimensions": {
+       "length": 160,
+       "width": 80,
+       "height": 76,
+       "unit": "cm",
+       "depth": 80,
+       "drawer_dimensions": {
+         "length": 40,
+         "width": 55,
+         "height": 12,
+         "unit": "cm"
+       },
+       "shipping_dimensions": {
+         "length": 170,
+         "width": 90,
+         "height": 25,
+         "unit": "cm"
+       }
+     },
+     "weight": {
+       "value": 65.5,
+       "unit": "kg",
+       "shipping_weight": 72.0
+     },
+     "product_details": [
+       {
+         "id": 2,
+         "top_material": "solid oak",
+         "frame_material": "solid oak and engineered wood",
+         "finish_type": "Natural oil with matte polyurethane coating",
+         "adjustable_height": "No",
+         "maximum_load_capacity": 120,
+         "unit": "kg",
+         "manufacture_origin": "Indonesia",
+         "assembly_time": "45 minutes"
+       }
+     ],
+     "general_details": [
+       {
+         "id": 2,
+         "sales_package": "1 desk (3 packages: desktop, left leg structure, right leg structure), assembly hardware, instructions",
+         "model_number": "OAK-DSK-NAT-002",
+         "secondary_material": "brass drawer handles, steel drawer slides",
+         "configuration": "Standard L-shaped executive desk",
+         "surface_material": "Solid oak with protective coating",
+         "color": "Natural Oak",
+         "cable_management": "Built-in cable ports and under-desk cable tray"
+       }
+     ],
+     "material": "Solid Oak",
+     "color": "Natural Oak",
+     "brand": "FurniLux",
+     "images": ["https://i.postimg.cc/bNJktMsw/image-9.png"],
+     "videos": [],
+     "tags": [
+       "desk",
+       "executive",
+       "oak",
+       "wooden desk",
+       "office furniture",
+       "premium",
+       "storage",
+       "cable management",
+       "solid wood"
+     ],
+     "rating": 4.9,
+     "review_count": 32,
+     "size": "Standard",
+     "color_options": ["Natural Oak", "Dark Oak", "Walnut Stain"],
+     "status": "In Stock",
+     "badge": "Premium",
+     "warranty": {
+       "period": "5 years",
+       "type": "Manufacturer Warranty",
+       "warranty_covered": "Wood integrity, drawer mechanisms, structural joints, and finish quality",
+       "warranty_not_covered": "Normal wear and tear, improper assembly, water damage, heat damage, or modifications to the product",
+       "domestic_warranty": "5 years",
+       "claim_process": "Email detailed photos of the defect and proof of purchase to claims@furnilux.com"
+     },
+     "reviews": [
+       {
+         "user": "Michael Wong",
+         "rating": 5,
+         "verified_purchase": true,
+         "date": "2025-02-18",
+         "comment": "This desk exceeds all expectations. The oak is absolutely beautiful and the construction is rock solid. Worth every penny.",
+         "helpful_votes": 18
+       },
+       {
+         "user": "Sarah Johnson",
+         "rating": 5,
+         "verified_purchase": true,
+         "date": "2025-03-05",
+         "comment": "Makes my home office feel like a CEO suite. Assembly was straightforward though it's heavy - get someone to help you.",
+         "helpful_votes": 11
+       },
+       {
+         "user": "Robert Tan",
+         "rating": 4,
+         "verified_purchase": true,
+         "date": "2025-04-12",
+         "comment": "Beautiful craftsmanship but took longer to assemble than stated. The cable management system is excellent.",
+         "helpful_votes": 7
+       }
+     ],
+     "additional_info": [
+       {
+         "id": 6,
+         "care_instructions": "Dust regularly with a soft, dry cloth. Clean spills immediately with a slightly damp cloth. Apply furniture polish specifically designed for natural wood every 3-6 months. Avoid direct sunlight exposure to prevent fading."
+       },
+       {
+         "id": 7,
+         "assembly_required": "Yes",
+         "assembly_instructions": "Comprehensive step-by-step assembly guide with 3D renderings. QR code links to video tutorial.",
+         "assembly_service_option": "White glove delivery and assembly service available at an additional cost of Rp 500,000",
+         "tools_required": "Allen key (included), Phillips screwdriver (included), rubber mallet (recommended)"
+       },
+       {
+         "id": 8,
+         "return_policy": "14-day return policy for executive furniture. Item must be in original condition and packaging. Return shipping arranged by customer service.",
+         "exchange_policy": "Exchanges available within 14 days of purchase"
+       },
+       {
+         "id": 9,
+         "shipping_info": "Free white-glove delivery available for Jakarta area. Standard delivery nationwide within 7-10 business days. Pre-delivery inspection and coordination service included.",
+         "shipping_restrictions": "Remote areas require additional 3-5 days for delivery. Additional shipping fees may apply for certain islands."
+       },
+       {
+         "id": 10,
+         "customer_service": "For any inquiries, please contact our premium customer service at executive@furnilux.com or call our dedicated line at +62-21-5550-5678 (Mon-Sat, 9AM-6PM)",
+         "live_chat": "Premium support available 24/7 on our website"
+       }
+     ],
+     "specifications": {
+       "design_style": "Contemporary Executive",
+       "recommended_use": "Professional offices, executive home offices",
+       "certifications": [
+         "FSC Certified Wood",
+         "SVLK Certified",
+         "Green Business Certified"
+       ],
+       "maintenance_level": "Medium"
+     },
+     "sustainability": {
+       "eco_friendly": true,
+       "recyclable_components": "95% recyclable or biodegradable materials",
+       "sustainable_manufacturing": "Made using renewable energy facilities",
+       "packaging": "Plastic-free packaging, recycled cardboard, water-based inks"
+     },
+     "related_products": [
+       {
+         "id": 24,
+         "name": "Oakwood Executive Office Chair",
+         "image": "https://example.com/oakwood-chair.png",
+         "price": 4250000
+       },
+       {
+         "id": 31,
+         "name": "Oakwood Bookshelf",
+         "image": "https://example.com/oakwood-bookshelf.png",
+         "price": 5800000
+       }
+     ],
+     "frequently_bought_together": [
+       {
+         "id": 45,
+         "name": "Leather Desk Pad",
+         "image": "https://example.com/leather-deskpad.png",
+         "price": 850000
+       },
+       {
+         "id": 52,
+         "name": "Executive Desk Organizer",
+         "image": "https://example.com/desk-organizer.png",
+         "price": 375000
+       }
+     ],
+     "seo": {
+       "meta_title": "Oakwood Executive Desk - Premium Solid Oak Office Furniture | FurniLux",
+       "meta_description": "Elevate your workspace with the Oakwood Executive Desk - crafted from solid oak with built-in storage and cable management. Perfect for executive offices.",
+       "keywords": [
+         "executive desk",
+         "solid oak desk",
+         "wooden office desk",
+         "premium furniture",
+         "executive office furniture",
+         "solid wood desk",
+         "FurniLux"
+       ]
+     },
+     "inventory": {
+       "warehouse_location": "Jakarta Premium Warehouse",
+       "restock_date": "2025-07-10",
+       "minimum_order_quantity": 1,
+       "maximum_order_quantity": 5
+     },
+     "created_at": "2024-11-15T10:45:00Z",
+     "updated_at": "2025-04-22T09:30:00Z"
+   },
+   {
+     "id": 9,
+     "name": "SleepCloud Memory Foam Mattress",
+     "category": "Bedroom",
+     "subcategory": "Mattresses",
+     "short_description": "Premium memory foam mattress with cooling gel technology and 7-zone support system for the ultimate sleep experience.",
+     "description": "The SleepCloud Memory Foam Mattress represents the perfect balance of support and comfort for restorative sleep. Featuring five specialized layers including cooling gel-infused memory foam, responsive transition foam, and a 7-zone support core, this mattress adapts to your body's contours while maintaining proper spinal alignment. The breathable bamboo-derived cover wicks away moisture and enhances airflow for temperature regulation throughout the night.",
+     "price": 9800000,
+     "discounted_price": 8499000,
+     "currency": "Rp",
+     "sku": "BED-MAT-003",
+     "stock_quantity": 28,
+     "is_available": true,
+     "dimensions": {
+       "length": 200,
+       "width": 180,
+       "height": 28,
+       "unit": "cm",
+       "thickness": 28,
+       "shipping_dimensions": {
+         "length": 205,
+         "width": 185,
+         "height": 40,
+         "unit": "cm"
+       }
+     },
+     "weight": {
+       "value": 42.5,
+       "unit": "kg",
+       "shipping_weight": 45.0
+     },
+     "product_details": [
+       {
+         "id": 3,
+         "firmness": "Medium-firm (6.5/10)",
+         "layers": "5 specialized layers",
+         "materials": "CertiPUR-US® certified foams, cooling gel, high-density support foam",
+         "cover_material": "Bamboo-derived rayon blend with silver-infused threads",
+         "maximum_load_capacity": 240,
+         "unit": "kg",
+         "manufacture_origin": "Indonesia",
+         "technology": "Cooling gel-infusion, 7-zone support system, motion isolation"
+       }
+     ],
+     "general_details": [
+       {
+         "id": 3,
+         "sales_package": "1 mattress (compressed in box), removal of old mattress service, setup guide",
+         "model_number": "CLOUD-MF-QN-003",
+         "materials": "Memory foam, cooling gel, high-density support foam, bamboo-derived cover",
+         "configuration": "Standard Queen-sized mattress",
+         "surface": "Quilted bamboo-blend cover",
+         "compression_technology": "Vacuum-compressed and rolled for convenient delivery"
+       }
+     ],
+     "material": "Memory Foam with Cooling Gel",
+     "color": "White/Gray",
+     "brand": "SleepLux",
+     "images": ["https://i.postimg.cc/0NgwhyZz/image-1.png"],
+     "videos": [],
+     "tags": [
+       "mattress",
+       "memory foam",
+       "cooling gel",
+       "bedroom",
+       "sleep",
+       "queen size",
+       "7-zone support",
+       "motion isolation",
+       "premium"
+     ],
+     "rating": 4.8,
+     "review_count": 126,
+     "size_options": [
+       "Single (90x200cm)",
+       "Queen (160x200cm)",
+       "King (180x200cm)",
+       "California King (200x200cm)"
+     ],
+     "status": "In Stock",
+     "badge": "Best Rated",
+     "warranty": {
+       "period": "10 years",
+       "type": "Limited Warranty",
+       "warranty_covered": "Manufacturing defects, foam deterioration, sagging greater than 2.5cm, cover defects",
+       "warranty_not_covered": "Normal softening of foam, personal comfort preferences, damage from improper use or care",
+       "domestic_warranty": "10 years",
+       "claim_process": "Register your warranty online within 30 days of purchase. For claims, complete the form at sleeplux.com/warranty with photos and purchase details."
+     },
+     "reviews": [
+       {
+         "user": "Aditya Pratama",
+         "rating": 5,
+         "verified_purchase": true,
+         "date": "2025-03-25",
+         "comment": "Life-changing mattress! My back pain disappeared after just one week. The cooling technology actually works, even in Jakarta's heat.",
+         "helpful_votes": 45
+       },
+       {
+         "user": "Linda Wijaya",
+         "rating": 5,
+         "verified_purchase": true,
+         "date": "2025-02-10",
+         "comment": "Worth every rupiah. My husband gets up in the night and I don't feel a thing - amazing motion isolation!",
+         "helpful_votes": 32
+       },
+       {
+         "user": "Budi Santoso",
+         "rating": 4,
+         "verified_purchase": true,
+         "date": "2025-04-05",
+         "comment": "Great mattress but took about 2 weeks to fully break in. Now it's perfect - supportive but still soft. Sleep quality has improved dramatically.",
+         "helpful_votes": 27
+       }
+     ],
+     "additional_info": [
+       {
+         "id": 11,
+         "care_instructions": "Rotate mattress 180° every 3-6 months. Spot clean cover with mild detergent and cold water. Use a mattress protector (sold separately) to extend lifespan. Vacuum occasionally to remove dust."
+       },
+       {
+         "id": 12,
+         "setup_required": "Yes",
+         "setup_instructions": "Remove packaging, place on appropriate bed frame, allow 24-48 hours for full expansion. May have slight odor that dissipates within 48 hours.",
+         "setup_service_option": "White glove delivery and setup service included with purchase",
+         "old_mattress_removal": "Free removal of old mattress available upon request"
+       },
+       {
+         "id": 13,
+         "return_policy": "100-night sleep trial. If unsatisfied, contact customer service for free return pickup.",
+         "exchange_policy": "Size exchanges available within 100-night trial period at no additional cost"
+       },
+       {
+         "id": 14,
+         "shipping_info": "Free white-glove delivery nationwide. Delivery within 3-7 business days. Delivered in compressed state in specialized box.",
+         "shipping_restrictions": "No international shipping available. Some remote areas may require additional 3-5 days."
+       },
+       {
+         "id": 15,
+         "customer_service": "For any inquiries, please contact our sleep specialists at support@sleeplux.com or call our sleep hotline at +62-21-5550-8888 (24/7)",
+         "live_chat": "Sleep specialists available 24/7 on our website"
+       }
+     ],
+     "specifications": {
+       "design_style": "Contemporary Sleep Technology",
+       "recommended_use": "All sleeping positions (side, back, stomach, combination)",
+       "certifications": [
+         "CertiPUR-US® Certified",
+         "OEKO-TEX® Standard 100",
+         "Eco-Institut Certified"
+       ],
+       "maintenance_level": "Low"
+     },
+     "sustainability": {
+       "eco_friendly": true,
+       "recyclable_components": "Mattress recycling program available at end of life",
+       "sustainable_manufacturing": "Low VOC emissions, water-based adhesives",
+       "packaging": "Minimal plastic, recycled cardboard packaging"
+     },
+     "related_products": [
+       {
+         "id": 37,
+         "name": "SleepCloud Bamboo Pillow",
+         "image": "https://example.com/sleepcloud-pillow.png",
+         "price": 1200000
+       },
+       {
+         "id": 42,
+         "name": "Premium Mattress Protector",
+         "image": "https://example.com/mattress-protector.png",
+         "price": 899000
+       }
+     ],
+     "frequently_bought_together": [
+       {
+         "id": 53,
+         "name": "Cooling Bamboo Sheet Set",
+         "image": "https://example.com/bamboo-sheets.png",
+         "price": 1850000
+       },
+       {
+         "id": 61,
+         "name": "Adjustable Bed Base",
+         "image": "https://example.com/adjustable-base.png",
+         "price": 7500000
+       }
+     ],
+     "seo": {
+       "meta_title": "SleepCloud Memory Foam Mattress - Premium 7-Zone Support | SleepLux",
+       "meta_description": "Experience superior sleep with the SleepCloud Memory Foam Mattress featuring cooling gel technology, 7-zone support system, and breathable bamboo cover.",
+       "keywords": [
+         "memory foam mattress",
+         "cooling gel mattress",
+         "premium mattress",
+         "7-zone support mattress",
+         "sleep technology",
+         "motion isolation mattress",
+         "SleepLux"
+       ]
+     },
+     "inventory": {
+       "warehouse_location": "Multiple Warehouses Nationwide",
+       "restock_date": "2025-05-30",
+       "minimum_order_quantity": 1,
+       "maximum_order_quantity": 3
+     },
+     "created_at": "2024-09-20T14:30:00Z",
+     "updated_at": "2025-04-18T11:15:00Z"
+   },
+   {
+     "id": 10,
+     "name": "Nordic Storage Ottoman",
+     "category": "Living Room",
+     "subcategory": "Ottomans & Footstools",
+     "short_description": "Multifunctional upholstered ottoman with hidden storage, perfect for organizing living spaces while providing extra seating.",
+     "description": "The Nordic Storage Ottoman effortlessly combines form and function with its clean Scandinavian-inspired design. The plush upholstered top provides comfortable seating or footrest functionality, while the spacious hidden storage compartment helps keep living spaces tidy. Featuring sturdy wooden legs and high-quality linen upholstery, this versatile piece complements a wide range of interior styles from minimalist to modern farmhouse.",
+     "price": 1850000,
+     "discounted_price": 1599000,
+     "currency": "Rp",
+     "sku": "FUR-OTM-004",
+     "stock_quantity": 38,
+     "is_available": true,
+     "dimensions": {
+       "length": 80,
+       "width": 50,
+       "height": 45,
+       "unit": "cm",
+       "storage_capacity": {
+         "length": 76,
+         "width": 46,
+         "depth": 25,
+         "unit": "cm"
+       },
+       "shipping_dimensions": {
+         "length": 85,
+         "width": 55,
+         "height": 50,
+         "unit": "cm"
+       }
+     },
+     "weight": {
+       "value": 12.5,
+       "unit": "kg",
+       "shipping_weight": 14.0
+     },
+     "product_details": [
+       {
+         "id": 4,
+         "frame_material": "engineered wood",
+         "upholstery_material": "linen blend fabric",
+         "legs_material": "solid rubberwood",
+         "finish_type": "Natural wood finish on legs",
+         "maximum_load_capacity": 180,
+         "unit": "kg",
+         "manufacture_origin": "Indonesia",
+         "assembly_time": "10 minutes"
+       }
+     ],
+     "general_details": [
+       {
+         "id": 4,
+         "sales_package": "1 ottoman, 4 legs, assembly hardware, instructions",
+         "model_number": "NORD-OTM-BG-004",
+         "storage_mechanism": "Lift-top with safety hinges",
+         "configuration": "Rectangular storage ottoman",
+         "surface_material": "Linen blend upholstery",
+         "color": "Beige",
+         "care": "Spot clean with mild detergent"
+       }
+     ],
+     "material": "Linen Blend and Wood",
+     "color": "Beige",
+     "brand": "FurniLux",
+     "images": ["https://i.postimg.cc/1trwG1Gf/image-2.png"],
+     "videos": [],
+     "tags": [
+       "ottoman",
+       "storage",
+       "footstool",
+       "scandinavian",
+       "beige",
+       "linen",
+       "multifunctional",
+       "living room",
+       "space saving"
+     ],
+     "rating": 4.6,
+     "review_count": 87,
+     "size": "Standard",
+     "color_options": [
+       "Beige",
+       "Light Gray",
+       "Forest Green",
+       "Dusty Blue",
+       "Charcoal"
+     ],
+     "status": "In Stock",
+     "badge": "Versatile",
+     "warranty": {
+       "period": "1 year",
+       "type": "Limited Warranty",
+       "warranty_covered": "Frame structure, hinges, and upholstery seams",
+       "warranty_not_covered": "Fabric wear from normal use, stains, damage from exceeding weight capacity",
+       "domestic_warranty": "1 year",
+       "claim_process": "Submit claim form with photos to claims@furnilux.com within warranty period"
+     },
+     "reviews": [
+       {
+         "user": "Maya Indira",
+         "rating": 5,
+         "verified_purchase": true,
+         "date": "2025-01-22",
+         "comment": "Perfect size for my small apartment! The storage space fits all my throw blankets and the top is comfortable enough for seating when I have guests.",
+         "helpful_votes": 28
+       },
+       {
+         "user": "Reza Fadli",
+         "rating": 4,
+         "verified_purchase": true,
+         "date": "2025-02-14",
+         "comment": "Great quality for the price. The beige color is exactly as pictured and the hinges feel sturdy. Would buy again.",
+         "helpful_votes": 16
+       },
+       {
+         "user": "Amelia Putri",
+         "rating": 5,
+         "verified_purchase": true,
+         "date": "2025-03-30",
+         "comment": "So practical! I use this in my bedroom to store extra pillows and as a seat when getting dressed. Absolutely love it.",
+         "helpful_votes": 19
+       }
+     ],
+     "additional_info": [
+       {
+         "id": 16,
+         "care_instructions": "Spot clean fabric with mild soap and water. Vacuum regularly to remove dust. For stubborn stains, use fabric cleaner suitable for linen blends. Keep hinges clean of debris."
+       },
+       {
+         "id": 17,
+         "assembly_required": "Yes",
+         "assembly_instructions": "Simple assembly requires attaching legs with included hardware. Clear pictorial instructions included.",
+         "assembly_service_option": "Assembly service available at an additional cost of Rp 150,000",
+         "tools_required": "Allen key (included in package)"
+       },
+       {
+         "id": 18,
+         "return_policy": "30-day return policy. Item must be in original condition and packaging. Customer responsible for return shipping.",
+         "exchange_policy": "Color exchanges available within 30 days of purchase if item is unused"
+       },
+       {
+         "id": 19,
+         "shipping_info": "Free standard shipping nationwide. Delivery within 3-5 business days. Express shipping available at additional cost.",
+         "shipping_restrictions": "Remote areas may require additional 2-4 days for delivery"
+       },
+       {
+         "id": 20,
+         "customer_service": "For any inquiries, please contact our customer service at support@furnilux.com or call our hotline at +62-21-5550-1234 (Mon-Fri, 9AM-5PM)",
+         "live_chat": "Available Mon-Sat 8AM-8PM on our website"
+       }
+     ],
+     "specifications": {
+       "design_style": "Scandinavian",
+       "recommended_use": "Living rooms, bedrooms, small spaces",
+       "certifications": ["SVLK Certified", "Low VOC Emissions"],
+       "maintenance_level": "Low"
+     },
+     "sustainability": {
+       "eco_friendly": true,
+       "recyclable_components": "85% recyclable materials",
+       "sustainable_manufacturing": "Low-waste manufacturing process",
+       "packaging": "Minimal packaging design with recycled materials"
+     },
+     "related_products": [
+       {
+         "id": 56,
+         "name": "Nordic Coffee Table",
+         "image": "https://example.com/nordic-table.png",
+         "price": 2450000
+       },
+       {
+         "id": 63,
+         "name": "Linen Throw Pillows (Set of 2)",
+         "image": "https://example.com/linen-pillows.png",
+         "price": 450000
+       }
+     ],
+     "frequently_bought_together": [
+       {
+         "id": 72,
+         "name": "Woven Storage Baskets",
+         "image": "https://example.com/storage-baskets.png",
+         "price": 350000
+       }
+     ],
+     "seo": {
+       "meta_title": "Nordic Storage Ottoman - Multifunctional Seating with Storage | FurniLux",
+       "meta_description": "Maximize your space with the Nordic Storage Ottoman - a stylish, multifunctional piece that provides comfortable seating and hidden storage for your living space.",
+       "keywords": [
+         "storage ottoman",
+         "footstool with storage",
+         "scandinavian ottoman",
+         "multifunctional furniture",
+         "space saving furniture",
+         "linen ottoman",
+         "FurniLux"
+       ]
+     },
+     "inventory": {
+       "warehouse_location": "Jakarta East, Surabaya Central",
+       "restock_date": "2025-05-25",
+       "minimum_order_quantity": 1,
+       "maximum_order_quantity": 8
+     },
+     "created_at": "2025-01-05T09:15:00Z",
+     "updated_at": "2025-05-02T16:30:00Z"
+   },
+   {
+     "id": 11,
+     "name": "Oaktree Solid Wood Dining Table",
+     "category": "Dining Table",
+     "subcategory": "Wooden Tables",
+     "short_description": "Handcrafted solid oak dining table with natural grain finish, perfect for family gatherings and formal dining.",
+     "description": "The Oaktree dining table showcases the natural beauty of solid oak wood with its distinctive grain patterns and warm honey finish. Each piece is handcrafted by skilled artisans, making every table uniquely yours. The sturdy construction features mortise and tenon joinery for exceptional durability, while the slightly beveled edges add a touch of elegance. Comfortably seats 6-8 people, making it ideal for family gatherings or dinner parties.",
+     "price": 8750000,
+     "discounted_price": 7999000,
+     "currency": "Rp",
+     "sku": "FUR-TBL-002",
+     "stock_quantity": 12,
+     "is_available": true,
+     "dimensions": {
+       "length": 180,
+       "width": 90,
+       "height": 75,
+       "unit": "cm",
+       "shipping_dimensions": {
+         "length": 190,
+         "width": 100,
+         "height": 20,
+         "unit": "cm"
+       }
+     },
+     "weight": {
+       "value": 45.2,
+       "unit": "kg",
+       "shipping_weight": 52.0
+     },
+     "product_details": [
+       {
+         "id": 1,
+         "material": "100% solid oak",
+         "finish_type": "Natural oil finish",
+         "maximum_load_capacity": 200,
+         "unit": "kg",
+         "manufacture_origin": "Indonesia",
+         "assembly_time": "30 minutes"
+       }
+     ],
+     "general_details": [
+       {
+         "id": 1,
+         "sales_package": "1 table top, 4 table legs, assembly hardware, instructions",
+         "model_number": "OAK-TBL-180-001",
+         "secondary_material": "Brass hardware",
+         "configuration": "Rectangular dining table",
+         "surface_material": "Solid oak",
+         "color": "Natural Oak",
+         "expandable": "No"
+       }
+     ],
+     "material": "Solid Oak Wood",
+     "color": "Natural Oak",
+     "brand": "FurniLux",
+     "images": ["https://i.postimg.cc/VLVMBRCB/image-3.png"],
+     "videos": [],
+     "tags": [
+       "dining table",
+       "oak",
+       "wooden",
+       "natural",
+       "handcrafted",
+       "family size",
+       "rectangular",
+       "solid wood"
+     ],
+     "rating": 4.9,
+     "review_count": 36,
+     "size": "6-8 seater",
+     "color_options": ["Natural Oak", "Dark Walnut", "Honey"],
+     "status": "In Stock",
+     "badge": "Premium",
+     "warranty": {
+       "period": "5 years",
+       "type": "Manufacturer Warranty",
+       "warranty_covered": "Wood integrity, structural defects, and joinery",
+       "warranty_not_covered": "Natural wood variations, improper use, environmental damage",
+       "domestic_warranty": "5 years",
+       "claim_process": "Email photos of defect along with order details to claims@furnilux.com"
+     },
+     "reviews": [
+       {
+         "user": "Sarah Johnson",
+         "rating": 5,
+         "verified_purchase": true,
+         "date": "2025-02-15",
+         "comment": "Absolutely stunning table! The craftsmanship is exceptional, and the wood grain is beautiful. Worth every penny.",
+         "helpful_votes": 18
+       },
+       {
+         "user": "Michael Wong",
+         "rating": 5,
+         "verified_purchase": true,
+         "date": "2025-01-20",
+         "comment": "This table exceeded our expectations. It's solid, heavy, and perfectly finished. Assembly was straightforward.",
+         "helpful_votes": 10
+       },
+       {
+         "user": "Anita Sharma",
+         "rating": 4,
+         "verified_purchase": true,
+         "date": "2025-03-05",
+         "comment": "Beautiful table but arrived with a small scratch on one corner. Customer service was excellent and sent touch-up kit immediately.",
+         "helpful_votes": 7
+       }
+     ],
+     "additional_info": [
+       {
+         "id": 1,
+         "care_instructions": "Clean with soft, slightly damp cloth. Apply furniture wax or oil every 6 months to maintain finish. Avoid direct sunlight and heat sources. Use coasters for hot and cold items to prevent marks."
+       },
+       {
+         "id": 2,
+         "assembly_required": "Yes",
+         "assembly_instructions": "Simple assembly with included Allen key. Legs attach to table top with pre-drilled holes and provided hardware.",
+         "assembly_service_option": "Professional assembly service available at an additional cost of Rp 350,000",
+         "tools_required": "Allen key (included in package)"
+       },
+       {
+         "id": 3,
+         "return_policy": "30-day return policy. Item must be in original condition and packaging. Return shipping fees covered for manufacturing defects.",
+         "exchange_policy": "Free exchanges within 30 days of purchase"
+       },
+       {
+         "id": 4,
+         "shipping_info": "Free shipping nationwide. White glove delivery service included. Delivery within 7-14 business days. Schedule delivery at checkout.",
+         "shipping_restrictions": "Remote areas may require additional 3-5 days for delivery"
+       },
+       {
+         "id": 5,
+         "customer_service": "For any inquiries, please contact our customer service at support@furnilux.com or call our hotline at +62-21-5550-1234 (Mon-Fri, 9AM-5PM)",
+         "live_chat": "Available 24/7 on our website"
+       }
+     ],
+     "specifications": {
+       "design_style": "Rustic Modern",
+       "recommended_use": "Indoor use - dining rooms, kitchens",
+       "certifications": ["FSC Certified Wood", "SVLK Certified"],
+       "maintenance_level": "Medium"
+     },
+     "sustainability": {
+       "eco_friendly": true,
+       "recyclable_components": "100% recyclable or biodegradable materials",
+       "sustainable_manufacturing": "Made using responsibly harvested timber",
+       "packaging": "Uses recycled cardboard and minimal plastic"
+     },
+     "related_products": [
+       {
+         "id": 12,
+         "name": "Oaktree Dining Chair",
+         "image": "https://example.com/oaktree-chair.png",
+         "price": 2100000
+       },
+       {
+         "id": 18,
+         "name": "Oaktree Sideboard",
+         "image": "https://example.com/oaktree-sideboard.png",
+         "price": 6500000
+       }
+     ],
+     "frequently_bought_together": [
+       {
+         "id": 33,
+         "name": "Premium Table Runner",
+         "image": "https://example.com/table-runner.png",
+         "price": 450000
+       },
+       {
+         "id": 25,
+         "name": "Wood Care Kit",
+         "image": "https://example.com/wood-care-kit.png",
+         "price": 275000
+       }
+     ],
+     "seo": {
+       "meta_title": "Oaktree Solid Wood Dining Table - Handcrafted Oak Furniture | FurniLux",
+       "meta_description": "Shop the Oaktree Dining Table - a premium handcrafted solid oak dining table that seats 6-8 people. Perfect for family gatherings and elegant dining spaces.",
+       "keywords": [
+         "solid oak table",
+         "wooden dining table",
+         "handcrafted furniture",
+         "premium dining table",
+         "natural wood table",
+         "FurniLux"
+       ]
+     },
+     "inventory": {
+       "warehouse_location": "Surabaya Main",
+       "restock_date": "2025-06-25",
+       "minimum_order_quantity": 1,
+       "maximum_order_quantity": 5
+     },
+     "created_at": "2024-11-15T10:20:00Z",
+     "updated_at": "2025-04-28T16:30:00Z"
+   },
+   {
+     "id": 12,
+     "name": "Cloudrest Memory Foam Mattress",
+     "category": "Bedding",
+     "subcategory": "Mattresses",
+     "short_description": "Premium memory foam mattress with cooling gel technology and multiple support zones for optimal comfort and sleep quality.",
+     "description": "The Cloudrest mattress represents the pinnacle of sleep technology, combining multiple layers of high-density memory foam with cooling gel infusion. Its 7-zone support system adapts to your body's unique pressure points, providing targeted relief where you need it most. The breathable, hypoallergenic cover wicks away moisture while the base layer ensures proper spinal alignment throughout the night. Experience the perfect balance of plush comfort and supportive firmness for your best sleep ever.",
+     "price": 12500000,
+     "discounted_price": 10990000,
+     "currency": "Rp",
+     "sku": "BED-MTR-003",
+     "stock_quantity": 25,
+     "is_available": true,
+     "dimensions": {
+       "length": 200,
+       "width": 180,
+       "height": 25,
+       "unit": "cm",
+       "shipping_dimensions": {
+         "length": 205,
+         "width": 185,
+         "height": 40,
+         "unit": "cm"
+       }
+     },
+     "weight": {
+       "value": 35.5,
+       "unit": "kg",
+       "shipping_weight": 38.0
+     },
+     "product_details": [
+       {
+         "id": 1,
+         "materials": [
+           {
+             "layer": "Top layer",
+             "material": "Cooling gel memory foam",
+             "thickness": "5cm"
+           },
+           {
+             "layer": "Middle layer",
+             "material": "Adaptive support foam",
+             "thickness": "8cm"
+           },
+           {
+             "layer": "Base layer",
+             "material": "High density support foam",
+             "thickness": "12cm"
+           }
+         ],
+         "firmness_rating": "Medium-firm (7/10)",
+         "cover_material": "Bamboo-derived rayon blend",
+         "maximum_weight_capacity": 250,
+         "unit": "kg",
+         "manufacture_origin": "Malaysia",
+         "compression_type": "Vacuum-sealed for delivery"
+       }
+     ],
+     "general_details": [
+       {
+         "id": 1,
+         "sales_package": "1 mattress, protective cover, instruction manual",
+         "model_number": "CLDRST-KS-2500",
+         "configuration": "King Size mattress",
+         "surface_type": "7-zone pressure relief design",
+         "color": "Off-White/Blue",
+         "recommended_base": "Platform bed, slatted base or compatible foundation"
+       }
+     ],
+     "material": "Memory Foam with Cooling Gel",
+     "color": "Off-White",
+     "brand": "SleepLux",
+     "images": ["https://i.postimg.cc/pL5j0FQN/image-4.png"],
+     "videos": [],
+     "tags": [
+       "mattress",
+       "memory foam",
+       "cooling gel",
+       "king size",
+       "premium",
+       "orthopedic",
+       "7-zone",
+       "hypoallergenic"
+     ],
+     "rating": 4.8,
+     "review_count": 152,
+     "size": "King Size (180x200cm)",
+     "size_options": [
+       "Single (90x200cm)",
+       "Queen (160x200cm)",
+       "King (180x200cm)",
+       "Super King (200x200cm)"
+     ],
+     "status": "In Stock",
+     "badge": "Bestseller",
+     "warranty": {
+       "period": "10 years",
+       "type": "Limited Warranty",
+       "warranty_covered": "Manufacturing defects, foam deterioration, compression beyond 2.5cm",
+       "warranty_not_covered": "Normal softening, comfort preference, damage due to improper use",
+       "domestic_warranty": "10 years",
+       "claim_process": "Register your product online and contact our dedicated warranty team at warranty@sleeplux.com"
+     },
+     "reviews": [
+       {
+         "user": "Thomas Lee",
+         "rating": 5,
+         "verified_purchase": true,
+         "date": "2025-03-22",
+         "comment": "After years of back pain, I finally sleep through the night. The cooling technology works amazingly well in our tropical climate. Worth every rupiah!",
+         "helpful_votes": 45
+       },
+       {
+         "user": "Rama Wijaya",
+         "rating": 5,
+         "verified_purchase": true,
+         "date": "2025-02-18",
+         "comment": "The mattress arrived compressed but expanded fully within hours. Superior comfort and my wife's back pain has improved significantly.",
+         "helpful_votes": 32
+       },
+       {
+         "user": "Lisa Chen",
+         "rating": 4,
+         "verified_purchase": true,
+         "date": "2025-04-05",
+         "comment": "Very comfortable but slightly softer than expected. Still provides great support and the cooling feature is excellent for hot nights.",
+         "helpful_votes": 14
+       }
+     ],
+     "additional_info": [
+       {
+         "id": 1,
+         "care_instructions": "Rotate mattress 180° every 3 months. Use mattress protector (sold separately). Spot clean cover only, do not remove or machine wash. Vacuum occasionally to remove dust."
+       },
+       {
+         "id": 2,
+         "break_in_period": "Allow 30 days for your body to adjust to the new mattress",
+         "expansion_time": "24-48 hours to fully expand after unpacking",
+         "off_gassing": "Minimal, non-toxic odor that dissipates within 24-48 hours",
+         "compatibility": "Works with adjustable bases, platform beds, and slatted frames with slats no more than 7cm apart"
+       },
+       {
+         "id": 3,
+         "return_policy": "100-night sleep trial. If unsatisfied, return for full refund. We arrange pickup free of charge.",
+         "exchange_policy": "One free exchange within 100-night trial period"
+       },
+       {
+         "id": 4,
+         "shipping_info": "Free white-glove delivery and setup. Old mattress removal available upon request. Delivery within 5-7 business days.",
+         "shipping_restrictions": "Remote areas may require additional 3-5 days for delivery"
+       },
+       {
+         "id": 5,
+         "customer_service": "For any inquiries, please contact our sleep experts at sleep@sleeplux.com or call our hotline at +62-21-5550-2345 (24/7 available)",
+         "live_chat": "Available 24/7 on our website"
+       }
+     ],
+     "specifications": {
+       "design_type": "Multi-zone memory foam",
+       "recommended_use": "All sleeping positions - back, side, stomach",
+       "certifications": [
+         "CertiPUR-US Certified",
+         "OEKO-TEX Standard 100",
+         "Hypoallergenic Certified"
+       ],
+       "maintenance_level": "Low"
+     },
+     "sustainability": {
+       "eco_friendly": true,
+       "recyclable_components": "Cover is made from sustainable bamboo fibers",
+       "sustainable_manufacturing": "Manufactured using low-VOC processes",
+       "packaging": "Compressed packaging reduces carbon footprint during shipping"
+     },
+     "related_products": [
+       {
+         "id": 42,
+         "name": "Cloudrest Memory Foam Pillow",
+         "image": "https://example.com/cloudrest-pillow.png",
+         "price": 1200000
+       },
+       {
+         "id": 47,
+         "name": "Premium Mattress Protector",
+         "image": "https://example.com/premium-protector.png",
+         "price": 850000
+       }
+     ],
+     "frequently_bought_together": [
+       {
+         "id": 55,
+         "name": "Egyptian Cotton Bed Sheet Set",
+         "image": "https://example.com/cotton-bedsheets.png",
+         "price": 2350000
+       },
+       {
+         "id": 62,
+         "name": "Mattress Rotation Reminder Service",
+         "image": "https://example.com/mattress-service.png",
+         "price": 500000
+       }
+     ],
+     "seo": {
+       "meta_title": "Cloudrest Memory Foam Mattress - Cooling Gel Technology | SleepLux",
+       "meta_description": "Experience premium sleep with the Cloudrest Memory Foam Mattress featuring cooling gel technology and 7-zone support system. 100-night trial and 10-year warranty.",
+       "keywords": [
+         "memory foam mattress",
+         "cooling gel mattress",
+         "orthopedic mattress",
+         "premium mattress",
+         "king size mattress",
+         "7-zone support",
+         "SleepLux"
+       ]
+     },
+     "inventory": {
+       "warehouse_location": "Jakarta East",
+       "restock_date": "2025-05-30",
+       "minimum_order_quantity": 1,
+       "maximum_order_quantity": 3
+     },
+     "created_at": "2024-09-20T14:15:00Z",
+     "updated_at": "2025-04-12T09:30:00Z"
+   },
+   {
+     "id": 13,
+     "name": "Zenith Recliner Armchair",
+     "category": "Seating",
+     "subcategory": "Armchairs",
+     "short_description": "Luxurious electric recliner with genuine leather upholstery, adjustable headrest, and built-in USB charging ports.",
+     "description": "The Zenith Recliner redefines relaxation with its smooth electric reclining mechanism and premium genuine leather upholstery. At the touch of a button, transition from upright to fully reclined positions with independent footrest and backrest adjustments. The chair features an adjustable headrest, plush padding with high-resilience foam, and convenient USB charging ports to keep your devices powered while you unwind. The sturdy wooden frame and reinforced mechanisms ensure years of reliable use and comfort.",
+     "price": 15900000,
+     "discounted_price": 13750000,
+     "currency": "Rp",
+     "sku": "FUR-RCL-004",
+     "stock_quantity": 18,
+     "is_available": true,
+     "dimensions": {
+       "width": 92,
+       "depth": 95,
+       "height": 105,
+       "unit": "cm",
+       "seat_width": 55,
+       "seat_depth": 56,
+       "seat_height": 48,
+       "arm_height": 68,
+       "reclined_length": 175,
+       "shipping_dimensions": {
+         "length": 112,
+         "width": 105,
+         "height": 82,
+         "unit": "cm"
+       }
+     },
+     "weight": {
+       "value": 52.8,
+       "unit": "kg",
+       "shipping_weight": 58.5
+     },
+     "product_details": [
+       {
+         "id": 1,
+         "upholstery": "Genuine top-grain leather",
+         "frame_material": "Kiln-dried hardwood and engineered wood",
+         "reclining_mechanism": "Electric motor with smooth transition",
+         "padding": "High-resilience foam with fiber wrap",
+         "power_requirements": "220-240V, 50-60Hz",
+         "power_consumption": "100W max",
+         "usb_ports": "2 USB-A ports (5V/2.1A)",
+         "control_type": "Side panel with illuminated buttons",
+         "maximum_weight_capacity": 150,
+         "unit": "kg",
+         "manufacture_origin": "China",
+         "cord_length": "1.8 meters"
+       }
+     ],
+     "general_details": [
+       {
+         "id": 1,
+         "sales_package": "1 recliner chair, power adapter, user manual, Allen key",
+         "model_number": "ZNTH-RCL-LTH-BLK",
+         "reclining_angles": "Multiple positions from 105° to 170°",
+         "noise_level": "Ultra-quiet operation (<45dB)",
+         "color": "Black",
+         "backup_operation": "Manual override in case of power failure"
+       }
+     ],
+     "material": "Genuine Leather and Hardwood",
+     "color": "Black",
+     "brand": "ComfortTech",
+     "images": ["https://i.postimg.cc/wMxJF42F/image-6.png"],
+     "videos": [],
+     "tags": [
+       "recliner",
+       "armchair",
+       "electric",
+       "leather",
+       "USB charging",
+       "adjustable headrest",
+       "premium",
+       "lounge chair"
+     ],
+     "rating": 4.8,
+     "review_count": 74,
+     "color_options": ["Black", "Brown", "Cream", "Navy Blue"],
+     "upholstery_options": ["Genuine Leather", "Premium Fabric"],
+     "status": "In Stock",
+     "badge": "Premium",
+     "warranty": {
+       "period": "5 years",
+       "type": "Comprehensive Warranty",
+       "warranty_covered": "Frame integrity, electrical components, reclining mechanism, and upholstery seams",
+       "warranty_not_covered": "Normal wear and tear, damage from improper use, power surges",
+       "domestic_warranty": "5 years on frame and mechanism, 3 years on electrical components, 2 years on upholstery",
+       "claim_process": "Contact customer service with model and serial number at warranty@comforttech.com"
+     },
+     "reviews": [
+       {
+         "user": "Robert Tan",
+         "rating": 5,
+         "verified_purchase": true,
+         "date": "2025-03-10",
+         "comment": "This recliner has transformed my evenings. The leather is supple, the reclining mechanism is whisper quiet, and the USB ports are perfect for charging my phone while watching movies.",
+         "helpful_votes": 28
+       },
+       {
+         "user": "Diana Putri",
+         "rating": 4,
+         "verified_purchase": true,
+         "date": "2025-02-05",
+         "comment": "Extremely comfortable and well-made. The headrest adjustment is perfect for my height. Took off one star because the leather creaks slightly when new, but it's getting better with use.",
+         "helpful_votes": 16
+       },
+       {
+         "user": "Faizal Ahmad",
+         "rating": 5,
+         "verified_purchase": true,
+         "date": "2025-04-12",
+         "comment": "Worth every rupiah! The quality of this chair is exceptional, and the electric recline is smooth. My back pain has significantly improved since I started using it.",
+         "helpful_votes": 22
+       }
+     ],
+     "additional_info": [
+       {
+         "id": 1,
+         "care_instructions": "Clean leather with specialized leather cleaner every 3-6 months. Condition twice yearly with leather conditioner. Keep away from direct sunlight. Dust regularly with microfiber cloth."
+       },
+       {
+         "id": 2,
+         "assembly_required": "Minimal assembly",
+         "assembly_instructions": "Attach backrest to base using the slide-and-lock mechanism, connect power cord",
+         "assembly_service_option": "Professional assembly and positioning service available at an additional cost of Rp 400,000",
+         "tools_required": "None required for standard assembly"
+       },
+       {
+         "id": 3,
+         "return_policy": "30-day return policy. Item must be in original condition. Return shipping arranged at no cost for defective items.",
+         "exchange_policy": "Free exchanges within 30 days of purchase"
+       },
+       {
+         "id": 4,
+         "shipping_info": "Free white-glove delivery and setup. Standard delivery within 7-14 business days. Schedule precise delivery time at checkout.",
+         "shipping_restrictions": "Remote areas may require additional 3-5 days for delivery"
+       },
+       {
+         "id": 5,
+         "customer_service": "For any inquiries, please contact our customer service at support@comforttech.com or call our hotline at +62-21-5550-7890 (Mon-Sat, 9AM-8PM)",
+         "live_chat": "Available 24/7 on our website"
+       }
+     ],
+     "specifications": {
+       "design_style": "Contemporary Luxury",
+       "recommended_use": "Living rooms, home theaters, reading nooks",
+       "certifications": [
+         "CE Certified",
+         "BIFMA Certified",
+         "Electrical Safety Certified"
+       ],
+       "maintenance_level": "Medium"
+     },
+     "sustainability": {
+       "eco_friendly": true,
+       "recyclable_components": "Electronic components comply with e-waste recycling standards",
+       "sustainable_manufacturing": "Leather sourced from responsible tanneries with environmental certifications",
+       "packaging": "Minimal plastic, recycled cardboard, and biodegradable foam inserts"
+     },
+     "related_products": [
+       {
+         "id": 68,
+         "name": "Zenith Ottoman",
+         "image": "https://example.com/zenith-ottoman.png",
+         "price": 4500000
+       },
+       {
+         "id": 72,
+         "name": "Leather Care Kit",
+         "image": "https://example.com/leather-care-kit.png",
+         "price": 780000
+       }
+     ],
+     "frequently_bought_together": [
+       {
+         "id": 85,
+         "name": "Side Table with Swivel Top",
+         "image": "https://example.com/swivel-side-table.png",
+         "price": 2300000
+       },
+       {
+         "id": 91,
+         "name": "Extended Warranty Package",
+         "image": "https://example.com/warranty-package.png",
+         "price": 1500000
+       }
+     ],
+     "seo": {
+       "meta_title": "Zenith Electric Leather Recliner - USB Charging Ports | ComfortTech",
+       "meta_description": "Experience ultimate relaxation with the Zenith Electric Recliner featuring genuine leather, adjustable headrest, USB charging ports and whisper-quiet electric operation.",
+       "keywords": [
+         "electric recliner",
+         "leather armchair",
+         "recliner with USB",
+         "adjustable headrest",
+         "premium recliner",
+         "quiet recliner",
+         "ComfortTech"
+       ]
+     },
+     "inventory": {
+       "warehouse_location": "Jakarta North",
+       "restock_date": "2025-06-10",
+       "minimum_order_quantity": 1,
+       "maximum_order_quantity": 4
+     },
+     "created_at": "2024-11-05T15:45:00Z",
+     "updated_at": "2025-05-02T11:20:00Z"
+   },
+   {
+     "id": 14,
+     "name": "Oakwood Living Room Sofa",
+     "category": "Sofa",
+     "subcategory": "Living Room Furniture",
+     "short_description": "Premium 3-seater sofa with solid oak frame and high-density foam cushions, ideal for modern living spaces.",
+     "description": "The Oakwood Living Room Sofa blends timeless design with exceptional comfort. Featuring a solid oak frame with mortise and tenon joints, this 3-seater sofa provides durability that will last for years. The high-density foam cushions are wrapped in premium fabric that's both stain-resistant and incredibly soft to the touch. Wide armrests and a slightly reclined back angle create the perfect lounging experience.",
+     "price": 12500000,
+     "discounted_price": 10999000,
+     "currency": "Rp",
+     "sku": "FUR-SOF-002",
+     "stock_quantity": 18,
+     "is_available": true,
+     "dimensions": {
+       "length": 220,
+       "width": 90,
+       "height": 85,
+       "unit": "cm",
+       "depth": 90,
+       "seat_height": 45,
+       "armrest_height": 65,
+       "shipping_dimensions": {
+         "length": 225,
+         "width": 95,
+         "height": 90,
+         "unit": "cm"
+       }
+     },
+     "weight": {
+       "value": 65.8,
+       "unit": "kg",
+       "shipping_weight": 72.5
+     },
+     "product_details": [
+       {
+         "id": 1,
+         "seat_material": "high-density foam",
+         "frame_material": "solid oak",
+         "finish_type": "Natural wood finish with protective coating",
+         "adjustable_components": "No",
+         "maximum_load_capacity": 350,
+         "unit": "kg",
+         "manufacture_origin": "Indonesia",
+         "assembly_time": "30 minutes"
+       }
+     ],
+     "general_details": [
+       {
+         "id": 1,
+         "sales_package": "1 sofa, 4 cushions, assembly hardware, instructions",
+         "model_number": "OAK-SOF-GY-002",
+         "secondary_material": "premium upholstery fabric",
+         "configuration": "3-seater sofa",
+         "surface_material": "Premium polyester blend fabric",
+         "color": "Charcoal Gray",
+         "removable_covers": "Yes, for cushions only"
+       }
+     ],
+     "material": "Solid Oak and Premium Fabric",
+     "color": "Charcoal Gray",
+     "brand": "FurniLux",
+     "images": [
+       "https://i.postimg.cc/CMJbdYM2/image-7.png"
+     ],
+     "videos": [
+     ],
+     "tags": [
+       "sofa",
+       "living room",
+       "oak",
+       "premium",
+       "3-seater",
+       "fabric",
+       "comfortable",
+       "modern",
+       "durable"
+     ],
+     "rating": 4.8,
+     "review_count": 124,
+     "size": "3-Seater",
+     "color_options": [
+       "Charcoal Gray",
+       "Cream",
+       "Navy Blue",
+       "Forest Green",
+       "Burnt Orange"
+     ],
+     "status": "In Stock",
+     "badge": "Premium",
+     "warranty": {
+       "period": "5 years",
+       "type": "Manufacturer Warranty",
+       "warranty_covered": "Frame integrity, foam density, springs, and structural components",
+       "warranty_not_covered": "Fabric wear, improper assembly, misuse, or modifications to the product",
+       "domestic_warranty": "5 years",
+       "claim_process": "Email photos of the defect and proof of purchase to claims@furnilux.com"
+     },
+     "reviews": [
+       {
+         "user": "Sarah Johnson",
+         "rating": 5,
+         "verified_purchase": true,
+         "date": "2025-02-15",
+         "comment": "This sofa exceeded my expectations! The oak frame is incredibly sturdy, and the cushions are the perfect balance of firm support and plush comfort.",
+         "helpful_votes": 45
+       },
+       {
+         "user": "Michael Wong",
+         "rating": 4,
+         "verified_purchase": true,
+         "date": "2025-03-22",
+         "comment": "Beautiful sofa that transformed our living room. One star off because assembly took longer than stated, but the result is worth it.",
+         "helpful_votes": 28
+       },
+       {
+         "user": "Rina Patel",
+         "rating": 5,
+         "verified_purchase": true,
+         "date": "2025-04-10",
+         "comment": "Luxurious fabric that's also surprisingly resistant to stains - our toddler already put it to the test! The charcoal gray is a perfect neutral.",
+         "helpful_votes": 32
+       }
+     ],
+     "additional_info": [
+       {
+         "id": 1,
+         "care_instructions": "Vacuum regularly with upholstery attachment. Spot clean with mild soap and water. Professional cleaning recommended annually. Cushion covers are machine washable on gentle cycle."
+       },
+       {
+         "id": 2,
+         "assembly_required": "Yes",
+         "assembly_instructions": "Comprehensive assembly manual included. QR code links to step-by-step video guide.",
+         "assembly_service_option": "Professional assembly service available at an additional cost of Rp 350,000",
+         "tools_required": "Allen key (included), Phillips screwdriver"
+       },
+       {
+         "id": 3,
+         "return_policy": "45-day satisfaction guarantee. Full refund if returned in original condition. We cover return shipping for manufacturing defects.",
+         "exchange_policy": "Free exchanges within 45 days of purchase"
+       },
+       {
+         "id": 4,
+         "shipping_info": "Free white-glove delivery nationwide. Delivery within 5-7 business days. Premium shipping insurance included.",
+         "shipping_restrictions": "Remote islands may require additional 3-5 days for delivery"
+       },
+       {
+         "id": 5,
+         "customer_service": "For any inquiries, please contact our premium support team at premium@furnilux.com or call our dedicated line at +62-21-5550-8888 (7 days a week, 8AM-8PM)",
+         "live_chat": "Available 24/7 with priority support for premium products"
+       }
+     ],
+     "specifications": {
+       "design_style": "Contemporary Classic",
+       "recommended_use": "Indoor living spaces",
+       "certifications": [
+         "BIFMA Certified",
+         "FSC Certified Wood",
+         "OEKO-TEX Standard 100"
+       ],
+       "maintenance_level": "Low to medium"
+     },
+     "sustainability": {
+       "eco_friendly": true,
+       "recyclable_components": "85% recyclable materials",
+       "sustainable_manufacturing": "Made using responsibly harvested wood from managed forests",
+       "packaging": "Minimal plastic packaging, recyclable cardboard, and biodegradable protective wraps"
+     },
+     "related_products": [
+       {
+         "id": 18,
+         "name": "Oakwood Coffee Table",
+         "image": "https://example.com/oakwood-coffee-table.png",
+         "price": 4500000
+       },
+       {
+         "id": 24,
+         "name": "Oakwood Side Table",
+         "image": "https://example.com/oakwood-side-table.png",
+         "price": 2800000
+       }
+     ],
+     "frequently_bought_together": [
+       {
+         "id": 42,
+         "name": "Plush Throw Pillows (Set of 2)",
+         "image": "https://example.com/throw-pillows.png",
+         "price": 750000
+       },
+       {
+         "id": 56,
+         "name": "Woven Cotton Throw Blanket",
+         "image": "https://example.com/cotton-throw.png",
+         "price": 850000
+       }
+     ],
+     "seo": {
+       "meta_title": "Oakwood Premium 3-Seater Sofa - Solid Oak Frame | FurniLux",
+       "meta_description": "Elevate your living room with the Oakwood Premium Sofa featuring solid oak construction, high-density foam cushions, and stain-resistant fabric upholstery.",
+       "keywords": [
+         "premium sofa",
+         "oak sofa",
+         "living room furniture",
+         "3-seater sofa",
+         "comfortable sofa",
+         "solid wood furniture",
+         "FurniLux"
+       ]
+     },
+     "inventory": {
+       "warehouse_location": "Jakarta South",
+       "restock_date": "2025-06-25",
+       "minimum_order_quantity": 1,
+       "maximum_order_quantity": 4
+     },
+     "created_at": "2024-11-15T10:15:00Z",
+     "updated_at": "2025-04-20T09:30:00Z"
+   },
+   {
+     "id": 15,
+     "name": "Luminari Table Lamp",
+     "category": "Lighting",
+     "subcategory": "Table Lamps",
+     "short_description": "Modern ceramic table lamp with brass accents and natural linen shade, perfect for bedside tables and reading nooks.",
+     "description": "The Luminari Table Lamp combines artisanal ceramic craftsmanship with contemporary design. The base features a hand-glazed ceramic body with subtle texture variations that make each piece unique. Brass accents at the neck and base add a touch of sophistication, while the natural linen drum shade diffuses light beautifully for a warm, inviting glow. Ideal for bedside tables, office desks, or living room side tables.",
+     "price": 1850000,
+     "discounted_price": 1650000,
+     "currency": "Rp",
+     "sku": "LGT-TBL-003",
+     "stock_quantity": 32,
+     "is_available": true,
+     "dimensions": {
+       "base_diameter": 15,
+       "shade_diameter": 30,
+       "height": 55,
+       "unit": "cm",
+       "cord_length": 180,
+       "shipping_dimensions": {
+         "length": 35,
+         "width": 35,
+         "height": 60,
+         "unit": "cm"
+       }
+     },
+     "weight": {
+       "value": 2.3,
+       "unit": "kg",
+       "shipping_weight": 3.1
+     },
+     "product_details": [
+       {
+         "id": 1,
+         "base_material": "hand-glazed ceramic",
+         "accent_material": "brushed brass",
+         "shade_material": "natural linen",
+         "bulb_type": "E27 socket, LED compatible",
+         "wattage": "Maximum 60W",
+         "voltage": "220-240V",
+         "manufacture_origin": "Indonesia",
+         "switch_type": "In-line cord switch"
+       }
+     ],
+     "general_details": [
+       {
+         "id": 1,
+         "sales_package": "1 lamp base, 1 shade, bulb not included",
+         "model_number": "LUM-LP-TL-003",
+         "secondary_material": "brass accents",
+         "configuration": "Table lamp",
+         "surface_finish": "Hand-glazed ceramic with semi-gloss finish",
+         "color": "Sage Green",
+         "light_direction": "Downward and ambient",
+         "power_source": "Corded electric"
+       }
+     ],
+     "material": "Ceramic, Brass, and Linen",
+     "color": "Sage Green",
+     "brand": "LumiCraft",
+     "images": [
+       "https://i.postimg.cc/rsh4HGYT/image-8.png"
+     ],
+     "videos": [],
+     "tags": [
+       "lamp",
+       "table lamp",
+       "ceramic",
+       "brass",
+       "linen shade",
+       "bedside lamp",
+       "reading lamp",
+       "modern",
+       "artisanal"
+     ],
+     "rating": 4.6,
+     "review_count": 78,
+     "size": "Medium",
+     "color_options": [
+       "Sage Green",
+       "Terracotta",
+       "Midnight Blue",
+       "Ivory",
+       "Dusty Rose"
+     ],
+     "status": "In Stock",
+     "badge": "Handcrafted",
+     "warranty": {
+       "period": "1 year",
+       "type": "Manufacturer Warranty",
+       "warranty_covered": "Electrical components, ceramic base defects, and structural integrity",
+       "warranty_not_covered": "Bulbs, shade discoloration from use, damage from improper use or voltage issues",
+       "domestic_warranty": "1 year",
+       "claim_process": "Email photos of the defect and proof of purchase to support@lumicraft.com"
+     },
+     "reviews": [
+       {
+         "user": "Emma Lee",
+         "rating": 5,
+         "verified_purchase": true,
+         "date": "2025-03-05",
+         "comment": "This lamp is even more beautiful in person! The ceramic has subtle variations that give it character, and the light it casts is perfect for reading.",
+         "helpful_votes": 22
+       },
+       {
+         "user": "Taufik Hidayat",
+         "rating": 4,
+         "verified_purchase": true,
+         "date": "2025-02-18",
+         "comment": "High-quality construction and elegant design. I only wish it came with a dimmer switch, but otherwise perfect.",
+         "helpful_votes": 15
+       },
+       {
+         "user": "Priya Sharma",
+         "rating": 5,
+         "verified_purchase": true,
+         "date": "2025-04-12",
+         "comment": "The sage green color is subtle and gorgeous! It looks much more expensive than it is and completes my bedroom perfectly.",
+         "helpful_votes": 19
+       }
+     ],
+     "additional_info": [
+       {
+         "id": 1,
+         "care_instructions": "Dust with a soft, dry cloth. Clean ceramic base with damp cloth and mild soap if needed. Do not use abrasive cleaners. Keep away from moisture and water sources."
+       },
+       {
+         "id": 2,
+         "assembly_required": "Minimal",
+         "assembly_instructions": "Simply attach the shade to the lamp base and insert bulb.",
+         "tools_required": "None"
+       },
+       {
+         "id": 3,
+         "return_policy": "30-day return policy. Item must be in original condition and packaging. Return shipping fees covered for defective items.",
+         "exchange_policy": "Free exchanges within 30 days of purchase for different colors"
+       },
+       {
+         "id": 4,
+         "shipping_info": "Free shipping nationwide. Delivery within 2-4 business days. Special packaging ensures safe transit.",
+         "shipping_restrictions": "Not available for international shipping"
+       },
+       {
+         "id": 5,
+         "customer_service": "For any inquiries, please contact our customer service at help@lumicraft.com or call +62-21-5550-2468 (Mon-Sat, 9AM-6PM)",
+         "live_chat": "Available on website during business hours"
+       }
+     ],
+     "specifications": {
+       "design_style": "Contemporary Artisanal",
+       "recommended_use": "Bedrooms, living rooms, reading nooks, office desks",
+       "certifications": ["CE Certified", "RoHS Compliant"],
+       "maintenance_level": "Low"
+     },
+     "sustainability": {
+       "eco_friendly": true,
+       "recyclable_components": "80% recyclable materials",
+       "sustainable_manufacturing": "Handcrafted by local artisans using traditional techniques",
+       "packaging": "Plastic-free packaging, recycled cardboard"
+     },
+     "related_products": [
+       {
+         "id": 31,
+         "name": "Luminari Floor Lamp",
+         "image": "https://example.com/luminari-floor-lamp.png",
+         "price": 3200000
+       },
+       {
+         "id": 32,
+         "name": "Luminari Pendant Light",
+         "image": "https://example.com/luminari-pendant.png",
+         "price": 2200000
+       }
+     ],
+     "frequently_bought_together": [
+       {
+         "id": 62,
+         "name": "LED Edison Style Bulb",
+         "image": "https://example.com/edison-bulb.png",
+         "price": 120000
+       }
+     ],
+     "seo": {
+       "meta_title": "Luminari Ceramic Table Lamp - Handcrafted Lighting | LumiCraft",
+       "meta_description": "Illuminate your space with the Luminari Ceramic Table Lamp featuring handcrafted ceramic base, brass accents, and natural linen shade.",
+       "keywords": [
+         "ceramic lamp",
+         "table lamp",
+         "bedside lamp",
+         "handcrafted lighting",
+         "modern lamp",
+         "artisanal lamp",
+         "LumiCraft"
+       ]
+     },
+     "inventory": {
+       "warehouse_location": "Bandung",
+       "restock_date": "2025-06-05",
+       "minimum_order_quantity": 1,
+       "maximum_order_quantity": 10
+     },
+     "created_at": "2025-01-10T11:45:00Z",
+     "updated_at": "2025-04-15T13:20:00Z"
+   },
+   {
+     "id": 16,
+     "name": "Botanica Indoor Planter Stand",
+     "category": "Home Accessories",
+     "subcategory": "Plant Accessories",
+     "short_description": "Mid-century inspired bamboo plant stand with adjustable height tiers for displaying multiple indoor plants.",
+     "description": "The Botanica Indoor Planter Stand brings natural elements into your home décor with sustainable bamboo construction. This versatile plant display features three adjustable tiers that can be arranged at different heights to showcase your favorite plants. The unique hexagonal design allows for flexible positioning in corners or as a room divider. Each tier includes a water-resistant tray to protect floors from spills during watering.",
+     "price": 1200000,
+     "discounted_price": 1080000,
+     "currency": "Rp",
+     "sku": "HOM-PLT-004",
+     "stock_quantity": 58,
+     "is_available": true,
+     "dimensions": {
+       "width": 90,
+       "depth": 35,
+       "height": 95,
+       "unit": "cm",
+       "tier_sizes": [
+         { "diameter": 30, "height": 30 },
+         { "diameter": 25, "height": 60 },
+         { "diameter": 20, "height": 95 }
+       ],
+       "shipping_dimensions": {
+         "length": 95,
+         "width": 40,
+         "height": 15,
+         "unit": "cm"
+       }
+     },
+     "weight": {
+       "value": 5.2,
+       "unit": "kg",
+       "shipping_weight": 6.5
+     },
+     "product_details": [
+       {
+         "id": 1,
+         "primary_material": "sustainable bamboo",
+         "finish_type": "Natural bamboo with water-resistant coating",
+         "adjustable_components": "Yes, tier heights can be adjusted",
+         "maximum_load_capacity": "10 kg per tier",
+         "unit": "kg",
+         "manufacture_origin": "Indonesia",
+         "assembly_time": "20 minutes"
+       }
+     ],
+     "general_details": [
+       {
+         "id": 1,
+         "sales_package": "3 bamboo tiers, 3 water-resistant trays, assembly hardware, instructions",
+         "model_number": "BOT-STD-004",
+         "secondary_material": "recycled plastic trays",
+         "configuration": "3-tier plant stand",
+         "surface_finish": "Smooth sanded bamboo with eco-friendly sealant",
+         "color": "Natural Bamboo",
+         "water_resistant": "Yes, includes water-catching trays"
+       }
+     ],
+     "material": "Sustainable Bamboo and Recycled Plastic",
+     "color": "Natural Bamboo",
+     "brand": "GreenSpace",
+     "images": [
+       "https://i.postimg.cc/bNJktMsw/image-9.png"
+     ],
+     "videos": [
+     ],
+     "tags": [
+       "plant stand",
+       "bamboo",
+       "sustainable",
+       "mid-century",
+       "indoor plants",
+       "plant display",
+       "adjustable",
+       "eco-friendly"
+     ],
+     "rating": 4.9,
+     "review_count": 132,
+     "size": "Standard",
+     "color_options": ["Natural Bamboo", "Dark Stained", "White Wash"],
+     "status": "In Stock",
+     "badge": "Eco-Friendly",
+     "warranty": {
+       "period": "2 years",
+       "type": "Manufacturer Warranty",
+       "warranty_covered": "Structural integrity, bamboo splits, and tray defects",
+       "warranty_not_covered": "Water damage from improper use, normal wear and tear, or modifications to the product",
+       "domestic_warranty": "2 years",
+       "claim_process": "Email photos of the defect and proof of purchase to claims@greenspace.com"
+     },
+     "reviews": [
+       {
+         "user": "Linda Wijaya",
+         "rating": 5,
+         "verified_purchase": true,
+         "date": "2025-02-25",
+         "comment": "Absolutely perfect for my growing plant collection! The bamboo is beautiful quality and the adjustable tiers let me customize it for plants of different heights.",
+         "helpful_votes": 54
+       },
+       {
+         "user": "Alex Thompson",
+         "rating": 5,
+         "verified_purchase": true,
+         "date": "2025-03-12",
+         "comment": "Sturdy, well-made, and surprisingly easy to assemble. The water trays are a thoughtful addition that protect my hardwood floors.",
+         "helpful_votes": 38
+       },
+       {
+         "user": "Maya Sanjaya",
+         "rating": 4,
+         "verified_purchase": true,
+         "date": "2025-04-05",
+         "comment": "Beautiful design that fits perfectly in my apartment corner. Only giving 4 stars because one of the trays arrived slightly warped, but customer service quickly sent a replacement.",
+         "helpful_votes": 22
+       }
+     ],
+     "additional_info": [
+       {
+         "id": 1,
+         "care_instructions": "Wipe with a damp cloth. Periodically apply bamboo oil to maintain finish. Avoid prolonged exposure to direct sunlight. Empty and clean trays regularly."
+       },
+       {
+         "id": 2,
+         "assembly_required": "Yes",
+         "assembly_instructions": "Detailed assembly manual with illustrations. QR code links to video tutorial.",
+         "assembly_service_option": "No",
+         "tools_required": "Phillips screwdriver (not included)"
+       },
+       {
+         "id": 3,
+         "return_policy": "30-day return policy. Item must be in original condition and packaging. Customer pays return shipping unless defective.",
+         "exchange_policy": "Free exchanges within 30 days of purchase"
+       },
+       {
+         "id": 4,
+         "shipping_info": "Free shipping nationwide for orders over Rp 500,000. Standard delivery within 3-5 business days.",
+         "shipping_restrictions": "Some remote areas may require additional delivery time"
+       },
+       {
+         "id": 5,
+         "customer_service": "For any inquiries, please contact our customer service at help@greenspace.com or call +62-21-5550-3355 (Mon-Fri, 9AM-5PM)",
+         "live_chat": "Available on website during business hours"
+       }
+     ],
+     "specifications": {
+       "design_style": "Mid-century Modern",
+       "recommended_use": "Indoor use for displaying plants, books, or decorative items",
+       "certifications": ["FSC Certified Bamboo", "Eco-Friendly Materials"],
+       "maintenance_level": "Low"
+     },
+     "sustainability": {
+       "eco_friendly": true,
+       "recyclable_components": "100% recyclable materials",
+       "sustainable_manufacturing": "Made from rapidly renewable bamboo harvested from managed forests",
+       "packaging": "Plastic-free, recyclable packaging made from post-consumer materials"
+     },
+     "related_products": [
+       {
+         "id": 45,
+         "name": "Botanica Hanging Planter",
+         "image": "https://example.com/botanica-hanging.png",
+         "price": 450000
+       },
+       {
+         "id": 46,
+         "name": "Botanica Wall Planter",
+         "image": "https://example.com/botanica-wall.png",
+         "price": 650000
+       }
+     ],
+     "frequently_bought_together": [
+       {
+         "id": 72,
+         "name": "Premium Potting Soil Mix",
+         "image": "https://example.com/potting-soil.png",
+         "price": 120000
+       },
+       {
+         "id": 73,
+         "name": "Ceramic Plant Pots (Set of 3)",
+         "image": "https://example.com/ceramic-pots.png",
+         "price": 350000
+       }
+     ],
+     "seo": {
+       "meta_title": "Botanica Bamboo Plant Stand - Adjustable 3-Tier Display | GreenSpace",
+       "meta_description": "Showcase your indoor plants with the Botanica Adjustable Plant Stand featuring sustainable bamboo construction and water-resistant trays.",
+       "keywords": [
+         "plant stand",
+         "bamboo plant stand",
+         "indoor plant display",
+         "adjustable plant stand",
+         "sustainable furniture",
+         "eco-friendly",
+         "GreenSpace"
+       ]
+     },
+     "inventory": {
+       "warehouse_location": "Surabaya",
+       "restock_date": "2025-05-25",
+       "minimum_order_quantity": 1,
+       "maximum_order_quantity": 8
+     },
+     "created_at": "2024-12-20T15:30:00Z",
+     "updated_at": "2025-04-28T09:15:00Z"
+   }
+ ]
