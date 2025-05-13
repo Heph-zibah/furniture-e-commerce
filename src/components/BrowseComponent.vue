@@ -53,7 +53,7 @@ function handleSwipe(e) {
 
 <template>
   <section class="container my-14 text-center px-4">
-    <h2 class="text-2xl md:text-3xl font-bold">Browse The Range</h2>
+    <h2 class="text-3xl font-bold">Browse The Range</h2>
     <p class="md:text-xl text-gray-600 mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
   

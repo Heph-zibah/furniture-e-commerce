@@ -3,6 +3,7 @@ import PageLayout from '../layouts/PageLayout.vue';
 import HeroComponent from '../components/HeroComponent.vue';
 import BrowseComponent from '../components/BrowseComponent.vue';
 import LandingProductsComponent from '../components/LandingProductsComponent.vue';
+import SetupComponent from '../components/SetupComponent.vue';
 </script>
 
 <template>
@@ -11,6 +12,7 @@ import LandingProductsComponent from '../components/LandingProductsComponent.vue
             <hero-component />
             <browse-component />
             <landing-products-component />
+            <setup-component />
         </main>
     </page-layout>
 </template>
