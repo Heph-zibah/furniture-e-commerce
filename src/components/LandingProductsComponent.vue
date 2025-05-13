@@ -44,7 +44,25 @@ getProducts();
               <p class="text-[#B0B0B0] line-through">{{ product.currency}} {{ product.price}}</p>
             </div>
         </div>
+        <div class="bg-black bg-opacity-60 absolute h-full w-full top-0 left-0 flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 z-50">
+        <button class="text-primary bg-white px-[59px] py-3 font-semibold">Add to cart</button>
+        <div class="flex items-center gap-5 mt-6">
+          <div class="flex items-center gap-1 cursor-pointer text-white font-semibold">
+            <img src="/public/images/share-white.svg" alt="">
+            <span>Share</span>
+          </div>
+          <div class="flex items-center gap-1 cursor-pointer text-white font-semibold">
+            <img src="/public/images/compare-white.svg" alt="">
+            <span>Compare</span>
+          </div>
+          <div class="flex items-center gap-1 cursor-pointer text-white font-semibold">
+            <img src="/public/images/like-white.svg" alt="">
+            <span>Like</span>
+          </div>
+        </div>
       </div>
+      </div>
+      
     </div>
     
     <!-- Bottom row - 4 products -->
