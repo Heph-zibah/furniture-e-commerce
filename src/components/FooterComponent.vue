@@ -69,7 +69,7 @@ const currentYear = new Date().getFullYear();
 
             <!-- Copyright -->
             <p class="py-[36px] border-t border-t-grayLight text-center">
-                &copy; {{ currentYear }} Furniro. All rights reserved.
+                &copy; {{ currentYear }} <a href="https://www.linkedin.com/in/oadaramola/" class="hover:text-secondary-100">'Tosin Daramola</a>. All rights reserved.
             </p>
         </div>
     </footer>   

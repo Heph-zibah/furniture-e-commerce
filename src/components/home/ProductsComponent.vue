@@ -4,12 +4,13 @@ import axios from "axios";
 import ButtonComponent from '../custom/ButtonComponent.vue';
 
 let products = ref([]);
-
+const isLoading = ref(true);
 
 const topProducts = computed(() => products.value.slice(0, 4));
 const bottomProducts = computed(() => products.value.slice(4, 8));
 
 const getProducts = async () => {
+  isLoading.value = true;
   try {
     const response = await axios.get(
       "https://966a61a1-fc75-4d06-8b55-f8eba92a5079.mock.pstmn.io"
@@ -18,6 +19,8 @@ const getProducts = async () => {
     console.log("Fetched products:", products.value);
   } catch (error) {
     console.error("Error fetching products:", error);
+  } finally {
+    isLoading.value = false;
   }
 };
 
@@ -28,8 +31,13 @@ getProducts();
   <section class="container mx-auto px-4 mb-16">
     <h2 class="capitalize text-center text-4xl font-bold mb-8">our products</h2>
     
+    <div v-if="isLoading" class="container py-16 text-center">
+      <div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-primary mx-auto"></div>
+      <p class="mt-4 text-lg">Loading products...</p>
+    </div>
     <!-- Top row - 4 products -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8 ">
+    <div v-else>
+      <div  class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8 ">
       <div v-for="product in topProducts" :key="product.id" class=" flex flex-col relative" >
         <img 
           :src="product.images[0]" 
@@ -77,7 +85,7 @@ getProducts();
     </div>
     
     <!-- Bottom row - 4 products -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+    <div  class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
       <div v-for="product in bottomProducts" :key="product.id" class=" flex flex-col relative">
         <img 
           :src="product.images[0]" 
@@ -121,6 +129,7 @@ getProducts();
           </div>
         </div>
       </div>
+    </div>
     </div>
     
     <div class="text-center w-full flex justify-center">

@@ -6,28 +6,27 @@ import PaginationComponent from '../custom/PaginationComponent.vue';
 import FilterComponent from './FilterComponent.vue';
 import SortAndViewComponent from './SortAndViewComponent.vue';
 
-// Data and state management
+
 const products = ref([]);
 const allProducts = ref([]);
 const currentPage = ref(1);
 const productsPerPage = ref(12);
 const sortOption = ref("default");
-const viewMode = ref("grid"); // "grid" or "list"
+const viewMode = ref("grid"); 
 const isLoading = ref(true);
 const showFilterPanel = ref(false);
 const categoryFilter = ref("all");
 const statusFilter = ref("all");
 
-// Computed properties
 const filteredProducts = computed(() => {
   let result = [...allProducts.value];
   
-  // Apply category filter
+ 
   if (categoryFilter.value !== "all") {
     result = result.filter(product => product.category === categoryFilter.value);
   }
   
-  // Apply status filter
+ 
   if (statusFilter.value !== "all") {
     result = result.filter(product => product.status === statusFilter.value);
   }
@@ -89,7 +88,7 @@ const paginationInfo = computed(() => {
   return `Showing ${start}–${end} of ${filteredProducts.value.length} results`;
 });
 
-// Methods
+
 const getProducts = async () => {
   isLoading.value = true;
   try {
@@ -116,7 +115,7 @@ const updateViewMode = (mode) => {
 
 const updateProductsPerPage = (number) => {
   productsPerPage.value = number;
-  currentPage.value = 1; // Reset to first page when changing items per page
+  currentPage.value = 1; 
 };
 
 const updateSortOption = (option) => {
@@ -133,7 +132,6 @@ const updateStatusFilter = (status) => {
 
 const addToCart = (product) => {
   console.log("Adding to cart:", product);
-  // Implement cart functionality here
   alert(`Added ${product.name} to cart!`);
 };
 
@@ -141,24 +139,24 @@ const handlePageChange = (page) => {
   currentPage.value = page;
 };
 
-// Watch for changes in filtered products to update current page
+
 watch([sortedProducts, productsPerPage], () => {
   if (currentPage.value > totalPages.value) {
     currentPage.value = totalPages.value || 1;
   }
 });
 
-// Watch for changes in pagination to update displayed products
+
 watch([currentPage, paginatedProducts], () => {
   products.value = paginatedProducts.value;
 });
 
-// Initial data fetch
+
 getProducts();
 </script>
 
 <template>
-  <!-- Sort and View Controls Component -->
+
   <sort-and-view-component
     :view-mode="viewMode"
     :pagination-info="paginationInfo"
@@ -170,7 +168,7 @@ getProducts();
     @change-sort="updateSortOption"
   />
 
-  <!-- Filter Panel Component -->
+ 
   <filter-component 
     v-if="showFilterPanel"
     :categories="categories"
@@ -218,7 +216,7 @@ getProducts();
     </div>
   </section>
 
-  <!-- Pagination -->
+
   <pagination-component
     :current-page="currentPage" 
     :total-pages="totalPages" 
