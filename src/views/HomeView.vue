@@ -1,9 +1,9 @@
 <script setup>
 import PageLayout from '../layouts/PageLayout.vue';
-import HeroComponent from '../components/HeroComponent.vue';
-import BrowseComponent from '../components/BrowseComponent.vue';
-import LandingProductsComponent from '../components/LandingProductsComponent.vue';
-import SetupComponent from '../components/SetupComponent.vue';
+import HeroComponent from '../components/home/HeroComponent.vue';
+import BrowseComponent from '../components/home/BrowseComponent.vue';
+import ProductsComponent from '../components/home/ProductsComponent.vue';
+import SetupComponent from '../components/home/SetupComponent.vue';
 </script>
 
 <template>
@@ -11,7 +11,7 @@ import SetupComponent from '../components/SetupComponent.vue';
         <main>
             <hero-component />
             <browse-component />
-            <landing-products-component />
+            <products-component />
             <setup-component />
         </main>
     </page-layout>

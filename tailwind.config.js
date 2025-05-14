@@ -5,6 +5,7 @@ export default {
     extend: {
       backgroundImage: {
         "hero-bg": "url('/public/images/landing-page-hero-bg.png')",
+        "all-hero-bg": "url('/public/images/all-hero-bg.png')",
       },
       colors: {
         // Primary Colors

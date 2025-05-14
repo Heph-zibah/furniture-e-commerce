@@ -1,6 +1,6 @@
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue';
-import ButtonComponent from './custom/ButtonComponent.vue';
+import ButtonComponent from '../custom/ButtonComponent.vue';
 const slides = ref([
   {
     rooms: [
@@ -146,7 +146,7 @@ onBeforeUnmount(() => {
                         <img :src="room.image" :alt="room.alt" class="w-full h-full object-cover" />
                         
                         <div v-if="room.caption" 
-                            class="absolute bottom-0 left-0 right-0 bg-white bg-opacity-90 p-3">
+                            class="absolute bottom-0 left-0 right-0 bg-white bg-opacity-90 p-3 mx-3">
                             <div class="flex items-center">
                             <span class="h-2 w-2 bg-amber-500 rounded-full mr-2"></span>
                             <span class="text-sm font-medium text-gray-800">{{ room.category }}</span>
@@ -172,9 +172,7 @@ onBeforeUnmount(() => {
                     class="absolute right-2 top-1/2 -translate-y-1/2 bg-white bg-opacity-80 hover:bg-opacity-100 rounded-full p-2 shadow-md transition duration-300"
                     aria-label="Next slide"
                 >
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                    </svg>
+                    <img src="/public/images/arrow-right-primary.svg" alt="">
                 </button>
                 </div>
 

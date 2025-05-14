@@ -1,3 +1,12 @@
+<script setup>
+import PageLayout from '../layouts/PageLayout.vue';
+import HeroComponent from '../components/HeroComponent.vue';
+</script>
+
 <template>
-    <h1>Contact page</h1>
+    <page-layout>
+        <main>
+            <hero-component pageTitle="Contact"/>
+        </main>
+    </page-layout>
 </template>

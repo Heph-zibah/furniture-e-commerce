@@ -1,7 +1,7 @@
 <script setup>
 import { ref, computed } from "vue";
 import axios from "axios";
-import ButtonComponent from "./custom/ButtonComponent.vue";
+import ButtonComponent from '../custom/ButtonComponent.vue';
 
 let products = ref([]);
 
@@ -30,13 +30,13 @@ getProducts();
     
     <!-- Top row - 4 products -->
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8 ">
-      <div v-for="product in topProducts" :key="product.id" class=" flex flex-col relative">
+      <div v-for="product in topProducts" :key="product.id" class=" flex flex-col relative" >
         <img 
           :src="product.images[0]" 
           :alt="product.name"
           class="w-full  object-cover" 
         />
-        <span class="absolute right-2 top-2 rounded-lg text-white p-1 text-xs bg-statusBg z-10">{{ product.status }}</span>
+        <span :class="product.status === 'In Stock' ? 'bg-statusBg' : 'bg-red-500' " class="absolute right-2 top-2 rounded-lg text-white p-1 text-xs  z-10">{{ product.status }}</span>
         <div class="bg-grayLightest p-4">
             <h3 class="text-[20px] font-semibold mb-2 line-clamp-1">{{ product.name }}</h3>
             <p class="text-charcoalGray font-medium">{{ product.category }}</p>
@@ -50,7 +50,7 @@ getProducts();
             variant="secondary" 
             :to="{ name: 'ShopView' }" 
             size="custom"
-            width="w-full md:w-fit"
+            width="w-fit"
             padding="px-[59px] py-3"
             fontSize="text-base"
             customClass=" font-semibold"
@@ -84,7 +84,7 @@ getProducts();
           :alt="product.name"
           class="w-full  object-cover" 
         />
-        <span class="absolute right-2 top-2 rounded-lg text-white p-1 text-xs bg-statusBg z-10">{{ product.status }}</span>
+        <span :class="product.status === 'In Stock' ? 'bg-statusBg' : 'bg-tagBg' " class="absolute right-2 top-2 rounded-lg text-white p-1 text-xs  z-10">{{ product.status }}</span>
         <div class="bg-grayLightest p-4">
           <h3 class="text-[20px] font-semibold mb-2 line-clamp-1">{{ product.name }}</h3>
           <p class="text-charcoalGray font-medium">{{ product.category }}</p>
@@ -98,7 +98,7 @@ getProducts();
             variant="secondary" 
             :to="{ name: 'ShopView' }" 
             size="custom"
-            width="w-full md:w-fit"
+            width="w-fit"
             padding="px-[59px] py-3"
             fontSize="text-base"
             customClass=" font-semibold"
