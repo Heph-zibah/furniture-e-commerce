@@ -1,107 +1,227 @@
 <script setup>
-import { ref, computed } from "vue";
+import { ref, computed, watch } from "vue";
 import axios from "axios";
-import ButtonComponent from '../custom/ButtonComponent.vue';
+import ProductCard from './ProductCard.vue';
+import PaginationComponent from '../custom/PaginationComponent.vue';
+import FilterComponent from './FilterComponent.vue';
+import SortAndViewComponent from './SortAndViewComponent.vue';
 
-let products = ref([]);
+// Data and state management
+const products = ref([]);
+const allProducts = ref([]);
+const currentPage = ref(1);
+const productsPerPage = ref(12);
+const sortOption = ref("default");
+const viewMode = ref("grid"); // "grid" or "list"
+const isLoading = ref(true);
+const showFilterPanel = ref(false);
+const categoryFilter = ref("all");
+const statusFilter = ref("all");
 
+// Computed properties
+const filteredProducts = computed(() => {
+  let result = [...allProducts.value];
+  
+  // Apply category filter
+  if (categoryFilter.value !== "all") {
+    result = result.filter(product => product.category === categoryFilter.value);
+  }
+  
+  // Apply status filter
+  if (statusFilter.value !== "all") {
+    result = result.filter(product => product.status === statusFilter.value);
+  }
+  
+  return result;
+});
+
+const sortedProducts = computed(() => {
+  let result = [...filteredProducts.value];
+  
+  switch (sortOption.value) {
+    case "popularity":
+      result.sort((a, b) => b.rating - a.rating);
+      break;
+    case "average rating":
+      result.sort((a, b) => b.rating - a.rating);
+      break;
+    case "latest":
+      result.sort((a, b) => new Date(b.date) - new Date(a.date));
+      break;
+    case "price low to high":
+      result.sort((a, b) => a.discounted_price - b.discounted_price);
+      break;
+    case "price high to low":
+      result.sort((a, b) => b.discounted_price - a.discounted_price);
+      break;
+    default:
+      result.sort((a, b) => a.id - b.id);
+  }
+  
+  return result;
+});
+
+const paginatedProducts = computed(() => {
+  const startIndex = (currentPage.value - 1) * productsPerPage.value;
+  const endIndex = startIndex + productsPerPage.value;
+  return sortedProducts.value.slice(startIndex, endIndex);
+});
+
+const totalPages = computed(() => {
+  return Math.ceil(sortedProducts.value.length / productsPerPage.value);
+});
+
+const categories = computed(() => {
+  const uniqueCategories = new Set();
+  allProducts.value.forEach(product => uniqueCategories.add(product.category));
+  return Array.from(uniqueCategories);
+});
+
+const statuses = computed(() => {
+  const uniqueStatuses = new Set();
+  allProducts.value.forEach(product => uniqueStatuses.add(product.status));
+  return Array.from(uniqueStatuses);
+});
+
+const paginationInfo = computed(() => {
+  const start = (currentPage.value - 1) * productsPerPage.value + 1;
+  const end = Math.min(start + productsPerPage.value - 1, filteredProducts.value.length);
+  return `Showing ${start}–${end} of ${filteredProducts.value.length} results`;
+});
+
+// Methods
 const getProducts = async () => {
+  isLoading.value = true;
   try {
     const response = await axios.get(
       "https://966a61a1-fc75-4d06-8b55-f8eba92a5079.mock.pstmn.io"
     );
-    products.value = response.data;
-    console.log("Fetched products:", products.value);
+    allProducts.value = response.data;
+    products.value = paginatedProducts.value;
+    console.log("Fetched products:", allProducts.value);
   } catch (error) {
     console.error("Error fetching products:", error);
+  } finally {
+    isLoading.value = false;
   }
 };
 
+const toggleFilterPanel = () => {
+  showFilterPanel.value = !showFilterPanel.value;
+};
+
+const updateViewMode = (mode) => {
+  viewMode.value = mode;
+};
+
+const updateProductsPerPage = (number) => {
+  productsPerPage.value = number;
+  currentPage.value = 1; // Reset to first page when changing items per page
+};
+
+const updateSortOption = (option) => {
+  sortOption.value = option;
+};
+
+const updateCategoryFilter = (category) => {
+  categoryFilter.value = category;
+};
+
+const updateStatusFilter = (status) => {
+  statusFilter.value = status;
+};
+
+const addToCart = (product) => {
+  console.log("Adding to cart:", product);
+  // Implement cart functionality here
+  alert(`Added ${product.name} to cart!`);
+};
+
+const handlePageChange = (page) => {
+  currentPage.value = page;
+};
+
+// Watch for changes in filtered products to update current page
+watch([sortedProducts, productsPerPage], () => {
+  if (currentPage.value > totalPages.value) {
+    currentPage.value = totalPages.value || 1;
+  }
+});
+
+// Watch for changes in pagination to update displayed products
+watch([currentPage, paginatedProducts], () => {
+  products.value = paginatedProducts.value;
+});
+
+// Initial data fetch
 getProducts();
 </script>
-<template>
-    <section class="bg-beigeLight py-[22px]">
-        <div class="container flex flex-col md:flex-row justify-between items-center gap-6 md:gap-0">
-            <div class="flex  items-center gap-6 py-[13px]">
-                <div class="flex items-center gap-3 cursor-pointer">
-                    <img src="/public/images/filter.svg" alt="" class="cursor-pointer">
-                    <p class="text-[20px]">Filter</p>
-                </div>
-                <img src="/public/images/grid.svg" alt="" class="cursor-pointer">
-                <img src="/public/images/view-list.svg" alt="" class="cursor-pointer">
-                <p class=" border-l-2 border-l-grayMedium pl-[34px] ml-[6px]">Showing 1–16 of 32 results</p>
-            </div>
-            <div class="flex items-center gap-[29px]">
-                <div class="flex items-center gap-[17px]">
-                    <label for="" class="text-[20px]">show</label>
-                    <select class=" p-3 w-[65px] text-grayMedium outline-none">
-                        <option value="8">8</option>
-                        <option selected value="16">16</option>
-                        <option value="32">32</option>
-                        <option value="64">64</option>
-                    </select>
-                </div>
-                <div class="flex items-center gap-[17px]">
-                    <label for="">Sort by</label>
-                    <select class=" p-3 w-[200px] text-grayMedium outline-none">
-                        <option value="default" selected>Default</option>
-                        <option value="popularity">Popularity</option>
-                        <option value="average rating">Average rating</option>
-                        <option value="latest">Latest</option>
-                        <option value="price low to high">Price: low to high</option>
-                        <option value="price high to low">Price: high to low</option>
-                    </select>
 
-                </div>
-                    
-            </div>
-        </div>
-    </section>
-    <section class="container my-[46px]">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-            <div v-for="product in products" :key="product.id" class=" flex flex-col relative">
-                <img 
-                :src="product.images[0]" 
-                :alt="product.name"
-                class="w-full  object-cover" 
-                />
-                <span :class="product.status === 'In Stock' ? 'bg-statusBg' : 'bg-tagBg' " class="absolute right-2 top-2 rounded-lg text-white p-1 text-xs  z-10">{{ product.status }}</span>
-                <div class="bg-grayLightest p-4">
-                <h3 class="text-[20px] font-semibold mb-2 line-clamp-1">{{ product.name }}</h3>
-                <p class="text-charcoalGray font-medium">{{ product.category }}</p>
-                <div class="flex justify-between items-center">
-                    <p class="text-[20px] font-semibold">{{ product.currency}} {{ product.discounted_price}}</p>
-                    <p class="text-[#B0B0B0] line-through">{{ product.currency}} {{ product.price}}</p>
-                </div>
-                </div>
-                <div class="bg-black bg-opacity-70 absolute h-full w-full top-0 left-0 flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 z-30">
-                <ButtonComponent
-                    variant="secondary" 
-                    :to="{ name: 'ShopView' }" 
-                    size="custom"
-                    width="w-fit"
-                    padding="px-[59px] py-3"
-                    fontSize="text-base"
-                    customClass=" font-semibold"
-                >
-                Add to cart
-                </ButtonComponent>
-                <div class="flex items-center gap-5 mt-6">
-                    <div class="flex items-center gap-1 cursor-pointer text-white font-semibold">
-                    <img src="/public/images/share-white.svg" alt="">
-                    <span>Share</span>
-                    </div>
-                    <div class="flex items-center gap-1 cursor-pointer text-white font-semibold">
-                    <img src="/public/images/compare-white.svg" alt="">
-                    <span>Compare</span>
-                    </div>
-                    <div class="flex items-center gap-1 cursor-pointer text-white font-semibold">
-                    <img src="/public/images/like-white.svg" alt="">
-                    <span>Like</span>
-                    </div>
-                </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<template>
+  <!-- Sort and View Controls Component -->
+  <sort-and-view-component
+    :view-mode="viewMode"
+    :pagination-info="paginationInfo"
+    :products-per-page="productsPerPage"
+    :sort-option="sortOption"
+    @toggle-filter="toggleFilterPanel"
+    @change-view="updateViewMode"
+    @change-products-per-page="updateProductsPerPage"
+    @change-sort="updateSortOption"
+  />
+
+  <!-- Filter Panel Component -->
+  <filter-component 
+    v-if="showFilterPanel"
+    :categories="categories"
+    :statuses="statuses"
+    :category-filter="categoryFilter"
+    :status-filter="statusFilter"
+    @update-category="updateCategoryFilter"
+    @update-status="updateStatusFilter"
+  />
+ 
+  <section v-if="isLoading" class="container py-16 text-center">
+    <div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-primary mx-auto"></div>
+    <p class="mt-4 text-lg">Loading products...</p>
+  </section>
+
+  <!-- Products Grid View -->
+  <section v-else-if="viewMode === 'grid'" class="container my-[46px]">
+    <div v-if="products.length === 0" class="text-center py-8">
+      <p class="text-lg">No products found matching your criteria.</p>
+    </div>
+    <div v-else class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+      <product-card 
+        v-for="product in products" 
+        :key="product.id" 
+        :product="product" 
+        :view-mode="viewMode"
+        @add-to-cart="addToCart"
+      />
+    </div>
+  </section>
+
+  <!-- Products List View -->
+  <section v-else class="container my-[46px]">
+    <div v-if="products.length === 0" class="text-center py-8">
+      <p class="text-lg">No products found matching your criteria.</p>
+    </div>
+    <div v-else class="flex flex-col gap-4 mb-8">
+      <product-card 
+        v-for="product in products" 
+        :key="product.id" 
+        :product="product" 
+        :view-mode="viewMode"
+        @add-to-cart="addToCart"
+      />
+    </div>
+  </section>
+
+  <!-- Pagination -->
+  <pagination-component
+    :current-page="currentPage" 
+    :total-pages="totalPages" 
+    @change-page="handlePageChange"
+  />
 </template>
