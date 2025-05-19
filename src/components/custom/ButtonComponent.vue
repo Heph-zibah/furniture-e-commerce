@@ -84,7 +84,7 @@ const classes = computed(() => {
     secondary: 'bg-white hover:bg-secondary-500 text-primary hover:text-white focus:ring-secondary disabled:bg-secondary-50  transition-colors',
     neutral: 'bg-gray-600 hover:bg-gray-700 text-white focus:ring-gray-500 disabled:bg-gray-300  transition-colors',
     outlined: 'bg-transparent hover:bg-primary text-primary hover:text-white border border-primary focus:ring-primary disabled:text-gray-300 disabled:border-gray-200 transition-colors',
-    blackOutlined: 'bg-transparent hover:bg-primary text-black hover:text-white border border-black focus:ring-0 disabled:text-gray-300 disabled:border-gray-200 transition-colors'
+    blackOutlined: 'bg-transparent hover:bg-primary text-black hover:text-white border border-black hover:border-0 focus:ring-0 disabled:text-gray-300 disabled:border-gray-200 transition-colors'
 
   };
   
