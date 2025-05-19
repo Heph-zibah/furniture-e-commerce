@@ -14,11 +14,7 @@ const props = defineProps({
 
 const emit = defineEmits(['change-page']);
 
-const changePage = (page) => {
-  if (page >= 1 && page <= props.totalPages) {
-    emit('change-page', page);
-  }
-};
+
 
 const prevPage = () => {
   if (props.currentPage > 1) {
@@ -30,6 +26,12 @@ const nextPage = () => {
   if (props.currentPage < props.totalPages) {
     emit('change-page', props.currentPage + 1);
   }
+};
+const changePage = (page) => {
+  if (page >= 1 && page <= props.totalPages) {
+    emit('change-page', page);
+  }
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 };
 </script>
 

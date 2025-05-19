@@ -3312,3 +3312,145 @@
      "updated_at": "2025-04-28T09:15:00Z"
    }
  ]
+
+[
+  {
+    "id": 1,
+    "title": "Going all-in with millennial design",
+    "slug": "going-all-in-with-millennial-design",
+    "author": "Admin",
+    "date": "2023-08-01",
+    "category_id": 1,
+    "category_name": "Craft",
+    "image": "https://i.postimg.cc/vBTQ0YBF/blog-1.png",
+    "excerpt": "Discover how millennial aesthetics are reshaping wooden furniture design and creating sustainable style.",
+    "content": "Millennial design is all about combining sustainability with style. This article explores how woodwork is being reimagined with clean lines, eco-conscious sourcing, and minimalist beauty. From choosing the right stain to highlighting natural textures, we'll guide you through the top trends. Learn how to bring warmth and functionality to your living spaces using wood as the foundational material. Whether you're a seasoned DIYer or just starting out, this guide provides actionable tips for a stylish transformation.",
+    "comments_count": 3
+  },
+  {
+    "id": 2,
+    "title": "Why minimalist interiors are timeless",
+    "slug": "why-minimalist-interiors-are-timeless",
+    "author": "Jane Doe",
+    "date": "2023-08-05",
+    "category_id": 2,
+    "category_name": "Design",
+    "image": "https://i.postimg.cc/YSp2mfBS/blog-2.png",
+    "excerpt": "Explore the power of simplicity in home design and why less truly is more.",
+    "content": "Minimalist interiors prioritize space, light, and intention. In this blog, we delve into how to create clean and calming rooms by reducing clutter and focusing on essentials. Discover how neutral tones, natural textures, and functional furniture can bring peace and elegance to your environment. From Scandinavian influence to Japanese Zen, minimalism continues to inspire timeless design.",
+    "comments_count": 5
+  },
+  {
+    "id": 3,
+    "title": "Eco-friendly materials for modern homes",
+    "slug": "eco-friendly-materials-for-modern-homes",
+    "author": "Green Living",
+    "date": "2023-08-10",
+    "category_id": 3,
+    "category_name": "Handmade",
+    "image": "https://i.postimg.cc/XvQjKGnk/blog-3.png",
+    "excerpt": "Make your home green and gorgeous with these sustainable materials.",
+    "content": "Sustainability is the heart of modern home design. This post walks you through environmentally friendly materials such as reclaimed wood, bamboo, recycled glass, and low-VOC paints. Learn how to use these materials creatively to build beautiful, safe, and eco-conscious spaces. Plus, get expert tips on sourcing and maintaining sustainable furnishings that last.",
+    "comments_count": 8
+  },
+  {
+    "id": 4,
+    "title": "Decorating with natural textures",
+    "slug": "decorating-with-natural-textures",
+    "author": "Style Editor",
+    "date": "2023-08-12",
+    "category_id": 4,
+    "category_name": "Interior",
+    "image": "https://i.postimg.cc/vBTQ0YBF/blog-1.png",
+    "excerpt": "Bring nature indoors with organic finishes and earthy tones.",
+    "content": "From rattan chairs to wool throws, natural textures create warmth and character. This article explores how to layer textures like linen, jute, terracotta, and wood for a cozy and stylish effect. You'll also find ideas for pairing textures with seasonal color palettes and tips for blending rustic charm with modern elegance.",
+    "comments_count": 4
+  },
+  {
+    "id": 5,
+    "title": "Color psychology in interior design",
+    "slug": "color-psychology-in-interior-design",
+    "author": "Admin",
+    "date": "2023-08-15",
+    "category_id": 5,
+    "category_name": "Wood",
+    "image": "https://i.postimg.cc/YSp2mfBS/blog-2.png",
+    "excerpt": "Understand how color influences mood and design choices.",
+    "content": "Colors can energize, calm, or inspire depending on how they're used. This blog breaks down the emotional impact of common colors and offers guidance on choosing the right hues for each room. Learn how to mix and match shades for balance, create focal points with bold tones, and use accent pieces to subtly influence ambiance.",
+    "comments_count": 6
+  },
+  {
+    "id": 6,
+    "title": "Designing small spaces with impact",
+    "slug": "designing-small-spaces-with-impact",
+    "author": "Tiny Living",
+    "date": "2023-08-18",
+    "category_id": 2,
+    "category_name": "Design",
+    "image": "https://i.postimg.cc/XvQjKGnk/blog-3.png",
+    "excerpt": "Make the most of limited space with these expert layout tips.",
+    "content": "Living small doesn’t mean living without style. Discover strategies to maximize functionality without sacrificing design. This includes choosing multi-purpose furniture, vertical storage, and the right lighting to make any room feel more spacious. With thoughtful design, small spaces can be both beautiful and efficient.",
+    "comments_count": 9
+  },
+  {
+    "id": 7,
+    "title": "Crafting gifts that matter",
+    "slug": "crafting-gifts-that-matter",
+    "author": "Crafted Life",
+    "date": "2023-08-20",
+    "category_id": 5,
+    "category_name": "Wood",
+    "image": "https://i.postimg.cc/vBTQ0YBF/blog-1.png",
+    "excerpt": "Skip store-bought and create personalized gifts that make a lasting impression.",
+    "content": "Handcrafted gifts show more thought and care. From DIY journals to custom wood plaques, we explore beautiful gift ideas that anyone can make. Learn which tools to use, how to personalize effectively, and where to find inspiration for your next creation. You'll also discover how meaningful gifts can strengthen relationships and spark joy.",
+    "comments_count": 7
+  },
+  {
+    "id": 8,
+    "title": "Mixing old and new: Vintage modern style",
+    "slug": "mixing-old-and-new-vintage-modern-style",
+    "author": "Editor",
+    "date": "2023-08-22",
+    "category_id": 4,
+    "category_name": "Interior",
+    "image": "https://i.postimg.cc/YSp2mfBS/blog-2.png",
+    "excerpt": "Blend nostalgia with modern touches for a unique and warm space.",
+    "content": "Combining vintage elements with contemporary design is a creative way to make a space your own. This article shows how to incorporate heirlooms, thrift finds, and retro textures into a modern interior. Learn the balance between charm and clutter, and how to create continuity with color and form.",
+    "comments_count": 2
+  },
+  {
+    "id": 9,
+    "title": "Budget-friendly furniture upgrades",
+    "slug": "budget-friendly-furniture-upgrades",
+    "author": "Home Hacks",
+    "date": "2023-08-25",
+    "category_id": 1,
+    "category_name": "Craft",
+    "image": "https://i.postimg.cc/XvQjKGnk/blog-3.png",
+    "excerpt": "Transform your furniture with easy and affordable tricks.",
+    "content": "Give old furniture a new life without breaking the bank. This blog includes ideas like painting, changing hardware, reupholstering, and using contact paper to refresh tables, chairs, and cabinets. Get step-by-step tutorials and material lists to start your own transformation today.",
+    "comments_count": 10
+  },
+  {
+    "id": 10,
+    "title": "Creating harmony with open-plan living",
+    "slug": "creating-harmony-with-open-plan-living",
+    "author": "Design Daily",
+    "date": "2023-08-28",
+    "category_id": 3,
+    "category_name": "Handmade",
+    "image": "https://i.postimg.cc/vBTQ0YBF/blog-1.png",
+    "excerpt": "Make open layouts functional and inviting with these expert strategies.",
+    "content": "Open-plan homes promote connection and flow, but they also require smart zoning and decor balance. Learn how to define spaces using rugs, furniture placement, and lighting without sacrificing openness. Discover practical ways to maintain privacy, reduce noise, and enhance comfort in shared living areas.",
+    "comments_count": 1
+  }
+]
+
+
+  [
+    { "id": 1, "name": "Craft" },
+    { "id": 2, "name": "Design" },
+    { "id": 3, "name": "Handmade" },
+    { "id": 4, "name": "interior" },
+    { "id": 5, "name": "Wood" }
+  ]

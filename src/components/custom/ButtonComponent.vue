@@ -5,7 +5,7 @@ const props = defineProps({
   variant: {
     type: String,
     default: 'primary',
-    validator: (value) => ['primary', 'secondary', 'neutral', 'outlined'].includes(value)
+    validator: (value) => ['primary', 'secondary', 'neutral', 'outlined', 'blackOutlined'].includes(value)
   },
   size: {
     type: String,
@@ -83,7 +83,9 @@ const classes = computed(() => {
     primary: 'bg-primary hover:bg-primary-500 text-white focus:ring-primary disabled:bg-primary-50 transition-colors',
     secondary: 'bg-white hover:bg-secondary-500 text-primary hover:text-white focus:ring-secondary disabled:bg-secondary-50  transition-colors',
     neutral: 'bg-gray-600 hover:bg-gray-700 text-white focus:ring-gray-500 disabled:bg-gray-300  transition-colors',
-    outlined: 'bg-transparent hover:bg-primary text-primary hover:text-white border border-primary focus:ring-primary disabled:text-gray-300 disabled:border-gray-200 transition-colors'
+    outlined: 'bg-transparent hover:bg-primary text-primary hover:text-white border border-primary focus:ring-primary disabled:text-gray-300 disabled:border-gray-200 transition-colors',
+    blackOutlined: 'bg-transparent hover:bg-primary text-black hover:text-white border border-black focus:ring-0 disabled:text-gray-300 disabled:border-gray-200 transition-colors'
+
   };
   
   return [

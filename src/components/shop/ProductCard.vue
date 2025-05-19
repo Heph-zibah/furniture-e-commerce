@@ -19,11 +19,17 @@ const emit = defineEmits(['add-to-cart']);
 const addToCart = () => {
   emit('add-to-cart', props.product);
 };
+const createSlug = (text) => {
+  return text
+    .toLowerCase()
+    .replace(/[^\w ]+/g, '')
+    .replace(/ +/g, '-');
+};
 </script>
 
 <template>
   <!-- Grid View Product Card -->
-  <div v-if="viewMode === 'grid'" class="flex flex-col relative">
+  <router-link :to="`/shop/${product.id}/${createSlug(product.name)}`" v-if="viewMode === 'grid'" class="flex flex-col relative">
     <img 
       :src="product.images[0]" 
       :alt="product.name"
@@ -68,7 +74,7 @@ const addToCart = () => {
         </div>
       </div>
     </div>
-  </div>
+  </router-link>
 
   <!-- List View Product Card -->
   <div v-else class="flex flex-col md:flex-row gap-6 bg-grayLightest p-4 rounded-lg relative">
