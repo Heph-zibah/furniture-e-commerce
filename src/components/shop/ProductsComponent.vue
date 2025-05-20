@@ -5,7 +5,7 @@ import ProductCard from './ProductCard.vue';
 import PaginationComponent from '../custom/PaginationComponent.vue';
 import FilterComponent from './FilterComponent.vue';
 import SortAndViewComponent from './SortAndViewComponent.vue';
-
+import LoadingComponent from '../custom/LoadingComponent.vue';
 
 const products = ref([]);
 const allProducts = ref([]);
@@ -179,10 +179,11 @@ getProducts();
     @update-status="updateStatusFilter"
   />
  
-  <section v-if="isLoading" class="container py-16 text-center">
-    <div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-primary mx-auto"></div>
-    <p class="mt-4 text-lg">Loading products...</p>
-  </section>
+  <LoadingComponent 
+    v-if="isLoading" 
+    :message="loadingMessage" 
+    size="medium"
+  />
 
   <!-- Products Grid View -->
   <section v-else-if="viewMode === 'grid'" class="container my-[46px]">

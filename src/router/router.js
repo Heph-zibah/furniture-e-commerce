@@ -7,6 +7,8 @@ import ContactView from "../views/ContactView.vue";
 import Cart from "../components/CartComponent.vue";
 import BlogView from "../views/BlogView.vue";
 import ProductView from "../views/ProductView.vue";
+import BlogIdView from "../views/BlogIdView.vue";
+
 const routes = [
   { path: "/", name: "HomeView", component: HomeView },
   { path: "/shop", name: "ShopView", component: ShopView },
@@ -18,6 +20,12 @@ const routes = [
     path: "/shop/:id/:name",
     name: "ProductView",
     component: ProductView,
+    props: true,
+  },
+  {
+    path: "/blog/:id/:slug",
+    name: "BlogIdView",
+    component: BlogIdView,
     props: true,
   },
 ];

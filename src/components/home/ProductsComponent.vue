@@ -2,7 +2,7 @@
 import { ref, computed } from "vue";
 import axios from "axios";
 import ButtonComponent from '../custom/ButtonComponent.vue';
-
+import LoadingComponent from '../custom/LoadingComponent.vue';
 let products = ref([]);
 const isLoading = ref(true);
 
@@ -31,10 +31,11 @@ getProducts();
   <section class="container mx-auto px-4 mb-16">
     <h2 class="capitalize text-center text-4xl font-bold mb-8">our products</h2>
     
-    <div v-if="isLoading" class="container py-16 text-center">
-      <div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-primary mx-auto"></div>
-      <p class="mt-4 text-lg">Loading products...</p>
-    </div>
+    <LoadingComponent 
+    v-if="isLoading" 
+    :message="loadingMessage" 
+    size="medium"
+  />
     <!-- Top row - 4 products -->
     <div v-else>
       <div  class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8 ">
@@ -44,7 +45,14 @@ getProducts();
           :alt="product.name"
           class="w-full  object-cover" 
         />
-        <span :class="product.status === 'In Stock' ? 'bg-statusBg' : 'bg-red-500' " class="absolute right-2 top-2 rounded-lg text-white p-1 text-xs  z-10">{{ product.status }}</span>
+        <div v-if="product.status" class="absolute right-2 text-white top-2 rounded-lg  p-1 text-xs  z-10"
+            :class="{
+              'bg-statusBg ': product.status === 'In Stock',
+              'bg-red-500 ': product.status === 'Out of Stock',
+              'bg-yellow-500': product.status === 'Low Stock',
+            }">
+            {{ product.status }}
+          </div>
         <div class="bg-grayLightest p-4">
             <h3 class="text-[20px] font-semibold mb-2 line-clamp-1">{{ product.name }}</h3>
             <p class="text-charcoalGray font-medium">{{ product.category }}</p>

@@ -35,10 +35,10 @@ const createSlug = (text) => {
       :alt="product.name"
       class="w-full object-cover" 
     />
-    <span :class="product.status === 'In Stock' ? 'bg-statusBg' : 'bg-tagBg'" 
-          class="absolute right-2 top-2 rounded-lg text-white p-1 text-xs z-10">
-      {{ product.status }}
-    </span>
+    <div v-if="product.status" class="absolute right-2 text-white top-2 rounded-lg  p-1 text-xs  z-10"
+      :class="{'bg-statusBg ': product.status === 'In Stock', 'bg-red-500 ': product.status === 'Out of Stock','bg-yellow-500': product.status === 'Low Stock',}">
+        {{ product.status }}
+    </div>
     <div class="bg-grayLightest p-4">
       <h3 class="text-[20px] font-semibold mb-2 line-clamp-1">{{ product.name }}</h3>
       <p class="text-charcoalGray font-medium">{{ product.category }}</p>
@@ -77,7 +77,7 @@ const createSlug = (text) => {
   </router-link>
 
   <!-- List View Product Card -->
-  <div v-else class="flex flex-col md:flex-row gap-6 bg-grayLightest p-4 rounded-lg relative">
+  <router-link :to="`/shop/${product.id}/${createSlug(product.name)}`" v-else class="flex flex-col md:flex-row gap-6 bg-grayLightest p-4 rounded-lg relative">
     <div class="relative md:w-1/4">
       <img 
         :src="product.images[0]" 
@@ -126,5 +126,5 @@ const createSlug = (text) => {
         </div>
       </div>
     </div>
-  </div>
+  </router-link>
 </template>
