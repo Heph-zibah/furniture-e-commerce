@@ -44,7 +44,6 @@ const changePage = (page) => {
         <p>Prev</p>
       </div>
       <ul class="flex items-center gap-3">
-        <!-- Limited page numbers for better UX -->
         <template v-if="totalPages <= 5">
           <li v-for="page in totalPages" :key="page"
               @click="changePage(page)"
@@ -54,17 +53,14 @@ const changePage = (page) => {
           </li>
         </template>
         <template v-else>
-          <!-- First page -->
           <li @click="changePage(1)"
               :class="{'bg-primary': currentPage === 1, 'bg-beigeLight': currentPage !== 1}"
               class="px-5 md:px-6 py-[15px] rounded-[10px] text-sm md:text-[20px] cursor-pointer">
             1
           </li>
           
-          <!-- Ellipsis if needed -->
           <li v-if="currentPage > 3" class="text-center px-2">...</li>
           
-          <!-- Pages around current -->
           <template v-for="page in totalPages" :key="page">
             <li v-if="page !== 1 && page !== totalPages && 
                       (page === currentPage || 
@@ -77,10 +73,8 @@ const changePage = (page) => {
             </li>
           </template>
           
-          <!-- Ellipsis if needed -->
           <li v-if="currentPage < totalPages - 2" class="text-center px-2">...</li>
           
-          <!-- Last page -->
           <li @click="changePage(totalPages)"
               :class="{'bg-primary': currentPage === totalPages, 'bg-beigeLight': currentPage !== totalPages}"
               class="px-5 md:px-6 py-[15px] rounded-[10px] text-sm md:text-[20px] cursor-pointer">

@@ -13,28 +13,27 @@ const props = defineProps({
 
 <template>
   <div>
-    <!-- Breadcrumbs Section -->
+    
     <div class="bg-beigeLight">
       <div class="container py-[38px]">
         <breadcrumbs-component />
       </div>
     </div>
     
-    <!-- Product Detail Section -->
+  
     <div class="flex flex-col md:flex-row gap-[41px] md:gap-[82px] container my-[35px]">
-      <!-- Product Image -->
+     
       <div class="md:w-1/2">
         <img :src="product.images[0]" :alt="product.name" class="w-full h-auto rounded-lg shadow-lg">
       </div>
       
-      <!-- Product Info -->
+      
       <div class="md:w-1/2">
         <h1 class="text-[24px] md:text-[42px] font-semibold mb-2">{{ product.name }}</h1>
-        
-        <!-- Price and Stock Status -->
+    
         <div class="mb-[15px] flex items-center gap-5">
           <div class="flex items-center">
-            <span class="text-2xl font-bold text-primary">{{ product.currency }} {{ product.discounted_price.toFixed(2) }}</span>
+            <span class="text-2xl md:text-xl lg:text-2xl font-bold text-primary">{{ product.currency }} {{ product.discounted_price.toFixed(2) }}</span>
             <span v-if="product.regular_price > product.discounted_price" class="ml-3 text-gray-400 line-through">${{ product.regular_price.toFixed(2) }}</span>
           </div>
           
@@ -48,7 +47,7 @@ const props = defineProps({
           </div>
         </div>
         
-        <!-- Ratings -->
+      
         <div class="flex items-center mb-4">
           <div class="flex items-center gap-[7px]">
             <span v-for="i in 5" :key="i" class="text-yellow-400">
@@ -62,17 +61,16 @@ const props = defineProps({
           <span class="text-[13px] text-grayMedium border-l-2 border-l-grayMedium pl-[22px] ml-[18px]">{{ product.review_count }} Customer Review</span>
         </div>
         
-        <!-- Short Description -->
+       
         <div class="mb-6">
           <p class="text-[13px]">{{ product.short_description }}</p>
         </div>
 
-        <!-- Action Buttons -->
-        <div class="flex flex-col md:flex-row w-full gap-[10px] items-center">
+        <div class="flex flex-col lg:flex-row w-full gap-[10px] items-center">
           <button-component
             variant="blackOutlined"
             size="custom"
-            width="w-full md:w-fit"
+            width="w-full lg:w-fit"
             padding="px-6 py-2"
             fontSize="text-[20px]"
             customClass="rounded-md outline-0"
@@ -83,7 +81,7 @@ const props = defineProps({
           <button-component
             variant="blackOutlined"
             size="custom"
-            width="w-full md:w-fit"
+            width="w-full lg:w-fit"
             padding="px-6 py-2"
             fontSize="text-[20px]"
             customClass="rounded-md outline-0"
@@ -94,7 +92,7 @@ const props = defineProps({
           <button-component
             variant="blackOutlined"
             size="custom"
-            width="w-full md:w-fit"
+            width="w-full lg:w-fit"
             padding="px-6 py-2"
             fontSize="text-[20px]"
             customClass="rounded-md outline-0"
@@ -103,7 +101,7 @@ const props = defineProps({
           </button-component>
         </div>
         
-        <!-- Product Meta Info -->
+ 
         <div class="mb-6 space-y-3 border-t border-t-grayLight pt-[41px] mt-[60px]">
           <div class="text-grayMedium space-x-2">
             <span>SKU</span>

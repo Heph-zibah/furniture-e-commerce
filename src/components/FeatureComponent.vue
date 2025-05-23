@@ -1,3 +1,7 @@
+<script setup>
+import {features} from '../lib/data';
+</script>
+
 <template>
   <section class="bg-ivoryLight py-[100px]">
     <div class="container grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-4 items-center justify-center gap-[50px]">
@@ -25,6 +29,4 @@
   </section>
 </template>
 
-<script setup>
-import {features} from '../lib/data';
-</script>
+

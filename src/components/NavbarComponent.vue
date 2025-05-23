@@ -8,19 +8,6 @@ import MobileNavbarComponent from "./MobileNavbarComponent.vue";
 
 const route = useRoute(); 
 
-// const getProducts = async () => {
-//   try {
-//     const response = await axios.get(
-//       "https://79a125c4-bdad-4c27-9703-4b2e33f8e890.mock.pstmn.io"
-//     ); 
-//     console.log(response.data);
-//   } catch (error) {
-//     console.error(error);
-//   }
-// };
-
-// getProducts();
-
 const openMobileMenu = ref(false);
 const toggleMobileMenu = () => {
   openMobileMenu.value = !openMobileMenu.value;
@@ -39,7 +26,6 @@ const toggleMobileMenu = () => {
       aria-label="Home"
     />
 
-    <!-- Desktop Navigation -->
      <ul class="hidden lg:flex gap-[75px] font-medium" role="navigation">
       <li v-for="link in navLinks" :key="link.id">
         <router-link 
@@ -81,7 +67,6 @@ const toggleMobileMenu = () => {
       </router-link>
     </div>
 
-    <!-- Mobile Menu Button -->
     <div class="lg:hidden">
       <button
         aria-label="Open navigation menu"
@@ -92,8 +77,7 @@ const toggleMobileMenu = () => {
         <img src="/images/hamburger.svg" alt="Menu" class="w-[30px] mt-3" />
       </button>
     </div>
-
-    <!-- Mobile Navigation -->  
+  
      <mobile-navbar-component :open-mobile-menu="openMobileMenu" :toggle-mobile-menu="toggleMobileMenu"/>
   
   </nav>

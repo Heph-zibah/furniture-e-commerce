@@ -48,6 +48,5 @@ const goBack = () => {
     </button-component>
   </div>
 
-  <!-- Default slot for content when not loading or not found -->
   <slot v-else></slot>
 </template>

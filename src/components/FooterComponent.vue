@@ -9,7 +9,6 @@ const currentYear = new Date().getFullYear();
         <div class="flex flex-col gap-5 container">
             <div class="grid grid-cols-1 md:grid-cols-4 justify-center md:justify-between">
                 
-                <!-- Logo and Address -->
                 <div class="flex flex-col items-center md:items-start justify-center md:justify-start">
                     <router-link 
                         :to="{name:'HomeView'}" 
@@ -30,7 +29,6 @@ const currentYear = new Date().getFullYear();
                     </address>
                 </div>
 
-                <!-- Navigation Links -->
                 <nav v-for="section in footerLinks" 
                      :key="section.title" 
                      class="mt-[25px] md:mt-0 flex flex-col items-center md:items-start text-center md:text-left"
@@ -46,7 +44,6 @@ const currentYear = new Date().getFullYear();
                     </ul>
                 </nav>
                 
-                <!-- Newsletter Subscription -->
                 <div class="flex flex-col items-center md:items-start">
                     <h3 class="mb-[50px] text-grayLight">Newsletter</h3>
                     <div class="gap-5 flex flex-col lg::flex-row">
@@ -67,7 +64,6 @@ const currentYear = new Date().getFullYear();
                 </div>
             </div>
 
-            <!-- Copyright -->
             <p class="py-[36px] border-t border-t-grayLight text-center">
                 &copy; {{ currentYear }} <a href="https://www.linkedin.com/in/oadaramola/" class="hover:text-secondary-100">'Tosin Daramola</a>. All rights reserved.
             </p>

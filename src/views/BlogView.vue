@@ -13,7 +13,6 @@ const router = useRouter();
 const blogPosts = ref([]);
 const isLoading = ref(true);
 
-// Fetch all blog posts for the listing page
 const fetchBlogPosts = async () => {
   try {
     const response = await axios.get(
@@ -65,8 +64,6 @@ const totalPages = computed(() => {
 const handlePageChange = (page) => {
     currentPage.value = page;
 };
-
-// Helper function to create URL-friendly slugs
 const createSlug = (text) => {
   return text
     .toLowerCase()
@@ -110,7 +107,6 @@ const createSlug = (text) => {
                         </div>
                     </div>
                     <div class="col-span-1">
-                        <!-- Categories Section -->
                         <div class="bg-white shadow-md rounded-lg p-4 mb-6 w-full">
                             <h3 class="text-[24px] font-medium mb-[33px]">Categories</h3>
                             <ul class="space-y-[36px]">

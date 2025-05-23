@@ -19,7 +19,6 @@ const activeTab = ref(tabs[0].id);
 
 <template>
   <div class="container my-[35px]">
-    <!-- Tab Navigation -->
     <ul class="flex justify-between md:justify-center items-center gap-3 sm:gap-[26px] md:gap-[52px]">
       <li 
         v-for="tab in tabs" 
@@ -35,22 +34,19 @@ const activeTab = ref(tabs[0].id);
       </li>
     </ul>
 
-    <!-- Description Tab -->
     <div v-if="activeTab === 'description'" class="mt-6">
       <p class="text-gray-600 mt-4">{{ product.description || 'No description available.' }}</p>
       <p class="text-gray-600 mt-4">{{ product.short_description || 'No description available.' }}</p>
     </div>
 
-    <!-- Additional Information Tab -->
     <div v-if="activeTab === 'additional-info'" class="mt-6">
       <div v-if="product.additional_info && product.additional_info.length > 0" class="space-y-6">
-        <!-- Care Instructions -->
+     
         <div v-if="product.additional_info.find(item => item.care_instructions)" class="border-b border-grayLight pb-4">
           <h3 class="text-lg font-semibold mb-2">Care Instructions</h3>
           <p class="text-gray-600">{{ product.additional_info.find(item => item.care_instructions)?.care_instructions }}</p>
         </div>
-        
-        <!-- Assembly Information -->
+
         <div v-if="product.additional_info.find(item => item.assembly_required)" class="border-b border-grayLight pb-4">
           <h3 class="text-lg font-semibold mb-2">Assembly Information</h3>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -73,7 +69,6 @@ const activeTab = ref(tabs[0].id);
           </div>
         </div>
         
-        <!-- Return & Exchange Policy -->
         <div v-if="product.additional_info.find(item => item.return_policy || item.exchange_policy)" class="border-b border-grayLight pb-4">
           <h3 class="text-lg font-semibold mb-2">Return & Exchange Policy</h3>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -88,7 +83,6 @@ const activeTab = ref(tabs[0].id);
           </div>
         </div>
         
-        <!-- Shipping Information -->
         <div v-if="product.additional_info.find(item => item.shipping_info || item.shipping_restrictions)" class="border-b border-grayLight pb-4">
           <h3 class="text-lg font-semibold mb-2">Shipping Information</h3>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -103,7 +97,6 @@ const activeTab = ref(tabs[0].id);
           </div>
         </div>
         
-        <!-- Customer Service -->
         <div v-if="product.additional_info.find(item => item.customer_service || item.live_chat)" class="pb-4">
           <h3 class="text-lg font-semibold mb-2">Customer Support</h3>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -124,12 +117,10 @@ const activeTab = ref(tabs[0].id);
       </div>
     </div>
 
-    <!-- Reviews Tab -->
     <div v-if="activeTab === 'reviews'" class="mt-6">
       <div class="mb-8">
         <h3 class="text-xl font-semibold mb-4">Customer Reviews</h3>
         
-        <!-- Overall rating summary -->
         <div class="flex items-center gap-4 mb-6">
           <div class="text-4xl font-bold">{{ product.rating }}</div>
           <div>
@@ -147,7 +138,6 @@ const activeTab = ref(tabs[0].id);
           </div>
         </div>
         
-        <!-- Write a review button -->
         <button-component
           variant="blackOutlined" 
           size="custom"
@@ -159,7 +149,6 @@ const activeTab = ref(tabs[0].id);
           Write a Review
         </button-component>
         
-        <!-- Individual reviews -->
         <div v-if="product.reviews && product.reviews.length > 0" class="space-y-6">
           <div v-for="review in product.reviews" :key="review.id" class="border-b border-grayLight pb-4">
             <div class="flex justify-between items-start mb-2">

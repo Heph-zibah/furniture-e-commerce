@@ -8,11 +8,10 @@ const props = defineProps({
   },
   size: {
     type: String,
-    default: 'medium' // 'small', 'medium', 'large'
+    default: 'medium'
   }
 });
 
-// Computed sizes for the spinner
 const spinnerSize = {
   small: 'h-8 w-8',
   medium: 'h-12 w-12',

@@ -55,10 +55,7 @@ const handleClick = (event) => {
 };
 
 const classes = computed(() => {
-  // Base classes for all buttons
   const baseClasses = 'font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2';
-  
-  // Size classes - only applied if not using custom dimensions
   let sizeClasses = '';
   if (props.size !== 'custom') {
     const sizeMap = {
@@ -71,14 +68,12 @@ const classes = computed(() => {
     sizeClasses = sizeMap[props.size];
   }
   
-  // Custom size classes - override the preset sizes
   const customSizeClasses = [];
   if (props.width) customSizeClasses.push(props.width);
   if (props.height) customSizeClasses.push(props.height);
   if (props.padding) customSizeClasses.push(props.padding);
   if (props.fontSize) customSizeClasses.push(props.fontSize);
   
-  // Variant classes
   const variantClasses = {
     primary: 'bg-primary hover:bg-primary-500 text-white focus:ring-primary disabled:bg-primary-50 transition-colors',
     secondary: 'bg-white hover:bg-secondary-500 text-primary hover:text-white focus:ring-secondary disabled:bg-secondary-50  transition-colors',
@@ -98,7 +93,6 @@ const classes = computed(() => {
   ].join(' ');
 });
 
-// Determine what component to render (button or router-link)
 const tag = computed(() => props.to ? 'router-link' : 'button');
 </script>
 

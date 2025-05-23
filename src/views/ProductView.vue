@@ -1,36 +1,44 @@
 <script setup>
-import { ref, onMounted } from 'vue';
+import { ref, onMounted, computed } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
-import axios from 'axios';
 import PageLayout from '../layouts/PageLayout.vue';
 import ProductLoadingComponent from '../components/products/ProductLoadingComponent.vue';
 import ProductDetailsComponent from '../components/products/ProductDetailsComponent.vue';
 import ProductTabsComponent from '../components/products/ProductTabsComponent.vue';
+import { useProductStore } from '../stores/ProductStore.js';
 
 const route = useRoute();
 const router = useRouter();
+const productStore = useProductStore(); 
+
 const product = ref(null);
-const isLoading = ref(true);
+
+const currentProduct = computed(() => {
+  if (!productStore.products.length) return null;
+  const productId = parseInt(route.params.id);
+  return productStore.products.find(p => p.id === productId);
+});
+
+const isLoading = computed(() => {
+  return productStore.isLoading || (productStore.products.length === 0);
+});
 
 onMounted(async () => {
   try {
-    const productId = parseInt(route.params.id);
+    if (productStore.products.length === 0) {
+      await productStore.getProducts();
+    }
     
-    const response = await axios.get(
-      "https://966a61a1-fc75-4d06-8b55-f8eba92a5079.mock.pstmn.io"
-    );
     
-    const foundProduct = response.data.find(p => p.id === productId);
+    product.value = currentProduct.value;
     
-    if (foundProduct) {
-      product.value = foundProduct;
-    } else {
+    if (!product.value) {
       console.error("Product not found");
+    } else {
+      console.log('Found product:', product.value);
     }
   } catch (error) {
     console.error("Error fetching product details:", error);
-  } finally {
-    isLoading.value = false;
   }
 });
 
@@ -42,19 +50,24 @@ const goBack = () => {
 <template>
   <page-layout>
     <div>
-      <!-- Loading & Not Found States -->
+     
       <product-loading-component
         v-if="isLoading || !product" 
         :isLoading="isLoading" 
         @go-back="goBack" 
       />
       
-      <!-- Product Content -->
+     
+      <div v-else-if="productStore.error" class="error">
+        <p>Error: {{ productStore.error }}</p>
+        <button @click="goBack">Go Back</button>
+      </div>
+      
+      
       <div v-else class="">
-        <!-- Product Details -->
+  
         <product-details-component :product="product" />
-        
-        <!-- Product Tabs -->
+     
         <product-tabs-component :product="product" />
       </div>
     </div>

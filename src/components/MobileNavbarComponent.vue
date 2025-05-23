@@ -25,7 +25,6 @@ const props = defineProps({
               Furniro
             </p>
           </router-link>
-          <!-- Close Button with Proper Labeling -->
           <button
             aria-label="Close navigation menu"
             @click="props.toggleMobileMenu"
@@ -50,7 +49,6 @@ const props = defineProps({
           </li>
         </ul>
 
-        <!-- Mobile Icons -->
         <div class="md:hidden flex gap-[45px] items-center justify-center my-5">
           <router-link :to="{name:'Cart'}" aria-label="Go to account page">
             <img src="/images/account-alert-white.png" alt="Account" />

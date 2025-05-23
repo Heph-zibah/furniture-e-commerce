@@ -1,32 +1,32 @@
 <script setup>
-import { ref, computed, watch } from "vue";
-import axios from "axios";
+import { ref, computed, watch, onMounted } from "vue";
 import ProductCard from './ProductCard.vue';
 import PaginationComponent from '../custom/PaginationComponent.vue';
 import FilterComponent from './FilterComponent.vue';
 import SortAndViewComponent from './SortAndViewComponent.vue';
 import LoadingComponent from '../custom/LoadingComponent.vue';
+import { useProductStore } from "../../stores/ProductStore";
 
-const products = ref([]);
-const allProducts = ref([]);
+const productStore = useProductStore();
+
 const currentPage = ref(1);
 const productsPerPage = ref(12);
 const sortOption = ref("default");
 const viewMode = ref("grid"); 
-const isLoading = ref(true);
 const showFilterPanel = ref(false);
 const categoryFilter = ref("all");
 const statusFilter = ref("all");
 
+const { products, isLoading, error } = productStore;
+
 const filteredProducts = computed(() => {
-  let result = [...allProducts.value];
+  let result = [...products];
   
- 
+  
   if (categoryFilter.value !== "all") {
     result = result.filter(product => product.category === categoryFilter.value);
   }
-  
- 
+
   if (statusFilter.value !== "all") {
     result = result.filter(product => product.status === statusFilter.value);
   }
@@ -72,13 +72,13 @@ const totalPages = computed(() => {
 
 const categories = computed(() => {
   const uniqueCategories = new Set();
-  allProducts.value.forEach(product => uniqueCategories.add(product.category));
+  products.forEach(product => uniqueCategories.add(product.category));
   return Array.from(uniqueCategories);
 });
 
 const statuses = computed(() => {
   const uniqueStatuses = new Set();
-  allProducts.value.forEach(product => uniqueStatuses.add(product.status));
+  products.forEach(product => uniqueStatuses.add(product.status));
   return Array.from(uniqueStatuses);
 });
 
@@ -87,23 +87,6 @@ const paginationInfo = computed(() => {
   const end = Math.min(start + productsPerPage.value - 1, filteredProducts.value.length);
   return `Showing ${start}–${end} of ${filteredProducts.value.length} results`;
 });
-
-
-const getProducts = async () => {
-  isLoading.value = true;
-  try {
-    const response = await axios.get(
-      "https://966a61a1-fc75-4d06-8b55-f8eba92a5079.mock.pstmn.io"
-    );
-    allProducts.value = response.data;
-    products.value = paginatedProducts.value;
-    console.log("Fetched products:", allProducts.value);
-  } catch (error) {
-    console.error("Error fetching products:", error);
-  } finally {
-    isLoading.value = false;
-  }
-};
 
 const toggleFilterPanel = () => {
   showFilterPanel.value = !showFilterPanel.value;
@@ -146,17 +129,16 @@ watch([sortedProducts, productsPerPage], () => {
   }
 });
 
-
-watch([currentPage, paginatedProducts], () => {
-  products.value = paginatedProducts.value;
+onMounted(async () => {
+  try {
+    await productStore.getProducts();
+  } catch (error) {
+    console.error("Failed to load products:", error);
+  }
 });
-
-
-getProducts();
 </script>
 
 <template>
-
   <sort-and-view-component
     :view-mode="viewMode"
     :pagination-info="paginationInfo"
@@ -179,20 +161,28 @@ getProducts();
     @update-status="updateStatusFilter"
   />
  
+
   <LoadingComponent 
     v-if="isLoading" 
-    :message="loadingMessage" 
     size="medium"
   />
 
-  <!-- Products Grid View -->
+
+  <div v-else-if="error" class="container my-[46px] text-center">
+    <p class="text-red-500 text-lg">Error loading products: {{ error }}</p>
+    <button @click="productStore.getProducts()" class="mt-4 px-4 py-2 bg-blue-500 text-white rounded">
+      Retry
+    </button>
+  </div>
+
+  
   <section v-else-if="viewMode === 'grid'" class="container my-[46px]">
-    <div v-if="products.length === 0" class="text-center py-8">
+    <div v-if="paginatedProducts.length === 0" class="text-center py-8">
       <p class="text-lg">No products found matching your criteria.</p>
     </div>
     <div v-else class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
       <product-card 
-        v-for="product in products" 
+        v-for="product in paginatedProducts" 
         :key="product.id" 
         :product="product" 
         :view-mode="viewMode"
@@ -203,12 +193,12 @@ getProducts();
 
   <!-- Products List View -->
   <section v-else class="container my-[46px]">
-    <div v-if="products.length === 0" class="text-center py-8">
+    <div v-if="paginatedProducts.length === 0" class="text-center py-8">
       <p class="text-lg">No products found matching your criteria.</p>
     </div>
     <div v-else class="flex flex-col gap-4 mb-8">
       <product-card 
-        v-for="product in products" 
+        v-for="product in paginatedProducts" 
         :key="product.id" 
         :product="product" 
         :view-mode="viewMode"
@@ -217,8 +207,9 @@ getProducts();
     </div>
   </section>
 
-
+ 
   <pagination-component
+    v-if="!isLoading && !error && paginatedProducts.length > 0"
     :current-page="currentPage" 
     :total-pages="totalPages" 
     @change-page="handlePageChange"
